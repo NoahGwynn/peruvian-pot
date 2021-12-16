@@ -9,7 +9,8 @@
     "client-admin": "cd admin && npm run start",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev-main": "concurrently \"npm start\" \"npm run client-main\"",
-    "dev-admin": "concurrently \"npm start\" \"npm run client-admin\""
+    "dev-admin": "concurrently \"npm start\" \"npm run client-admin\"",
+    "heroku-postbuild": "cd main && npm install && npm run build"
   },
   "author": "",
   "license": "ISC",
