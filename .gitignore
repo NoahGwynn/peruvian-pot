@@ -1,3 +1,5 @@
+admin
+admin/*
 *.scss
 .elasticbeanstalk/
 eb
