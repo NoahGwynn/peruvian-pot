@@ -22,6 +22,7 @@ app.use(express.static(buildPath));
 // Routes
 require("./routes/recipeApi")(app)
 require("./routes/ingredientsApi")(app)
+require("./routes/site")(app);
 
 
 // Port & socket connections
