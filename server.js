@@ -12,10 +12,10 @@ app.use(dynamicStatic);
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use(function (req, res, next) {
-  console.log(req.url)
-  next()
-})
+// app.use(function (req, res, next) {
+//   console.log(req.url)
+//   next()
+// })
 
 
 // Routes
