@@ -1,6 +1,5 @@
 require('dotenv').config()
 const express = require('express');
-const dynamicStatic = require('express-dynamic-static')();
 const bodyParser = require('body-parser');
 const connectDB = require('./mongoose/config/db')
 // Connect to db
@@ -24,7 +23,7 @@ app.use(express.static(buildPath));
 // Routes
 require("./routes/recipeApi")(app)
 require("./routes/ingredientsApi")(app)
-require("./routes/site")(app, dynamicStatic);
+require("./routes/site")(app);
 
 
 // Port & socket connections
