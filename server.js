@@ -1,16 +1,18 @@
 require('dotenv').config()
 const express = require('express');
 const bodyParser = require('body-parser');
-const dynamicStatic = require('express-dynamic-static')();
 const connectDB = require('./mongoose/config/db')
 // Connect to db
 connectDB()
 
 // Setup App
 const app = express();
-app.use(dynamicStatic);
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+
+
+const buildPath = "./main/build";
+app.use(express.static(buildPath));
 
 // app.use(function (req, res, next) {
 //   console.log(req.url)
@@ -21,7 +23,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // Routes
 require("./routes/recipeApi")(app)
 require("./routes/ingredientsApi")(app)
-require("./routes/sites")(app, dynamicStatic);
+require("./routes/site")(app, dynamicStatic);
 
 
 // Port & socket connections
