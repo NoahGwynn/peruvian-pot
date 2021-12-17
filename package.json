@@ -12,18 +12,18 @@
     "dev-main": "concurrently \"npm start\" \"npm run client-main\"",
     "dev-admin": "concurrently \"npm start\" \"npm run client-admin\"",
     "heroku-postbuild": "cd main && npm install && npm run build && cd ../admin && npm install && npm run build",
-    "build": "cd main && npm install && npm run build && cd ../admin && npm install && npm run build && cd .. && npm start"
+    "build": "cd main && npm install && npm run build && cd ../admin && npm install && npm run build"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "express-dynamic-static": "^1.0.5",
     "mongoose": "^6.1.1"
   },
   "devDependencies": {
-    "concurrently": "^6.0.0"
+    "concurrently": "^6.0.0",
+    "dotenv": "^10.0.0"
   }
 }
