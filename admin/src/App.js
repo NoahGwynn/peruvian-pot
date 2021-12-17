@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
-import { Switch, Route, useLocation } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import ScrollToTop from "./components/siteTools/ScrollToTop";
+import { postData } from "./dataManagement/db/dbFunctions";
 
 //Components
 import Footer from "./components/blocks/Footer";
@@ -15,10 +16,9 @@ import ScreenContainer from "./components/blocks/ScreenContainer";
 
 
 function App() {
-    const path = useLocation().pathname
     useEffect(() => {
-        if (path === "/") window.location = "/main-site"
-    }, [path])
+        postData("/reset-to-main", {})
+    }, [])
 
 
     return (
