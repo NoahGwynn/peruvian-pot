@@ -7,7 +7,7 @@ module.exports = function (app, dynamicStatic) {
         res.sendFile(path.resolve(__dirname, "../main/build/index.html"))
     })
 
-    app.get(["/", "/*"], function (_, res) {
+    app.get("*", function (_, res) {
         dynamicStatic.setPath(path.resolve(__dirname, "../main/build/"));
         console.log(path.resolve(__dirname, "./main/build/index.html"));
         res.sendFile(path.resolve(__dirname, "../main/build/index.html"))
