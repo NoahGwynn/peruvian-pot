@@ -12,7 +12,7 @@
     "dev-main": "concurrently \"npm start\" \"npm run client-main\"",
     "dev-admin": "concurrently \"npm start\" \"npm run client-admin\"",
     "heroku-postbuild": "cd main && npm install && npm run build && cd ../admin && npm install && npm run build",
-    "build": "cd main && npm install && npm run build && cd ../admin && npm install && npm run build"
+    "build": "npm install && cd main && npm install && npm run build && cd ../admin && npm install && npm run build"
   },
   "author": "",
   "license": "ISC",
