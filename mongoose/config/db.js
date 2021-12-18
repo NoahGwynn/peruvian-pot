@@ -1,4 +1,3 @@
-require('dotenv').config()
 const pkg = require('mongoose');
 const { connect } = pkg;
 

@@ -1,6 +1,8 @@
 *.scss
 .elasticbeanstalk/
 eb
+.vscode
+.vscode/*
 # Logs
 logs
 *.log
