@@ -6,7 +6,6 @@ import {
   getDocs,
   query,
   where,
-  orderBy,
   Timestamp,
 } from 'firebase/firestore'
 import { db } from '@/config/firebase.ts'
@@ -55,16 +54,17 @@ export function FirebaseProvider({ children }: { children: ReactNode }) {
     const q = query(
       collection(db, 'comments'),
       where('recipeId', '==', recipeId),
-      orderBy('createdAt', 'desc'),
     )
     const snapshot = await getDocs(q)
-    return snapshot.docs.map((doc) => ({
-      id: doc.id,
-      recipeId: doc.data().recipeId,
-      authorName: doc.data().authorName,
-      text: doc.data().text,
-      createdAt: doc.data().createdAt.toDate(),
-    }))
+    return snapshot.docs
+      .map((doc) => ({
+        id: doc.id,
+        recipeId: doc.data().recipeId,
+        authorName: doc.data().authorName,
+        text: doc.data().text,
+        createdAt: doc.data().createdAt.toDate(),
+      }))
+      .sort((a, b) => b.createdAt.getTime() - a.createdAt.getTime())
   }, [])
 
   return (
