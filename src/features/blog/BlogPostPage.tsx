@@ -31,6 +31,12 @@ const recipeNameMap: Array<{ pattern: RegExp; slug: string }> = allRecipes.flatM
 function linkRecipeNames(html: string): string {
   let result = html
   const linked = new Set<string>()
+
+  // Skip recipes already manually linked
+  for (const match of html.matchAll(/href="\/recipe\/([^"]+)"/g)) {
+    linked.add(match[1])
+  }
+
   for (const { pattern, slug } of recipeNameMap) {
     if (linked.has(slug)) continue
     const match = result.match(pattern)
@@ -142,14 +148,24 @@ export default function BlogPostPage() {
   )
 }
 
+function inlineMarkdown(text: string): string {
+  return text
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
+}
+
 function renderMarkdown(text: string): string {
   const html = text
     .split('\n\n')
     .map((block) => {
       if (block.startsWith('## ')) {
-        return `<h2>${block.slice(3)}</h2>`
+        return `<h2>${inlineMarkdown(block.slice(3))}</h2>`
       }
-      return `<p>${block.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')}</p>`
+      const imgMatch = block.match(/^!\[([^\]]*)\]\(([^)]+)\)$/)
+      if (imgMatch) {
+        return `<img src="${imgMatch[2]}" alt="${imgMatch[1]}" loading="lazy" />`
+      }
+      return `<p>${inlineMarkdown(block)}</p>`
     })
     .join('\n')
   return linkRecipeNames(html)

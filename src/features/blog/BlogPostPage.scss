@@ -92,6 +92,14 @@
         color: $color-primary-dark;
       }
     }
+
+    > img {
+      width: 100%;
+      border-radius: $radius-lg;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      margin-bottom: $space-5;
+    }
   }
 
   &__related {
