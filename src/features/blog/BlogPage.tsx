@@ -5,7 +5,7 @@ import posts from '@/data/blog/posts.json'
 import type { BlogPost } from '@/shared/types/blog.ts'
 import './BlogPage.scss'
 
-const blogPosts = posts as BlogPost[]
+const blogPosts = (posts as BlogPost[]).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 
 export default function BlogPage() {
   const { t, localize } = useLanguage()
