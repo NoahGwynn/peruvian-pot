@@ -1,0 +1,54 @@
+// ==========================================================================
+// Buttons — Peruvian Pot
+// ==========================================================================
+@use '../abstracts' as *;
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: $space-2;
+  padding: $space-3 $space-6;
+  border: 2px solid transparent;
+  border-radius: $radius-md;
+  font-family: $font-body;
+  font-size: $font-size-base;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all $transition-base;
+  text-decoration: none;
+
+  &:focus-visible {
+    @include focus-ring;
+  }
+
+  &--primary {
+    background-color: $color-primary;
+    color: white;
+
+    &:hover {
+      background-color: $color-primary-dark;
+    }
+  }
+
+  &--secondary {
+    background-color: $color-secondary;
+    color: $neutral-950;
+
+    &:hover {
+      background-color: $color-secondary-dark;
+      color: white;
+    }
+  }
+
+  &--outline {
+    background-color: transparent;
+    border-color: $color-primary;
+    color: $color-primary;
+
+    &:hover {
+      background-color: $color-primary;
+      color: white;
+    }
+  }
+}

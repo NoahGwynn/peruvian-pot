@@ -1,0 +1,117 @@
+@use '../abstracts' as *;
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: $z-header;
+  background-color: $neutral-950;
+  color: white;
+
+  &__inner {
+    @include container;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+  }
+
+  &__logo {
+    @include heading($font-size-xl, 700);
+    color: $color-secondary;
+    text-decoration: none;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    gap: $space-6;
+  }
+
+  &__link {
+    color: $neutral-300;
+    font-size: $font-size-sm;
+    font-weight: 500;
+    transition: color $transition-fast;
+    text-decoration: none;
+
+    &:hover,
+    &--active {
+      color: white;
+    }
+
+    &[aria-current="page"] {
+      color: $color-secondary;
+    }
+
+    &:focus-visible {
+      @include focus-ring;
+      border-radius: $radius-sm;
+    }
+  }
+
+  &__skip-link {
+    position: absolute;
+    left: -9999px;
+    top: $space-2;
+    background: $color-primary;
+    color: white;
+    padding: $space-2 $space-4;
+    border-radius: $radius-md;
+    z-index: $z-modal;
+
+    &:focus {
+      left: $space-4;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    gap: $space-4;
+  }
+
+  &__hamburger {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: $font-size-xl;
+    cursor: pointer;
+    padding: $space-2;
+
+    &:focus-visible {
+      @include focus-ring;
+      border-radius: $radius-sm;
+    }
+
+    @media (max-width: $bp-md - 1px) {
+      display: block;
+    }
+  }
+
+  &__mobile-nav {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height $transition-base;
+    flex-direction: column;
+    gap: $space-4;
+    padding-inline: $space-4;
+    background-color: $neutral-900;
+
+    &--open {
+      max-height: 200px;
+      padding-block: $space-4;
+
+      @include respond-to(md) {
+        max-height: 0;
+        padding-block: 0;
+      }
+    }
+  }
+
+  @media (max-width: $bp-md - 1px) {
+    &__nav {
+      display: none;
+    }
+  }
+}

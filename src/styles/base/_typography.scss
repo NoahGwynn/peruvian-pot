@@ -1,0 +1,28 @@
+// ==========================================================================
+// Typography — Peruvian Pot
+// ==========================================================================
+@use '../abstracts' as *;
+
+h1 { @include heading($font-size-5xl, 800); }
+h2 { @include heading($font-size-4xl, 700); }
+h3 { @include heading($font-size-3xl, 700); }
+h4 { @include heading($font-size-2xl, 600); }
+h5 { @include heading($font-size-xl, 600); }
+h6 { @include heading($font-size-lg, 600); }
+
+body {
+  @include body-text;
+}
+
+a {
+  color: $color-primary;
+  transition: color $transition-fast;
+
+  &:hover {
+    color: $color-primary-dark;
+  }
+}
+
+strong { font-weight: 600; }
+
+small { font-size: $font-size-sm; }

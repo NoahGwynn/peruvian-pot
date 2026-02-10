@@ -1,0 +1,90 @@
+.ingredient-list {
+  h2 {
+    margin-bottom: $space-6;
+  }
+
+  &__items {
+    display: flex;
+    flex-direction: column;
+    gap: $space-3;
+  }
+
+  &__item {
+    padding: $space-3 0;
+    border-bottom: 1px solid $neutral-200;
+  }
+
+  &__label {
+    display: flex;
+    align-items: center;
+    gap: $space-3;
+    cursor: pointer;
+  }
+
+  &__checkbox {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+
+    &:checked + .ingredient-list__checkmark {
+      background-color: $color-primary;
+      border-color: $color-primary;
+
+      &::after {
+        display: block;
+      }
+    }
+
+    &:checked ~ .ingredient-list__amount,
+    &:checked ~ .ingredient-list__name {
+      text-decoration: line-through;
+      color: $neutral-400;
+    }
+
+    &:focus-visible + .ingredient-list__checkmark {
+      @include focus-ring;
+    }
+  }
+
+  &__checkmark {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid $neutral-300;
+    border-radius: $radius-sm;
+    position: relative;
+    transition: all $transition-fast;
+
+    &::after {
+      content: '';
+      display: none;
+      position: absolute;
+      left: 5px;
+      top: 1px;
+      width: 6px;
+      height: 10px;
+      border: solid white;
+      border-width: 0 2px 2px 0;
+      transform: rotate(45deg);
+    }
+  }
+
+  &__amount {
+    font-weight: 600;
+    color: $neutral-700;
+    min-width: 60px;
+    transition: all $transition-fast;
+  }
+
+  &__name {
+    color: $neutral-800;
+    transition: all $transition-fast;
+  }
+
+  &__optional {
+    font-size: $font-size-sm;
+    color: $neutral-400;
+    font-style: italic;
+  }
+}

@@ -1,0 +1,35 @@
+.rating-widget {
+  @include card;
+
+  h3 {
+    margin-bottom: $space-4;
+  }
+
+  &__summary {
+    display: flex;
+    align-items: center;
+    gap: $space-2;
+    margin-bottom: $space-4;
+  }
+
+  &__average {
+    font-weight: 700;
+    font-size: $font-size-lg;
+    color: $neutral-800;
+  }
+
+  &__count {
+    font-size: $font-size-sm;
+    color: $neutral-500;
+  }
+
+  &__input {
+    padding: $space-2 0;
+  }
+
+  &__thanks {
+    color: $color-primary;
+    font-weight: 600;
+    padding: $space-2 0;
+  }
+}

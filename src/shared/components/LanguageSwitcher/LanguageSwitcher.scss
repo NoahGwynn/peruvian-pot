@@ -1,0 +1,31 @@
+.lang-switcher {
+  display: flex;
+  gap: $space-1;
+
+  &__btn {
+    padding: $space-1 $space-3;
+    border: 1px solid $neutral-600;
+    border-radius: $radius-full;
+    background: transparent;
+    color: $neutral-300;
+    font-size: $font-size-xs;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all $transition-fast;
+
+    &:hover {
+      border-color: $color-primary;
+      color: white;
+    }
+
+    &:focus-visible {
+      @include focus-ring;
+    }
+
+    &--active {
+      background-color: $color-primary;
+      border-color: $color-primary;
+      color: white;
+    }
+  }
+}

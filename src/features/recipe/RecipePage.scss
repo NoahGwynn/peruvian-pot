@@ -1,0 +1,37 @@
+.recipe-page {
+  &__content {
+    display: grid;
+    gap: $space-6;
+    padding-block: $space-8;
+    grid-template-columns: 1fr;
+
+    @include respond-to(md) {
+      padding-block: $space-10;
+      gap: $space-8;
+    }
+
+    @include respond-to(lg) {
+      grid-template-columns: 2fr 1fr;
+    }
+  }
+
+  &__main {
+    display: flex;
+    flex-direction: column;
+    gap: $space-6;
+
+    @include respond-to(md) {
+      gap: $space-8;
+    }
+  }
+
+  &__sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: $space-6;
+
+    @include respond-to(md) {
+      gap: $space-8;
+    }
+  }
+}

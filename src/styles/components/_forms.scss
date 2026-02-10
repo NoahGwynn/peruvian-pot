@@ -1,0 +1,43 @@
+// ==========================================================================
+// Forms — Peruvian Pot
+// ==========================================================================
+@use '../abstracts' as *;
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: $space-2;
+}
+
+.form-label {
+  font-size: $font-size-sm;
+  font-weight: 600;
+  color: $neutral-700;
+}
+
+.form-input,
+.form-textarea,
+.form-select {
+  padding: $space-3 $space-4;
+  border: 1px solid $neutral-300;
+  border-radius: $radius-md;
+  font-family: $font-body;
+  font-size: $font-size-base;
+  color: $neutral-800;
+  background-color: white;
+  transition: border-color $transition-fast;
+
+  &:focus {
+    border-color: $color-primary;
+    @include focus-ring;
+  }
+
+  &::placeholder {
+    color: $neutral-400;
+  }
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 100px;
+}

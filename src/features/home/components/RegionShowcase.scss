@@ -1,0 +1,79 @@
+.regions {
+  padding-block: $space-10;
+  background-color: $neutral-100;
+
+  @include respond-to(md) {
+    padding-block: $space-16;
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: $space-3;
+  }
+
+  &__subtitle {
+    text-align: center;
+    color: $neutral-600;
+    margin-bottom: $space-8;
+    font-size: $font-size-base;
+
+    @include respond-to(sm) {
+      font-size: $font-size-lg;
+      margin-bottom: $space-10;
+    }
+  }
+}
+
+.region-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: $radius-lg;
+  overflow: hidden;
+  background: white;
+  box-shadow: $shadow-sm;
+  transition: box-shadow $transition-base, transform $transition-base;
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    box-shadow: $shadow-lg;
+    transform: translateY(-2px);
+  }
+
+  &:focus-visible {
+    @include focus-ring;
+  }
+
+  &__image-wrap {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background-color: var(--region-color);
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.85;
+    transition: opacity $transition-base;
+  }
+
+  &:hover &__image {
+    opacity: 1;
+  }
+
+  &__body {
+    padding: $space-5;
+    text-align: center;
+  }
+
+  &__name {
+    @include heading($font-size-xl, 700);
+    margin-bottom: $space-1;
+  }
+
+  &__count {
+    font-size: $font-size-sm;
+    color: $neutral-500;
+  }
+}

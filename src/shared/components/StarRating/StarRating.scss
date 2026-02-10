@@ -1,0 +1,35 @@
+.star-rating {
+  display: inline-flex;
+  gap: $space-1;
+
+  &--sm .star-rating__star { font-size: $font-size-lg; }
+  &--md .star-rating__star { font-size: $font-size-2xl; }
+  &--lg .star-rating__star { font-size: $font-size-3xl; }
+
+  &--readonly .star-rating__star {
+    cursor: default;
+  }
+
+  &__star {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: $neutral-300;
+    transition: color $transition-fast, transform $transition-fast;
+    line-height: 1;
+
+    &--filled {
+      color: $color-secondary;
+    }
+
+    &:not(:disabled):hover {
+      transform: scale(1.15);
+    }
+
+    &:focus-visible {
+      @include focus-ring;
+      border-radius: $radius-sm;
+    }
+  }
+}

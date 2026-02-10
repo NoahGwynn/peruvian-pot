@@ -1,0 +1,15 @@
+.menu-page {
+  padding-block: $space-8;
+
+  @include respond-to(md) {
+    padding-block: $space-10;
+  }
+
+  &__title {
+    margin-bottom: $space-6;
+
+    @include respond-to(md) {
+      margin-bottom: $space-8;
+    }
+  }
+}

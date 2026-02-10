@@ -1,0 +1,51 @@
+.instruction-steps {
+  h2 {
+    margin-bottom: $space-6;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: $space-4;
+
+    @include respond-to(md) {
+      gap: $space-6;
+    }
+  }
+
+  &__item {
+    display: flex;
+    gap: $space-3;
+    align-items: flex-start;
+
+    @include respond-to(sm) {
+      gap: $space-4;
+    }
+  }
+
+  &__number {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    background-color: $color-primary;
+    color: white;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: $font-size-xs;
+
+    @include respond-to(sm) {
+      width: 32px;
+      height: 32px;
+      font-size: $font-size-sm;
+    }
+  }
+
+  &__text {
+    padding-top: $space-1;
+    line-height: 1.7;
+    color: $neutral-700;
+  }
+}
