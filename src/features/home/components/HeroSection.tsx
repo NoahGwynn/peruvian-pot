@@ -10,7 +10,7 @@ export default function HeroSection() {
       <div className="hero__inner container">
         <h1 className="hero__title">{t('home_hero_title')}</h1>
         <p className="hero__subtitle">{t('home_hero_subtitle')}</p>
-        <Link to="/menu" className="btn btn--primary hero__cta">
+        <Link to="/menu" className="btn btn--primary hero__cta" viewTransition>
           {t('home_hero_cta')}
         </Link>
       </div>

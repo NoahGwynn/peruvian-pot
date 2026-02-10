@@ -1,21 +1,44 @@
 .category-filter {
   display: flex;
   flex-direction: column;
-  gap: $space-3;
+  gap: $space-5;
   margin-bottom: $space-8;
+
+  &__group {
+    display: flex;
+    flex-direction: column;
+    gap: $space-2;
+  }
+
+  &__label {
+    font-size: $font-size-xs;
+    font-weight: 600;
+    color: $neutral-500;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
 
   &__row {
     display: flex;
     flex-wrap: wrap;
-    gap: $space-2;
+    gap: 6px;
+
+    @include respond-to(sm) {
+      gap: $space-2;
+    }
   }
 
   &__pill {
     display: inline-block;
-    padding: $space-2 $space-4;
+    padding: 4px 10px;
     border: 1px solid $neutral-300;
     border-radius: $radius-full;
-    font-size: $font-size-sm;
+    font-size: 0.7rem;
+
+    @include respond-to(sm) {
+      padding: $space-2 $space-4;
+      font-size: $font-size-sm;
+    }
     font-weight: 500;
     color: $neutral-700;
     text-decoration: none;

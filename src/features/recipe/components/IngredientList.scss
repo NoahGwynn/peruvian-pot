@@ -1,6 +1,60 @@
 .ingredient-list {
-  h2 {
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: $space-3;
     margin-bottom: $space-6;
+
+    h2 {
+      margin-bottom: 0;
+    }
+  }
+
+  &__adjuster {
+    display: flex;
+    align-items: center;
+    gap: $space-2;
+  }
+
+  &__adj-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border: 1px solid $neutral-300;
+    border-radius: $radius-full;
+    background: white;
+    font-size: $font-size-lg;
+    font-weight: 600;
+    color: $neutral-700;
+    cursor: pointer;
+    transition: all $transition-fast;
+    line-height: 1;
+
+    &:hover:not(:disabled) {
+      border-color: $color-primary;
+      color: $color-primary;
+    }
+
+    &:disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+    }
+
+    &:focus-visible {
+      @include focus-ring;
+    }
+  }
+
+  &__adj-value {
+    font-size: $font-size-sm;
+    font-weight: 600;
+    color: $neutral-700;
+    min-width: 80px;
+    text-align: center;
   }
 
   &__items {

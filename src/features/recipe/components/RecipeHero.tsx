@@ -1,4 +1,5 @@
 import { useLanguage } from '@/contexts/LanguageContext.tsx'
+import FavoriteButton from '@/shared/components/FavoriteButton/FavoriteButton.tsx'
 import type { Recipe } from '@/shared/types/recipe.ts'
 import './RecipeHero.scss'
 
@@ -16,7 +17,10 @@ export default function RecipeHero({ recipe }: RecipeHeroProps) {
           src={recipe.image}
           alt={localize(recipe.title)}
           className="recipe-hero__image"
+          width={1200}
+          height={750}
         />
+        <FavoriteButton slug={recipe.slug} size="md" />
       </div>
       <div className="recipe-hero__content container">
         <div className="recipe-hero__badges">

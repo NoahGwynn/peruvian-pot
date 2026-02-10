@@ -1,0 +1,73 @@
+.region-hero {
+  position: relative;
+  background-color: $neutral-950;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding-block: $space-16 $space-10;
+  min-height: 320px;
+  display: flex;
+  align-items: flex-end;
+
+  @include respond-to(md) {
+    padding-block: $space-24 $space-12;
+    min-height: 400px;
+  }
+
+  &__overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to top,
+      rgba($neutral-950, 0.85) 0%,
+      rgba($neutral-950, 0.5) 40%,
+      rgba($neutral-950, 0.2) 100%
+    );
+  }
+
+  &__content {
+    position: relative;
+    max-width: 700px;
+  }
+
+  &__title {
+    @include heading($font-size-4xl, 800);
+    color: white;
+    margin-bottom: $space-3;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+
+    @include respond-to(md) {
+      font-size: $font-size-5xl;
+      margin-bottom: $space-4;
+    }
+  }
+
+  &__description {
+    font-size: $font-size-base;
+    color: $neutral-200;
+    line-height: 1.7;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+
+    @include respond-to(sm) {
+      font-size: $font-size-lg;
+    }
+  }
+
+  &__count {
+    margin-top: $space-4;
+    font-size: $font-size-sm;
+    color: $neutral-400;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  &__border {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    @include textile-border;
+  }
+}

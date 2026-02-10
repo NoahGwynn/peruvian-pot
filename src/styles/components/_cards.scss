@@ -16,6 +16,14 @@
     flex-direction: column;
     padding: 0;
     cursor: pointer;
+    position: relative;
+
+    .favorite-btn {
+      position: absolute;
+      top: $space-3;
+      right: $space-3;
+      z-index: 2;
+    }
 
     .card__image {
       width: 100%;

@@ -1,0 +1,173 @@
+{
+  "costa": {
+    "cultureImage": "/images/regions/costa-culture.png",
+    "ingredients": [
+      {
+        "name": { "en": "Aji Limo", "es": "Ají Limo", "qu": "Aji Limo" },
+        "description": {
+          "en": "A fiery, citrusy chili pepper essential to ceviche and coastal dishes. Its bright heat and fruity aroma are irreplaceable.",
+          "es": "Un ají picante y cítrico esencial para el ceviche y los platos costeños. Su picor vibrante y aroma frutal son irremplazables.",
+          "qu": "Huk k'uñi uchu, cevichepaq hinaspa qucha patapi mikhuykunapaq allin. Misk'i q'uñinmi, mana hukniraqchu."
+        }
+      },
+      {
+        "name": { "en": "Key Lime", "es": "Limón", "qu": "Limun" },
+        "description": {
+          "en": "Small, intensely tart Peruvian limes that 'cook' the fish in ceviche and brighten every coastal recipe.",
+          "es": "Pequeños limones peruanos intensamente ácidos que 'cocinan' el pescado en el ceviche e iluminan cada receta costeña.",
+          "qu": "Huch'uy p'uqusqa limunkuna, cevichepi challwata 'wayk'uq', tukuy qucha mikhuykunata k'anchaq."
+        }
+      },
+      {
+        "name": { "en": "Fresh Seafood", "es": "Mariscos Frescos", "qu": "Musuq Mama Qucha Challwakuna" },
+        "description": {
+          "en": "Peru's cold Humboldt Current delivers some of the world's richest seafood — corvina, octopus, shrimp, and more.",
+          "es": "La fría corriente de Humboldt entrega algunos de los mariscos más ricos del mundo — corvina, pulpo, camarones y más.",
+          "qu": "Perupa chiri Humboldt yakun kay pachapi aswan sumaq challwakunata qun — corvina, pulpu, yukra ima."
+        }
+      },
+      {
+        "name": { "en": "Red Onion", "es": "Cebolla Roja", "qu": "Puka Sibulla" },
+        "description": {
+          "en": "The crunchy, sharp backbone of salsa criolla — sliced thin, rinsed, and tossed with lime and cilantro.",
+          "es": "La base crujiente y fuerte de la salsa criolla — cortada fina, lavada y mezclada con limón y cilantro.",
+          "qu": "Salsa criollapa ch'aqwaq sunqun — lluch'kasqa, mayllusqa, limunwan kulantrawan chaqrusqa."
+        }
+      },
+      {
+        "name": { "en": "Cancha", "es": "Cancha", "qu": "Kamcha" },
+        "description": {
+          "en": "Crunchy toasted corn kernels served alongside ceviche. A pre-Columbian snack that remains Peru's favorite sidekick.",
+          "es": "Granos de maíz tostados y crujientes servidos junto al ceviche. Un snack precolombino que sigue siendo el acompañante favorito del Perú.",
+          "qu": "Hamk'asqa sara muhu, ceviche kuskapi mikhusqa. Ñawpa pacha mikhuna, kunankama Perupa munasqan."
+        }
+      }
+    ],
+    "culture": [
+      {
+        "en": "Coastal Peruvian cuisine is a love letter to the Pacific Ocean. For thousands of years, fishing communities along Peru's 2,400-kilometer coastline have transformed the sea's bounty into dishes that define a nation. Ceviche, the crown jewel, is more than a recipe — it's a cultural ritual, prepared fresh at lunchtime in cevicherías from Lima to Tumbes.",
+        "es": "La cocina costeña peruana es una carta de amor al Océano Pacífico. Durante miles de años, las comunidades pesqueras a lo largo de los 2.400 kilómetros de costa peruana han transformado la riqueza del mar en platos que definen a una nación. El ceviche, la joya de la corona, es más que una receta — es un ritual cultural, preparado fresco a la hora del almuerzo en cevicherías desde Lima hasta Tumbes.",
+        "qu": "Qucha patapi Perupa mikhuyninqa Mama Quchaman munay qillqam. Waranqa watakuna, challwa hapiq ayllukunaqa Perupa 2.400 kilómetro qucha patanpi mama quchapa qunqayninmanta huk suyuta riqsichiq mikhuykunata ruwarqanku. Cevicheqa, kurunapa quri rumimpas, mana recetallañachu — huk kawsay raymiñam."
+      },
+      {
+        "en": "What makes coastal cuisine extraordinary is its fusion heritage. When Japanese immigrants arrived in the early 1900s, they brought techniques that gave birth to tiradito and Nikkei cuisine. Chinese-Peruvian fusion, known as chifa, added wok-fired lomo saltado to the national menu. Spanish, African, and Italian influences all left their mark, making Lima one of the world's great food capitals.",
+        "es": "Lo que hace extraordinaria a la cocina costeña es su herencia fusión. Cuando los inmigrantes japoneses llegaron a principios del 1900, trajeron técnicas que dieron origen al tiradito y la cocina Nikkei. La fusión chino-peruana, conocida como chifa, añadió el lomo saltado al menú nacional. Influencias españolas, africanas e italianas dejaron su huella, haciendo de Lima una de las grandes capitales gastronómicas del mundo.",
+        "qu": "Qucha mikhuypa hatun kayninta ruwanqa chaqrusqa yachayninmi. Japón runakuna 1900 watakuna chayamuspa, tiradito Nikkei mikhuypa paqariyninta apamurqanku. Chifa nisqa China-Peru chaqrusqa mikhuymi lomo saltadota suyupa mikhuy qillqanman yapamurqa. España, África, Italia yachaykunapas rikch'ayninkuta saqirqanku."
+      }
+    ]
+  },
+  "andes": {
+    "cultureImage": "/images/regions/andes-culture.png",
+    "ingredients": [
+      {
+        "name": { "en": "Native Potatoes", "es": "Papas Nativas", "qu": "Ñawpa Papakuna" },
+        "description": {
+          "en": "Peru grows over 3,000 potato varieties in every color imaginable. The birthplace of the potato still celebrates it like nowhere else.",
+          "es": "Perú cultiva más de 3.000 variedades de papa en todos los colores imaginables. La cuna de la papa aún la celebra como en ningún otro lugar.",
+          "qu": "Perupi 3.000 rikch'aq papakuna wiñan, tukuy llimp'ikunapi. Papapa paqarisqan suyupi aswan hatuntan yupaychanku."
+        }
+      },
+      {
+        "name": { "en": "Quinoa", "es": "Quinua", "qu": "Kinuwa" },
+        "description": {
+          "en": "The 'mother grain' of the Incas, packed with protein and cultivated above 3,500 meters for over 5,000 years.",
+          "es": "El 'grano madre' de los Incas, rico en proteínas y cultivado por encima de los 3.500 metros durante más de 5.000 años.",
+          "qu": "Inkapa 'mama muhu' nisqan, proteínawan hunt'asqa, 3.500 metrumanta hanaqpi 5.000 watañam tarpusqa."
+        }
+      },
+      {
+        "name": { "en": "Aji Panca", "es": "Ají Panca", "qu": "Aji Panka" },
+        "description": {
+          "en": "A mild, dark-red dried pepper with berry-like sweetness. It's the workhorse of Andean sauces and stews.",
+          "es": "Un ají seco de color rojo oscuro, suave y con dulzura frutal. Es el pilar de las salsas y guisos andinos.",
+          "qu": "Huk mana k'uñi, yana puka ch'akisqa uchu, misk'i rurunhina. Antikuna ukuchakuna wayk'usqakunapa kallpanmi."
+        }
+      },
+      {
+        "name": { "en": "Cuy", "es": "Cuy", "qu": "Quwi" },
+        "description": {
+          "en": "Guinea pig has been a prized Andean protein for millennia. Roasted whole over open flames, it's crispy, rich, and deeply traditional.",
+          "es": "El cuy ha sido una proteína andina preciada durante milenios. Asado entero sobre llamas abiertas, es crujiente, sustancioso y profundamente tradicional.",
+          "qu": "Quwi waranqa watam Antikuna aychapaq allin. Tukuynin nina patapi kuskanasqa, ch'aqwaq, wirasapa, sinchi ñawpa yachayniyuq."
+        }
+      },
+      {
+        "name": { "en": "Huacatay", "es": "Huacatay", "qu": "Wakatay" },
+        "description": {
+          "en": "Black mint, an Andean herb with a unique flavor between mint, basil, and tarragon. Essential in ocopa sauce and pachamanca.",
+          "es": "Menta negra, una hierba andina con un sabor único entre menta, albahaca y estragón. Esencial en la salsa ocopa y la pachamanca.",
+          "qu": "Yana muña, huk Antikuna qura, muña, albahaca, estragón chawpipi misk'iyuq. Ocopa hinaspa pachamancapaq allinmi."
+        }
+      }
+    ],
+    "culture": [
+      {
+        "en": "Andean cuisine is the oldest living culinary tradition in the Americas. High in the mountains where the Inca Empire once stretched across a continent, communities still cook using techniques that predate European contact by thousands of years. Pachamanca — meat and vegetables slow-cooked underground with heated stones — connects today's cooks directly to their ancestors.",
+        "es": "La cocina andina es la tradición culinaria viva más antigua de las Américas. En las alturas donde el Imperio Inca se extendía por un continente, las comunidades aún cocinan con técnicas que preceden al contacto europeo por miles de años. La pachamanca — carne y verduras cocidas lentamente bajo tierra con piedras calientes — conecta a los cocineros de hoy directamente con sus ancestros.",
+        "qu": "Antikuna mikhuyqa Abya Yalapi aswan ñawpa kawsaq wayk'uy yachaymi. Hanaq urqukunapi, Inka Suyupa huk k'iti hunt'aynimpi, ayllukunaqa waranqa wata Europa runakunamanta ñawpaqta yachasqankuwan wayk'uchkanku. Pachamancaqa — aycha yurakuna allpa ukhupi q'uñi rumikunawan wayk'usqa — kunan wayk'uqkunata ñawpa awilunkunawan tinkichin."
+      },
+      {
+        "en": "The Andes are also the birthplace of ingredients that changed the world. Potatoes, quinoa, and dozens of grain and tuber varieties were first domesticated here. At altitudes above 4,000 meters, Andean cooks invented freeze-drying — chuño, or naturally dehydrated potatoes — centuries before modern technology. This ingenuity born of necessity continues to shape one of South America's most soulful cuisines.",
+        "es": "Los Andes son también la cuna de ingredientes que cambiaron el mundo. Papas, quinua y decenas de variedades de granos y tubérculos fueron domesticados aquí por primera vez. A altitudes superiores a 4.000 metros, los cocineros andinos inventaron la liofilización — el chuño, o papas naturalmente deshidratadas — siglos antes de la tecnología moderna. Este ingenio nacido de la necesidad sigue dando forma a una de las cocinas más profundas de Sudamérica.",
+        "qu": "Antikunaqa kay pachata t'ikraq mikhunakunapa paqarisqan suyunmi. Papa, kinuwa, achka muhu rikch'aqkuna kaypi ñawpaqta uywarisqa karqanku. 4.000 metrumanta hanaqpi, Antikuna wayk'uqkunaqa ch'uñuta — chiri ch'akisqa papata — pachaq watakuna kunan yachayñiqmanta ñawpaqta yuriyachirqanku. Kay necesidadmanta paqarisqa yachaymi Sudaméricapa aswan sunqu ukhu mikhuyninkunata ruwachkan."
+      }
+    ]
+  },
+  "amazon": {
+    "cultureImage": "/images/regions/amazon-culture.png",
+    "ingredients": [
+      {
+        "name": { "en": "Yuca", "es": "Yuca", "qu": "Yuka" },
+        "description": {
+          "en": "Cassava is the staple of the jungle table — boiled, fried, or mashed into tacacho. Starchy, hearty, and endlessly versatile.",
+          "es": "La yuca es el alimento base de la mesa selvática — hervida, frita o machacada en tacacho. Almidonada, sustanciosa e infinitamente versátil.",
+          "qu": "Yukaqa sach'a sach'a mikhuypa tiyapunanmi — wayk'usqa, tiquisqa, utaq tacacho takasqa. Almidunniyuq, sinchi, tukuy imapaq allin."
+        }
+      },
+      {
+        "name": { "en": "Bijao Leaves", "es": "Hojas de Bijao", "qu": "Bijao Raphikuna" },
+        "description": {
+          "en": "Large, aromatic jungle leaves used to wrap juanes and other dishes. They infuse food with a subtle, earthy fragrance during cooking.",
+          "es": "Grandes hojas aromáticas de la selva usadas para envolver juanes y otros platos. Infusionan la comida con una fragancia sutil y terrosa durante la cocción.",
+          "qu": "Hatun q'apaq sach'a raphikuna, juanesta hukkuna mayt'unapaq. Wayk'uchkaptinku mikhunaman allpa q'apaynintan qunku."
+        }
+      },
+      {
+        "name": { "en": "Cocona", "es": "Cocona", "qu": "Kukuna" },
+        "description": {
+          "en": "A tangy Amazonian fruit resembling a small tomato. Used in juices, salsas, and ceviches unique to the jungle region.",
+          "es": "Una fruta amazónica ácida similar a un tomate pequeño. Usada en jugos, salsas y ceviches únicos de la región selvática.",
+          "qu": "Huk p'uqusqa Antisuyu ruru, huch'uy tomatiman rikch'akuq. Jugukuna, salsakuna, sach'a sach'a cevichekunapi llamk'achisqa."
+        }
+      },
+      {
+        "name": { "en": "Sacha Culantro", "es": "Sacha Culantro", "qu": "Sacha Kulantru" },
+        "description": {
+          "en": "A long-leafed jungle herb with a flavor more intense than cilantro. It defines the aromatic profile of Amazonian soups and stews.",
+          "es": "Una hierba selvática de hojas largas con un sabor más intenso que el cilantro. Define el perfil aromático de las sopas y guisos amazónicos.",
+          "qu": "Huk suni raphi sach'a qura, kulantromanta aswan sinchi misk'iyuq. Antisuyu lawa wayk'usqakunapa q'apaynintan riqsichin."
+        }
+      },
+      {
+        "name": { "en": "River Fish", "es": "Peces de Río", "qu": "Mayu Challwakuna" },
+        "description": {
+          "en": "Paiche, doncella, and dozens of Amazon river fish provide the protein backbone of jungle cuisine — grilled, stewed, or wrapped in leaves.",
+          "es": "Paiche, doncella y decenas de peces del río Amazonas proveen la base proteica de la cocina selvática — a la parrilla, guisados o envueltos en hojas.",
+          "qu": "Paiche, doncella, achka Amazonas mayu challwakuna sach'a mikhuypa aychanta qunku — kuskanasqa, wayk'usqa, utaq raphipi mayt'usqa."
+        }
+      }
+    ],
+    "culture": [
+      {
+        "en": "Amazonian cuisine is Peru's wildest frontier — a culinary world shaped by the largest rainforest on Earth. In the jungle, cooking is an act of partnership with nature. Ingredients are foraged, fished, and harvested from an ecosystem so abundant that many have no equivalent outside the region. Exotic fruits like camu camu, aguaje, and cocona create flavors found nowhere else.",
+        "es": "La cocina amazónica es la frontera más salvaje del Perú — un mundo culinario moldeado por la selva tropical más grande de la Tierra. En la selva, cocinar es un acto de asociación con la naturaleza. Los ingredientes se recolectan, pescan y cosechan de un ecosistema tan abundante que muchos no tienen equivalente fuera de la región. Frutas exóticas como camu camu, aguaje y cocona crean sabores que no se encuentran en ningún otro lugar.",
+        "qu": "Antisuyu mikhuyqa Perupa aswan sach'a sach'a k'iti mikhuyninmi — kay pachapi hatun sach'a sach'apa rurasqan mikhuy pacha. Sach'a sach'api wayk'uyqa pachamamawan kuska llamk'ayñam. Mikhunakunata pallakun, challwakun, tarpusqamanta hurqukun, chaymi achka mana kay k'itimanta hawapiqa kanchu. Camu camu, aguaje, cocona hina mana hayk'aq riqsisqa misk'ikunata ruranku."
+      },
+      {
+        "en": "The jungle's indigenous communities are the guardians of this culinary heritage. Techniques like smoking fish over green wood, fermenting yuca into masato beer, and wrapping rice and chicken in bijao leaves to make juanes have been passed down for generations. As the world discovers Amazonian superfoods and ingredients, these ancient traditions are finally gaining the recognition they deserve.",
+        "es": "Las comunidades indígenas de la selva son las guardianas de esta herencia culinaria. Técnicas como ahumar pescado sobre madera verde, fermentar yuca en cerveza masato y envolver arroz y pollo en hojas de bijao para hacer juanes han sido transmitidas por generaciones. A medida que el mundo descubre los superalimentos e ingredientes amazónicos, estas tradiciones ancestrales finalmente están recibiendo el reconocimiento que merecen.",
+        "qu": "Sach'a sach'apa ñawpa ayllukunan kay mikhuy yachaypa waqaychaqninku. Challwata q'umir kaspiwan q'usñichiy, yukamanta masato aqhata puquchiy, arruswan wallpawan bijao raphipi mayt'uspa juanesta ruwayqa miraykunamanta miraykunaman apasqam. Kay pacha Antisuyu mikhunakunata riqsichkaptinku, kay ñawpa yachaykunaqa allin chaninchasqata chaskichkanku."
+      }
+    ]
+  }
+}

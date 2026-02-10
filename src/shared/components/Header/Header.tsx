@@ -1,10 +1,12 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router'
 import { useLanguage } from '@/contexts/LanguageContext.tsx'
+import { useFavorites } from '@/contexts/FavoritesContext.tsx'
 import LanguageSwitcher from '@/shared/components/LanguageSwitcher/LanguageSwitcher.tsx'
 
 export default function Header() {
   const { t } = useLanguage()
+  const { favoriteCount } = useFavorites()
   const location = useLocation()
   const [mobileOpen, setMobileOpen] = useState(false)
 
@@ -19,29 +21,45 @@ export default function Header() {
         Skip to content
       </a>
       <div className="header__inner">
-        <Link to="/" className="header__logo">
-          Peruvian Pot
+        <Link to="/" className="header__logo" viewTransition>
+          <img src="/icon/PeruvianPotIcon.png" alt="" className="header__logo-icon" />
+          {t('site_name')}
         </Link>
 
-        <nav className="header__nav">
-          <Link
-            to="/"
-            className={`header__link ${isActive('/') ? 'header__link--active' : ''}`}
-            aria-current={isActive('/') ? 'page' : undefined}
-          >
-            {t('nav_home')}
-          </Link>
+        {/* Right-side actions */}
+        <div className="header__actions">
           <Link
             to="/menu"
-            className={`header__link ${isActive('/menu') ? 'header__link--active' : ''}`}
+            className={`header__actions-link ${isActive('/menu') ? 'header__actions-link--active' : ''}`}
             aria-current={isActive('/menu') ? 'page' : undefined}
+            viewTransition
           >
             {t('nav_menu')}
           </Link>
-        </nav>
-
-        <div className="header__actions">
-          <LanguageSwitcher />
+          <Link
+            to="/blog"
+            className={`header__actions-link ${isActive('/blog') ? 'header__actions-link--active' : ''}`}
+            aria-current={isActive('/blog') ? 'page' : undefined}
+            viewTransition
+          >
+            {t('nav_blog')}
+          </Link>
+          {favoriteCount > 0 && (
+            <Link
+              to="/favorites"
+              className={`header__favorite ${isActive('/favorites') ? 'header__favorite--active' : ''}`}
+              aria-label={`${t('nav_favorites')} (${favoriteCount})`}
+              viewTransition
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+              </svg>
+              <span className="header__favorite-count">{favoriteCount}</span>
+            </Link>
+          )}
+          <div className="header__actions-desktop">
+            <LanguageSwitcher />
+          </div>
           <button
             className="header__hamburger"
             onClick={() => setMobileOpen(!mobileOpen)}
@@ -53,23 +71,40 @@ export default function Header() {
         </div>
       </div>
 
+      {/* Mobile nav */}
       <nav className={`header__mobile-nav ${mobileOpen ? 'header__mobile-nav--open' : ''}`}>
-        <Link
-          to="/"
-          className="header__link"
-          aria-current={isActive('/') ? 'page' : undefined}
-          onClick={() => setMobileOpen(false)}
-        >
-          {t('nav_home')}
-        </Link>
         <Link
           to="/menu"
           className="header__link"
           aria-current={isActive('/menu') ? 'page' : undefined}
           onClick={() => setMobileOpen(false)}
+          viewTransition
         >
           {t('nav_menu')}
         </Link>
+        <Link
+          to="/blog"
+          className="header__link"
+          aria-current={isActive('/blog') ? 'page' : undefined}
+          onClick={() => setMobileOpen(false)}
+          viewTransition
+        >
+          {t('nav_blog')}
+        </Link>
+        {favoriteCount > 0 && (
+          <Link
+            to="/favorites"
+            className="header__link"
+            aria-current={isActive('/favorites') ? 'page' : undefined}
+            onClick={() => setMobileOpen(false)}
+            viewTransition
+          >
+            {t('nav_favorites')} ({favoriteCount})
+          </Link>
+        )}
+        <div className="header__mobile-lang">
+          <LanguageSwitcher />
+        </div>
       </nav>
     </header>
   )

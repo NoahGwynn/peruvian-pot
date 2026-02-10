@@ -1,0 +1,59 @@
+.favorite-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: $radius-full;
+  cursor: pointer;
+  transition: transform $transition-fast;
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(4px);
+
+  &--sm {
+    width: 32px;
+    height: 32px;
+  }
+
+  &--md {
+    width: 40px;
+    height: 40px;
+  }
+
+  &__icon {
+    stroke: white;
+    fill: none;
+    transition: fill $transition-fast, stroke $transition-fast;
+  }
+
+  &--sm &__icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  &--md &__icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+
+  &:focus-visible {
+    @include focus-ring;
+  }
+
+  &--active &__icon {
+    fill: $color-accent;
+    stroke: $color-accent;
+  }
+
+  &--active:hover {
+    background: rgba(0, 0, 0, 0.5);
+  }
+}

@@ -1,0 +1,73 @@
+// ==========================================================================
+// Print Styles — Peruvian Pot
+// ==========================================================================
+@use '../abstracts' as *;
+
+@media print {
+  // Hide non-essential UI elements
+  .header,
+  .footer,
+  .skip-link,
+  .rating-widget,
+  .comments-section,
+  .related-recipes,
+  .recipe-hero__badge,
+  .favorite-btn,
+  .btn,
+  .category-filter,
+  .search-bar,
+  .language-switcher,
+  .breadcrumbs,
+  .share-buttons,
+  .newsletter {
+    display: none !important;
+  }
+
+  // Reset backgrounds and colors for ink saving
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 12pt;
+  }
+
+  // Single column layout
+  .recipe-page__content {
+    display: block !important;
+  }
+
+  // Constrain recipe hero image
+  .recipe-hero__image-wrap {
+    max-height: 180px !important;
+  }
+
+  .recipe-hero__image {
+    max-height: 180px !important;
+  }
+
+  // Ensure text is readable
+  .recipe-hero__meta-label,
+  .recipe-hero__meta-value {
+    color: black !important;
+  }
+
+  // Avoid breaking inside steps and ingredients
+  .instruction-steps__step {
+    break-inside: avoid;
+  }
+
+  .ingredient-list {
+    break-inside: avoid;
+  }
+
+  // Remove decorative borders and shadows
+  .card,
+  .recipe-page {
+    box-shadow: none !important;
+  }
+
+  // Remove link underlines in recipe content
+  a {
+    color: black !important;
+    text-decoration: none !important;
+  }
+}

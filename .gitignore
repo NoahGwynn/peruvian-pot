@@ -12,6 +12,12 @@ dist
 dist-ssr
 *.local
 
+# Claude Code
+.claude/
+
+# Firebase local
+.firebase/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

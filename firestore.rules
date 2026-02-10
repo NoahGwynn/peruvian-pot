@@ -1,0 +1,44 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Ratings: anyone can read, anyone can create (with validation), no update/delete
+    match /ratings/{ratingId} {
+      allow read: if true;
+      allow create: if request.resource.data.keys().hasAll(['recipeId', 'value', 'createdAt'])
+                    && request.resource.data.value is int
+                    && request.resource.data.value >= 1
+                    && request.resource.data.value <= 5
+                    && request.resource.data.recipeId is string;
+      allow update, delete: if false;
+    }
+
+    // Comments: anyone can read, anyone can create (with validation), no update/delete
+    match /comments/{commentId} {
+      allow read: if true;
+      allow create: if request.resource.data.keys().hasAll(['recipeId', 'authorName', 'text', 'createdAt'])
+                    && request.resource.data.recipeId is string
+                    && request.resource.data.authorName is string
+                    && request.resource.data.authorName.size() > 0
+                    && request.resource.data.authorName.size() <= 100
+                    && request.resource.data.text is string
+                    && request.resource.data.text.size() > 0
+                    && request.resource.data.text.size() <= 2000;
+      allow update, delete: if false;
+    }
+
+    // Newsletter: create only with valid email, no read/update/delete from client
+    match /newsletter/{docId} {
+      allow create: if request.resource.data.keys().hasAll(['email', 'createdAt'])
+                    && request.resource.data.email is string
+                    && request.resource.data.email.size() > 0
+                    && request.resource.data.email.size() <= 320;
+      allow read, update, delete: if false;
+    }
+
+    // Deny everything else
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

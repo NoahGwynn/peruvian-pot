@@ -16,43 +16,49 @@ export default function CategoryFilter({ activeRegion, activeCourse }: CategoryF
 
   return (
     <nav className="category-filter" aria-label="Recipe filters">
-      <div className="category-filter__row" role="group" aria-label="Filter by region">
-        <Link
-          to="/menu"
-          className={`category-filter__pill ${!activeRegion ? 'category-filter__pill--active' : ''}`}
-          aria-current={!activeRegion ? 'true' : undefined}
-        >
-          {t('region_all')}
-        </Link>
-        {regions.map((region) => (
+      <div className="category-filter__group" role="group" aria-label="Filter by region">
+        <span className="category-filter__label">{t('menu_filter_region')}</span>
+        <div className="category-filter__row">
           <Link
-            key={region}
-            to={buildMenuPath(region, activeCourse)}
-            className={`category-filter__pill ${activeRegion === region ? 'category-filter__pill--active' : ''}`}
-            aria-current={activeRegion === region ? 'true' : undefined}
+            to="/menu"
+            className={`category-filter__pill ${!activeRegion ? 'category-filter__pill--active' : ''}`}
+            aria-current={!activeRegion ? 'true' : undefined}
           >
-            {t(`region_${region}` as 'region_costa')}
+            {t('region_all')}
           </Link>
-        ))}
+          {regions.map((region) => (
+            <Link
+              key={region}
+              to={buildMenuPath(region, activeCourse)}
+              className={`category-filter__pill ${activeRegion === region ? 'category-filter__pill--active' : ''}`}
+              aria-current={activeRegion === region ? 'true' : undefined}
+            >
+              {t(`region_${region}` as 'region_costa')}
+            </Link>
+          ))}
+        </div>
       </div>
-      <div className="category-filter__row" role="group" aria-label="Filter by course">
-        <Link
-          to={buildMenuPath(activeRegion)}
-          className={`category-filter__pill ${!activeCourse ? 'category-filter__pill--active' : ''}`}
-          aria-current={!activeCourse ? 'true' : undefined}
-        >
-          {t('course_all')}
-        </Link>
-        {courses.map((course) => (
+      <div className="category-filter__group" role="group" aria-label="Filter by course">
+        <span className="category-filter__label">{t('menu_filter_course')}</span>
+        <div className="category-filter__row">
           <Link
-            key={course}
-            to={buildMenuPath(activeRegion, course)}
-            className={`category-filter__pill ${activeCourse === course ? 'category-filter__pill--active' : ''}`}
-            aria-current={activeCourse === course ? 'true' : undefined}
+            to={buildMenuPath(activeRegion)}
+            className={`category-filter__pill ${!activeCourse ? 'category-filter__pill--active' : ''}`}
+            aria-current={!activeCourse ? 'true' : undefined}
           >
-            {t(`course_${course}` as 'course_appetizers')}
+            {t('course_all')}
           </Link>
-        ))}
+          {courses.map((course) => (
+            <Link
+              key={course}
+              to={buildMenuPath(activeRegion, course)}
+              className={`category-filter__pill ${activeCourse === course ? 'category-filter__pill--active' : ''}`}
+              aria-current={activeCourse === course ? 'true' : undefined}
+            >
+              {t(`course_${course}` as 'course_appetizers')}
+            </Link>
+          ))}
+        </div>
       </div>
     </nav>
   )

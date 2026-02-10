@@ -14,7 +14,7 @@
     },
     "region": "costa",
     "course": "appetizers",
-    "image": "/images/recipes/ceviche-clasico.jpg",
+    "image": "/images/recipes/ceviche-clasico.png",
     "prepTime": 20,
     "cookTime": 0,
     "servings": 4,
@@ -78,7 +78,7 @@
     },
     "region": "costa",
     "course": "mains",
-    "image": "/images/recipes/lomo-saltado.jpg",
+    "image": "/images/recipes/lomo-saltado.png",
     "prepTime": 15,
     "cookTime": 15,
     "servings": 4,
@@ -138,7 +138,7 @@
     },
     "region": "costa",
     "course": "desserts",
-    "image": "/images/recipes/suspiro-limeno.jpg",
+    "image": "/images/recipes/suspiro-limeno.png",
     "prepTime": 20,
     "cookTime": 60,
     "servings": 6,
@@ -197,7 +197,7 @@
     },
     "region": "costa",
     "course": "drinks",
-    "image": "/images/recipes/pisco-sour.jpg",
+    "image": "/images/recipes/pisco-sour.png",
     "prepTime": 5,
     "cookTime": 0,
     "servings": 2,
@@ -250,7 +250,7 @@
     },
     "region": "andes",
     "course": "appetizers",
-    "image": "/images/recipes/papa-a-la-huancaina.jpg",
+    "image": "/images/recipes/papa-a-la-huancaina.png",
     "prepTime": 15,
     "cookTime": 20,
     "servings": 4,
@@ -304,7 +304,7 @@
     },
     "region": "andes",
     "course": "mains",
-    "image": "/images/recipes/pachamanca.jpg",
+    "image": "/images/recipes/pachamanca.png",
     "prepTime": 60,
     "cookTime": 180,
     "servings": 10,
@@ -346,6 +346,20 @@
         "qu": "Allillamanta t'uquta kichay. Allpata, kustalkunata, laqhikunata hurquy. Aychakunata yurakunatawan hatun p'ukukunapi salsa criollawan qaray."
       }
     ],
+    "tips": [
+      {
+        "title": {
+          "en": "Home Kitchen",
+          "es": "Cocina en Casa",
+          "qu": "Wasi Wayk'una"
+        },
+        "text": {
+          "en": "No earth oven? Wrap the marinated meats and vegetables tightly in foil packets and roast at 180°C (350°F) for 2–3 hours. You'll lose the smoky earth flavor, but the huacatay marinade still shines. For extra smokiness, add a few drops of liquid smoke to the marinade.",
+          "es": "¿Sin horno de tierra? Envuelve las carnes y verduras marinadas en paquetes de papel aluminio y asa a 180°C por 2–3 horas. Se pierde el sabor ahumado de la tierra, pero el adobo de huacatay sigue brillando. Para más ahumado, agrega unas gotas de humo líquido al adobo.",
+          "qu": "Mana allpa wayk'unayuqchu? Aychata yurakunatawan ch'allasqata aluminio raphipi p'istuy, 180°C hornopi iskay-kimsa ura kankay. Allpa q'usni misk'inqa chinkarin, ichaqa waqatay ch'allasqaqa sumaqpuni. Aswan q'usni munaspaqa, pisi yaku q'usni ch'allasqaman yapay."
+        }
+      }
+    ],
     "tags": ["traditional", "feast", "earth-oven"],
     "featured": false
   },
@@ -364,7 +378,7 @@
     },
     "region": "andes",
     "course": "desserts",
-    "image": "/images/recipes/picarones.jpg",
+    "image": "/images/recipes/picarones.png",
     "prepTime": 30,
     "cookTime": 30,
     "servings": 6,
@@ -428,7 +442,7 @@
     },
     "region": "andes",
     "course": "drinks",
-    "image": "/images/recipes/chicha-morada.jpg",
+    "image": "/images/recipes/chicha-morada.png",
     "prepTime": 10,
     "cookTime": 45,
     "servings": 8,
@@ -486,8 +500,8 @@
       "qu": "Antisuyu mikhuna sinchi, q'umir platanu takasqa khuchi wirawan chaqrusqa, ruru hina ruwasqa, q'usnisqa ch'akisqa khuchi aychawan qarasqa. Peruq sachapi tutamanta mikhunnan."
     },
     "region": "amazon",
-    "course": "appetizers",
-    "image": "/images/recipes/tacacho-con-cecina.jpg",
+    "course": "mains",
+    "image": "/images/recipes/tacacho-con-cecina.png",
     "prepTime": 20,
     "cookTime": 40,
     "servings": 4,
@@ -545,7 +559,7 @@
     },
     "region": "amazon",
     "course": "mains",
-    "image": "/images/recipes/juane.jpg",
+    "image": "/images/recipes/juane.png",
     "prepTime": 45,
     "cookTime": 90,
     "servings": 6,
@@ -610,7 +624,7 @@
     },
     "region": "amazon",
     "course": "drinks",
-    "image": "/images/recipes/aguajina.jpg",
+    "image": "/images/recipes/aguajina.png",
     "prepTime": 30,
     "cookTime": 0,
     "servings": 6,
@@ -662,7 +676,7 @@
     },
     "region": "amazon",
     "course": "mains",
-    "image": "/images/recipes/inchicapi.jpg",
+    "image": "/images/recipes/inchicapi.png",
     "prepTime": 20,
     "cookTime": 60,
     "servings": 6,
@@ -704,6 +718,1637 @@
       }
     ],
     "tags": ["soup", "peanut", "jungle", "comforting"],
+    "featured": false
+  },
+  {
+    "id": "recipe-013",
+    "slug": "aji-de-gallina",
+    "title": {
+      "en": "Ají de Gallina",
+      "es": "Ají de Gallina",
+      "qu": "Uchu Wallpa"
+    },
+    "description": {
+      "en": "One of Peru's most beloved comfort foods. Tender shredded chicken in a rich, creamy sauce made from ají amarillo peppers, bread, walnuts, and Parmesan cheese, served over white rice.",
+      "es": "Uno de los platos más queridos del Perú. Pollo desmenuzado tierno en una salsa cremosa y rica de ají amarillo, pan, nueces y queso parmesano, servido sobre arroz blanco.",
+      "qu": "Peruq ancha munasqa mikhunan. Wallpa aycha lluch'kasqa, q'illu uchu, t'anta, nuez, queso parmesano salsapi, yuraq arrus hawapi qarasqa."
+    },
+    "region": "costa",
+    "course": "mains",
+    "image": "/images/recipes/aji-de-gallina.png",
+    "prepTime": 20,
+    "cookTime": 45,
+    "servings": 6,
+    "difficulty": "medium",
+    "ingredients": [
+      { "name": { "en": "Chicken breast", "es": "Pechuga de pollo", "qu": "Wallpa qhasqu aycha" }, "amount": "600g" },
+      { "name": { "en": "Ají amarillo paste", "es": "Pasta de ají amarillo", "qu": "Q'illu uchu uch'ku" }, "amount": "4 tbsp" },
+      { "name": { "en": "White bread, crusts removed", "es": "Pan blanco, sin corteza", "qu": "Yuraq t'anta, qaranaq" }, "amount": "4 slices" },
+      { "name": { "en": "Evaporated milk", "es": "Leche evaporada", "qu": "Yaku chinkachisqa lichiw" }, "amount": "400ml" },
+      { "name": { "en": "Walnuts", "es": "Nueces", "qu": "Nuez" }, "amount": "100g" },
+      { "name": { "en": "Parmesan cheese, grated", "es": "Queso parmesano rallado", "qu": "Parmesano queso lluq'usqa" }, "amount": "50g" },
+      { "name": { "en": "Onion", "es": "Cebolla", "qu": "Sibulla" }, "amount": "1 large" },
+      { "name": { "en": "Garlic cloves", "es": "Dientes de ajo", "qu": "Ahus kirukuna" }, "amount": "4" },
+      { "name": { "en": "Yellow potatoes, boiled", "es": "Papas amarillas, hervidas", "qu": "Q'illu papa, timpusqa" }, "amount": "4" },
+      { "name": { "en": "Hard-boiled eggs", "es": "Huevos duros", "qu": "Ruru timpusqa" }, "amount": "3" },
+      { "name": { "en": "Black olives", "es": "Aceitunas negras", "qu": "Yana asituna" }, "amount": "12" },
+      { "name": { "en": "White rice", "es": "Arroz blanco", "qu": "Yuraq arrus" }, "amount": "3 cups" }
+    ],
+    "instructions": [
+      {
+        "en": "Boil the chicken breasts in seasoned water with a pinch of salt, a bay leaf, and a few peppercorns for about 20 minutes until cooked through. Reserve the broth. Shred the chicken into thin strips.",
+        "es": "Hervir las pechugas de pollo en agua sazonada con una pizca de sal, una hoja de laurel y unos granos de pimienta por unos 20 minutos hasta que estén cocidas. Reservar el caldo. Desmenuzar el pollo en tiras finas.",
+        "qu": "Wallpa qhasqu aychata kachi yakupi, huk laurel laqhiwan, piminta muhukunawan timpuchiy, iskay chunka minutu wayk'usqa kanankama. Calduta waqaychay. Wallpa aychata lluch'ka sedakuna hina t'aqay."
+      },
+      {
+        "en": "Soak the bread slices in the evaporated milk until soft. Blend together with the walnuts until you get a smooth, creamy paste.",
+        "es": "Remojar las rebanadas de pan en la leche evaporada hasta que estén suaves. Licuar junto con las nueces hasta obtener una pasta suave y cremosa.",
+        "qu": "T'anta kuchusqakunata lichiwpi unuyachiy llamp'u kanankama. Nuezkunawan kuskachay licuadorapi llamp'u crema uch'ku kanankama."
+      },
+      {
+        "en": "In a large pan, sauté the diced onion and minced garlic in oil until golden and fragrant. Add the ají amarillo paste and cook for 2 minutes, stirring constantly.",
+        "es": "En una sartén grande, sofreír la cebolla picada y el ajo picado en aceite hasta que estén dorados y fragantes. Añadir la pasta de ají amarillo y cocinar por 2 minutos, revolviendo constantemente.",
+        "qu": "Hatun sart'enpi, kuchusqa sibullata ahusuwan asitimanta saltiy q'illu q'apaq kanankama. Q'illu uchu uch'kuta yapay, iskay minutu wayk'uy, muyurichispa."
+      },
+      {
+        "en": "Add the bread-walnut-milk mixture to the pan. Stir in about one cup of the reserved chicken broth. Cook over medium heat, stirring constantly, for about 10 minutes until the sauce thickens.",
+        "es": "Añadir la mezcla de pan, nueces y leche a la sartén. Incorporar una taza del caldo de pollo reservado. Cocinar a fuego medio, revolviendo constantemente, por unos 10 minutos hasta que la salsa espese.",
+        "qu": "T'anta-nuez-lichiw chaqrusqata sart'enman yapay. Huk taza wallpa calduta chaqruy. Chawpi ninapi wayk'uy, muyurichispa, chunka minutu hina salsa raku kanankama."
+      },
+      {
+        "en": "Add the shredded chicken and grated Parmesan cheese. Stir well and cook for another 5 minutes until everything is heated through. Season with salt and pepper to taste.",
+        "es": "Añadir el pollo desmenuzado y el queso parmesano rallado. Mezclar bien y cocinar por 5 minutos más hasta que todo esté bien caliente. Sazonar con sal y pimienta al gusto.",
+        "qu": "Lluch'kasqa wallpa aychata, lluq'usqa parmesano quesuta yapay. Allinta takiy, phisqa minutu aswan wayk'uy tukuy q'uñi kanankama. Kachiwan pimintawan munayniykiman hina churay."
+      },
+      {
+        "en": "Serve over white rice with a boiled yellow potato on the side. Garnish with sliced hard-boiled eggs and black olives.",
+        "es": "Servir sobre arroz blanco con una papa amarilla hervida al costado. Decorar con rodajas de huevo duro y aceitunas negras.",
+        "qu": "Yuraq arrus hawapi qaray, timpusqa q'illu papawan kuskachay. Kuchusqa ruru timpusqawan yana asitunakunawan k'achanchay."
+      }
+    ],
+    "tags": ["chicken", "creamy", "comfort-food"],
+    "featured": true
+  },
+  {
+    "id": "recipe-014",
+    "slug": "causa-limena",
+    "title": {
+      "en": "Causa Limeña",
+      "es": "Causa Limeña",
+      "qu": "Lima Kawsa"
+    },
+    "description": {
+      "en": "A stunning layered terrine of seasoned mashed yellow potato filled with a savory tuna or chicken salad. Bright with ají amarillo and lime, served cold and garnished with avocado and egg.",
+      "es": "Una impresionante terrina de capas de puré de papa amarilla sazonada, rellena de una ensalada de atún o pollo. Brillante con ají amarillo y limón, servida fría y decorada con palta y huevo.",
+      "qu": "Q'illu papa uch'kusqa, q'illu uchuwan limuwan ch'allasqa, atún utaq wallpa ch'iqtawan hunt'asqa. Chiripi qarasqa, paltawan runtuwan k'achanchasqa."
+    },
+    "region": "costa",
+    "course": "appetizers",
+    "image": "/images/recipes/causa-limena.png",
+    "prepTime": 30,
+    "cookTime": 25,
+    "servings": 6,
+    "difficulty": "medium",
+    "ingredients": [
+      { "name": { "en": "Yellow potatoes", "es": "Papas amarillas", "qu": "Q'illu papa" }, "amount": "1kg" },
+      { "name": { "en": "Ají amarillo paste", "es": "Pasta de ají amarillo", "qu": "Q'illu uchu uch'ku" }, "amount": "3 tbsp" },
+      { "name": { "en": "Lime juice", "es": "Jugo de limón", "qu": "Limu yaku" }, "amount": "3 tbsp" },
+      { "name": { "en": "Vegetable oil", "es": "Aceite vegetal", "qu": "Asiti" }, "amount": "3 tbsp" },
+      { "name": { "en": "Canned tuna, drained", "es": "Atún en lata, escurrido", "qu": "Atún latapi, ch'akichisqa" }, "amount": "300g" },
+      { "name": { "en": "Mayonnaise", "es": "Mayonesa", "qu": "Mayonesa" }, "amount": "4 tbsp" },
+      { "name": { "en": "Avocado", "es": "Palta", "qu": "Palta" }, "amount": "2" },
+      { "name": { "en": "Hard-boiled eggs", "es": "Huevos duros", "qu": "Ruru timpusqa" }, "amount": "3" },
+      { "name": { "en": "Black olives", "es": "Aceitunas negras", "qu": "Yana asituna" }, "amount": "12" }
+    ],
+    "instructions": [
+      {
+        "en": "Boil the yellow potatoes in salted water until tender, about 20-25 minutes. Peel while still warm and mash until completely smooth with no lumps.",
+        "es": "Hervir las papas amarillas en agua con sal hasta que estén tiernas, unos 20-25 minutos. Pelar mientras aún están calientes y aplastar hasta que queden completamente suaves, sin grumos.",
+        "qu": "Q'illu papakunata kachi yakupi timpuchiy llamp'u kanankama, iskay chunka-iskay chunka phisqayuq minutu hina. Q'uñillapi qharay, llamp'u llamp'u kanankama takay, mana raku raku kananchu."
+      },
+      {
+        "en": "Mix the warm mashed potato with the ají amarillo paste, lime juice, oil, and salt to taste. Knead until the dough is smooth and a vibrant yellow. Let cool completely.",
+        "es": "Mezclar el puré de papa caliente con la pasta de ají amarillo, jugo de limón, aceite y sal al gusto. Amasar hasta que la masa esté suave y de un amarillo vibrante. Dejar enfriar completamente.",
+        "qu": "Q'uñi papa uch'kusqata q'illu uchu uch'kuwan, limu yakuwan, asitiwan, kachiwan takiy. Llamp'u q'illu masa kanankama khamuy. Chiriyanankama suyay."
+      },
+      {
+        "en": "Prepare the filling: mix the drained tuna with mayonnaise, a squeeze of lime juice, and salt and pepper to taste.",
+        "es": "Preparar el relleno: mezclar el atún escurrido con mayonesa, un chorrito de jugo de limón, sal y pimienta al gusto.",
+        "qu": "Hunt'anata wakichiy: ch'akichisqa atunta mayonesawan, pisi limu yakuwan, kachiwan pimintawan takiy."
+      },
+      {
+        "en": "In a rectangular mold or ring, press a layer of the potato dough as the base. Add thin slices of avocado, then spread the tuna-mayonnaise filling evenly. Top with another layer of potato dough and press gently to seal.",
+        "es": "En un molde rectangular o aro, presionar una capa de la masa de papa como base. Añadir rodajas finas de palta, luego esparcir el relleno de atún con mayonesa de manera uniforme. Cubrir con otra capa de masa de papa y presionar suavemente para sellar.",
+        "qu": "Huk muldipi utaq muyu ukhupi, papa masata ñit'iy uraypi. Lluch'ka palta kuchusqakunata churay, chaymanta atún-mayonesa hunt'anata kikinchay. Huk papa masa kuchusqawan p'istuy, allillamanta ñit'iy wisq'anapaq."
+      },
+      {
+        "en": "Carefully unmold onto a serving plate. Garnish the top with sliced hard-boiled eggs, black olives, and a drizzle of mayonnaise. Refrigerate for at least 30 minutes before serving cold.",
+        "es": "Desmoldar cuidadosamente sobre un plato de servir. Decorar la parte superior con rodajas de huevo duro, aceitunas negras y un chorrito de mayonesa. Refrigerar por al menos 30 minutos antes de servir frío.",
+        "qu": "Allillamanta p'ukupi urquy. Hawanta kuchusqa ruru timpusqawan, yana asitunakunawan, pisi mayonesawan k'achanchay. Kimsa chunka minutu chiriyachiy, chiripi qaray."
+      }
+    ],
+    "tags": ["potato", "cold", "layered", "elegant"],
+    "featured": false
+  },
+  {
+    "id": "recipe-015",
+    "slug": "anticuchos-de-corazon",
+    "title": {
+      "en": "Anticuchos de Corazón",
+      "es": "Anticuchos de Corazón",
+      "qu": "Sunqu Antikuchu"
+    },
+    "description": {
+      "en": "Peru's most famous street food. Tender beef heart marinated in ají panca, vinegar, cumin, and garlic, grilled on skewers until smoky and charred. A tradition that dates back to colonial times.",
+      "es": "La comida callejera más famosa del Perú. Corazón de res tierno marinado en ají panca, vinagre, comino y ajo, asado en brochetas hasta quedar ahumado y dorado. Una tradición que se remonta a la época colonial.",
+      "qu": "Peruq aswan riqsisqa ñan mikhunan. Waka sunqu aycha, panka uchupi, vinagrupi, kuminupi, ahusupi ch'allasqa, tuspakunapi kankasqa q'usñi q'illu kanankama. Qulunya pachamanta ñawpa usuy."
+    },
+    "region": "andes",
+    "course": "appetizers",
+    "image": "/images/recipes/anticuchos-de-corazon.png",
+    "prepTime": 30,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "medium",
+    "ingredients": [
+      { "name": { "en": "Beef heart", "es": "Corazón de res", "qu": "Waka sunqu" }, "amount": "800g" },
+      { "name": { "en": "Ají panca paste", "es": "Pasta de ají panca", "qu": "Panka uchu uch'ku" }, "amount": "4 tbsp" },
+      { "name": { "en": "Red wine vinegar", "es": "Vinagre de vino tinto", "qu": "Puka vinu vinagri" }, "amount": "3 tbsp" },
+      { "name": { "en": "Cumin", "es": "Comino", "qu": "Kuminu" }, "amount": "1 tsp" },
+      { "name": { "en": "Garlic cloves", "es": "Dientes de ajo", "qu": "Ahus kirukuna" }, "amount": "6" },
+      { "name": { "en": "Dried oregano", "es": "Orégano seco", "qu": "Ch'akisqa orégano" }, "amount": "1 tsp" },
+      { "name": { "en": "Vegetable oil", "es": "Aceite vegetal", "qu": "Asiti" }, "amount": "3 tbsp" },
+      { "name": { "en": "Boiled potatoes", "es": "Papas hervidas", "qu": "Papa timpusqa" }, "amount": "4" },
+      { "name": { "en": "Corn on the cob", "es": "Choclo", "qu": "Chuqllu" }, "amount": "2 ears" }
+    ],
+    "instructions": [
+      {
+        "en": "Clean the beef heart by removing any fat, sinew, and the tough outer membrane. Cut into 3cm cubes.",
+        "es": "Limpiar el corazón de res quitando toda la grasa, nervios y la membrana exterior dura. Cortar en cubos de 3cm.",
+        "qu": "Waka sunquta llimpuchiy, wiranta, ankunta, hawa qaranra hurquspa. Kimsa santimitru t'aqachasqa kuchuy."
+      },
+      {
+        "en": "Prepare the marinade: blend the ají panca paste, vinegar, minced garlic, cumin, oregano, oil, salt, and pepper. Pour over the heart cubes and mix well. Cover and marinate in the refrigerator for at least 4 hours, ideally overnight.",
+        "es": "Preparar el adobo: licuar la pasta de ají panca, vinagre, ajo picado, comino, orégano, aceite, sal y pimienta. Verter sobre los cubos de corazón y mezclar bien. Tapar y marinar en el refrigerador por al menos 4 horas, idealmente toda la noche.",
+        "qu": "Ch'allasqata wakichiy: panka uchu uch'kuta, vinagruta, kuchusqa ahusta, kuminuta, oreganuta, asitita, kachita, pimintata licuadorapi kutay. Sunqu t'aqachasqa hawaman hich'ay, allinta takiy. P'istuy, tawa ura utaq tuta hunt'a chiriyachiqpi ch'allachiy."
+      },
+      {
+        "en": "Thread the marinated heart cubes onto wooden or metal skewers, about 5-6 pieces per skewer. Reserve the remaining marinade for basting.",
+        "es": "Ensartar los cubos de corazón marinados en brochetas de madera o metal, unos 5-6 trozos por brocheta. Reservar el adobo sobrante para pincelar.",
+        "qu": "Ch'allasqa sunqu t'aqachasqakunata k'aspi utaq qhillay tuspakunapi sat'iy, phisqa-suqta t'aqa sapa tuspapi. Puchusqa ch'allasqata waqaychay qhaquynapaq."
+      },
+      {
+        "en": "Heat a grill or grill pan to very high heat. Grill the skewers for 2-3 minutes per side, basting with the remaining marinade as they cook. The heart should be slightly charred on the outside but still juicy and pink inside.",
+        "es": "Calentar una parrilla o sartén grill a fuego muy alto. Asar las brochetas por 2-3 minutos por cada lado, pincelando con el adobo sobrante mientras se cocinan. El corazón debe quedar ligeramente carbonizado por fuera pero jugoso y rosado por dentro.",
+        "qu": "Parrillata ancha sinchi ninaman q'uñichiy. Tuspakunata iskay-kimsa minutu sapa ladunpi kankay, puchusqa ch'allasqawan qhaquspa. Sunquqa hawanpi pisi ruphasqa kanan, ichaqa ukhupi yakuyuq puka kanan."
+      },
+      {
+        "en": "Serve hot with boiled potato halves and corn on the cob. Accompany with ají sauce and a squeeze of lime.",
+        "es": "Servir caliente con mitades de papa hervida y choclo. Acompañar con salsa de ají y un chorrito de limón.",
+        "qu": "Q'uñi qaray timpusqa papa chawpikunawan chuqlluwan. Uchu salsawan limu ch'irmaywan kuskachay."
+      }
+    ],
+    "tags": ["street-food", "grilled", "offal", "iconic"],
+    "featured": false
+  },
+  {
+    "id": "recipe-016",
+    "slug": "rocoto-relleno",
+    "title": {
+      "en": "Rocoto Relleno",
+      "es": "Rocoto Relleno",
+      "qu": "Hunt'asqa Ruqutu"
+    },
+    "description": {
+      "en": "Arequipa's signature dish. Fiery rocoto peppers stuffed with a savory filling of ground beef, peanuts, olives, and hard-boiled egg, topped with melted cheese and baked in an egg custard.",
+      "es": "El plato emblemático de Arequipa. Rocotos picantes rellenos con una mezcla sabrosa de carne molida, maní, aceitunas y huevo duro, cubiertos con queso derretido y horneados en un pastel de huevo.",
+      "qu": "Arequipapa riqsisqa mikhunan. Ruphasqa ruqutukuna, kutasqa waka aycha, inchik, asituna, ruru timpusqa hunt'asqa, queso unuyasqawan p'istusqa, runtu pastelpi hornusqa."
+    },
+    "region": "andes",
+    "course": "mains",
+    "image": "/images/recipes/rocoto-relleno.png",
+    "prepTime": 40,
+    "cookTime": 45,
+    "servings": 4,
+    "difficulty": "hard",
+    "ingredients": [
+      { "name": { "en": "Rocoto peppers", "es": "Rocotos", "qu": "Ruqutukuna" }, "amount": "8" },
+      { "name": { "en": "Ground beef", "es": "Carne molida de res", "qu": "Kutasqa waka aycha" }, "amount": "400g" },
+      { "name": { "en": "Onion, diced", "es": "Cebolla picada", "qu": "Kuchusqa sibulla" }, "amount": "1" },
+      { "name": { "en": "Garlic cloves", "es": "Dientes de ajo", "qu": "Ahus kirukuna" }, "amount": "3" },
+      { "name": { "en": "Roasted peanuts, chopped", "es": "Maní tostado picado", "qu": "Kankasqa inchik kuchusqa" }, "amount": "50g" },
+      { "name": { "en": "Black olives, sliced", "es": "Aceitunas negras picadas", "qu": "Yana asituna kuchusqa" }, "amount": "8" },
+      { "name": { "en": "Hard-boiled eggs, chopped", "es": "Huevos duros picados", "qu": "Ruru timpusqa kuchusqa" }, "amount": "2" },
+      { "name": { "en": "Cumin", "es": "Comino", "qu": "Kuminu" }, "amount": "1 tsp" },
+      { "name": { "en": "Fresh queso fresco", "es": "Queso fresco", "qu": "Musuq mishki" }, "amount": "200g" },
+      { "name": { "en": "Eggs, beaten", "es": "Huevos batidos", "qu": "Runtukuna takisqa" }, "amount": "2" },
+      { "name": { "en": "Evaporated milk", "es": "Leche evaporada", "qu": "Yaku chinkachisqa lichiw" }, "amount": "200ml" },
+      { "name": { "en": "White vinegar", "es": "Vinagre blanco", "qu": "Yuraq vinagru" }, "amount": "for soaking" },
+      { "name": { "en": "Sugar", "es": "Azúcar", "qu": "Misk'i" }, "amount": "2 tbsp" }
+    ],
+    "instructions": [
+      {
+        "en": "Cut the tops off the rocotos and carefully remove the seeds and veins with a small spoon. Soak the peppers in salted water with vinegar and a tablespoon of sugar for at least 3 changes of water over several hours. This step is essential to tame the heat.",
+        "es": "Cortar las tapas de los rocotos y retirar cuidadosamente las semillas y venas con una cuchara pequeña. Remojar los ajíes en agua con sal, vinagre y una cucharada de azúcar, cambiando el agua al menos 3 veces durante varias horas. Este paso es esencial para reducir el picante.",
+        "qu": "Ruqutukunapa hawanta kuchuy, allillamanta muhukunata ankunatawan uchuy wisllawan hurquy. Kachi yakupi, vinagrupi, huk wislla misk'iwan unuyachiy, kimsa kuti yakuta tikrachispa ura achkapi. Kay ruwayqa ruphayninta pisiyachinapaq ancha allinmi."
+      },
+      {
+        "en": "Prepare the filling: sauté the diced onion and minced garlic in oil until golden. Add the ground beef, cumin, salt, and pepper. Cook until browned, about 8 minutes. Remove from heat and stir in the chopped peanuts, sliced olives, and chopped hard-boiled eggs.",
+        "es": "Preparar el relleno: sofreír la cebolla picada y el ajo picado en aceite hasta que estén dorados. Añadir la carne molida, comino, sal y pimienta. Cocinar hasta que esté dorada, unos 8 minutos. Retirar del fuego e incorporar el maní picado, aceitunas picadas y huevos duros picados.",
+        "qu": "Hunt'anata wakichiy: kuchusqa sibullata ahustawan asitimanta saltiy q'illu kanankama. Kutasqa waka aychata, kuminuta, kachita, pimintata yapay. Pusaq minutu q'illu kanankama wayk'uy. Ninamanta hurquy, kuchusqa inchikta, kuchusqa asitunakunata, kuchusqa ruru timpusqata chaqruy."
+      },
+      {
+        "en": "Stuff each drained rocoto generously with the beef filling. Place a thick slice of queso fresco on top of each pepper to seal the filling.",
+        "es": "Rellenar cada rocoto escurrido generosamente con el relleno de carne. Colocar una rebanada gruesa de queso fresco encima de cada ají para sellar el relleno.",
+        "qu": "Sapa ch'akichisqa ruqututa aycha hunt'anawan allinta hunt'ay. Sapa ruqutu hawanpi raku queso fresco kuchusqata churay hunt'anata wisq'anapaq."
+      },
+      {
+        "en": "Arrange the stuffed rocotos in a greased baking dish. Beat the eggs with the evaporated milk and a pinch of salt, then pour around the peppers to create a custard base.",
+        "es": "Acomodar los rocotos rellenos en una fuente de horno engrasada. Batir los huevos con la leche evaporada y una pizca de sal, luego verter alrededor de los ajíes para crear una base de pastel.",
+        "qu": "Hunt'asqa ruqutukunata wirawan qhallisqa hornu p'ukupi churay. Runtukunata lichiwwan pisi kachiwan takiy, chaymanta ruqutukunap muyuriqninpi hich'ay pastel uranta ruwaspa."
+      },
+      {
+        "en": "Bake at 180°C (350°F) for 35-40 minutes until the egg custard is set and golden and the cheese on top is melted and lightly browned. Serve hot, traditionally alongside pastel de papa.",
+        "es": "Hornear a 180°C por 35-40 minutos hasta que el pastel de huevo esté cuajado y dorado y el queso encima esté derretido y ligeramente dorado. Servir caliente, tradicionalmente acompañado de pastel de papa.",
+        "qu": "180°C hornupi kimsa chunka phisqayuq-tawa chunka minutu kankay, runtu pastel sinchiyasqa q'illu kanankama, hawa queso unuyasqa pisi q'illu kanankama. Q'uñi qaray, ñawpa usuypi pastel de papa kuskachay."
+      }
+    ],
+    "tags": ["spicy", "stuffed", "arequipa", "baked"],
+    "featured": false
+  },
+  {
+    "id": "recipe-017",
+    "slug": "arroz-con-leche",
+    "title": {
+      "en": "Arroz con Leche",
+      "es": "Arroz con Leche",
+      "qu": "Lichiw Arrus"
+    },
+    "description": {
+      "en": "Peru's beloved rice pudding, made extra creamy with both condensed and evaporated milk, perfumed with cinnamon and cloves. Served warm or cold, generously dusted with cinnamon.",
+      "es": "El querido arroz con leche peruano, extra cremoso con leche condensada y evaporada, perfumado con canela y clavo. Servido tibio o frío, generosamente espolvoreado con canela.",
+      "qu": "Peruq munasqa arroz con lechennin, tanta lichiwwan yaku chinkachisqa lichiwwan ancha crema, kanilawan clavuwan q'apachisqa. Q'uñi utaq chiri qarasqa, kanilawan ashkata qhallisqa."
+    },
+    "region": "costa",
+    "course": "desserts",
+    "image": "/images/recipes/arroz-con-leche.png",
+    "prepTime": 5,
+    "cookTime": 45,
+    "servings": 6,
+    "difficulty": "easy",
+    "ingredients": [
+      { "name": { "en": "Short grain rice", "es": "Arroz de grano corto", "qu": "Uchuy arrus" }, "amount": "200g" },
+      { "name": { "en": "Water", "es": "Agua", "qu": "Yaku" }, "amount": "500ml" },
+      { "name": { "en": "Evaporated milk", "es": "Leche evaporada", "qu": "Yaku chinkachisqa lichiw" }, "amount": "400ml" },
+      { "name": { "en": "Condensed milk", "es": "Leche condensada", "qu": "Tantaña lichiw" }, "amount": "400g" },
+      { "name": { "en": "Cinnamon sticks", "es": "Canela en rama", "qu": "Kanila k'aspikuna" }, "amount": "2" },
+      { "name": { "en": "Cloves", "es": "Clavos de olor", "qu": "Clavukuna" }, "amount": "4" },
+      { "name": { "en": "Vanilla extract", "es": "Extracto de vainilla", "qu": "Vainilla yaku" }, "amount": "1 tsp" },
+      { "name": { "en": "Ground cinnamon", "es": "Canela molida", "qu": "Kutasqa kanila" }, "amount": "for topping" }
+    ],
+    "instructions": [
+      {
+        "en": "Rinse the rice under cold water. Place in a pot with the water, cinnamon sticks, and cloves. Cook over medium heat until the water is absorbed and the rice is tender, about 15 minutes.",
+        "es": "Enjuagar el arroz bajo agua fría. Colocar en una olla con el agua, canela en rama y clavos. Cocinar a fuego medio hasta que el agua se absorba y el arroz esté tierno, unos 15 minutos.",
+        "qu": "Arrusta chiri yakupi mayllay. Mankapi yakuwan, kanila k'aspikunawan, clavukunawan churay. Chawpi ninapi wayk'uy yaku chupasqa, arrus llamp'u kanankama, phisqa chunka minutu hina."
+      },
+      {
+        "en": "Add the evaporated milk and condensed milk. Stir continuously over medium-low heat to prevent the rice from sticking to the bottom.",
+        "es": "Añadir la leche evaporada y la leche condensada. Revolver continuamente a fuego medio-bajo para evitar que el arroz se pegue al fondo.",
+        "qu": "Yaku chinkachisqa lichiwta tantaña lichiwta yapay. Chawpi-pisi ninapi muyurichispa wayk'uy arrus uraypi mana llit'ikunanpaq."
+      },
+      {
+        "en": "Continue cooking and stirring for 25-30 minutes until the mixture is thick and creamy. The rice should be very soft and the consistency should be like a thick porridge.",
+        "es": "Continuar cocinando y revolviendo por 25-30 minutos hasta que la mezcla esté espesa y cremosa. El arroz debe estar muy suave y la consistencia debe ser como una mazamorra espesa.",
+        "qu": "Iskay chunka phisqayuq-kimsa chunka minutu aswan wayk'uy muyurichispa, chaqrusqa raku crema kanankama. Arrusqa ancha llamp'u kanan, raku mazamorra hina."
+      },
+      {
+        "en": "Remove the cinnamon sticks and cloves. Stir in the vanilla extract.",
+        "es": "Retirar la canela en rama y los clavos. Incorporar el extracto de vainilla.",
+        "qu": "Kanila k'aspikunata clavukunata hurquy. Vainilla yakuta chaqruy."
+      },
+      {
+        "en": "Serve warm or cold in small bowls, generously dusted with ground cinnamon. Traditionally paired alongside mazamorra morada.",
+        "es": "Servir tibio o frío en recipientes pequeños, generosamente espolvoreado con canela molida. Tradicionalmente se sirve junto con mazamorra morada.",
+        "qu": "Q'uñi utaq chiri uchuy p'ukukunapi qaray, kutasqa kanilawan ashkata qhallisqa. Ñawpa usuypi mazamorra morada kuskachay."
+      }
+    ],
+    "tags": ["sweet", "creamy", "cinnamon", "traditional"],
+    "featured": false
+  },
+  {
+    "id": "recipe-018",
+    "slug": "mazamorra-morada",
+    "title": {
+      "en": "Mazamorra Morada",
+      "es": "Mazamorra Morada",
+      "qu": "Kulli Api"
+    },
+    "description": {
+      "en": "A vibrant purple corn pudding made with dried fruits, pineapple, and warm spices, thickened with sweet potato starch. The classic partner to arroz con leche, served at every Peruvian celebration.",
+      "es": "Un vibrante pudín de maíz morado hecho con frutas secas, piña y especias cálidas, espesado con chuño de camote. El compañero clásico del arroz con leche, servido en toda celebración peruana.",
+      "qu": "Kulli sara apiq, ch'akisqa rurukunawan, piñawan, q'uñi misk'ikunawan ruwasqa, apichu ch'uñuwan rakuyachisqa. Arroz con lechep masinnin, tukuy Peruq ramimpi qarasqa."
+    },
+    "region": "costa",
+    "course": "desserts",
+    "image": "/images/recipes/mazamorra-morada.png",
+    "prepTime": 15,
+    "cookTime": 50,
+    "servings": 8,
+    "difficulty": "easy",
+    "ingredients": [
+      { "name": { "en": "Purple corn, dried cobs", "es": "Maíz morado, mazorcas secas", "qu": "Kulli sara, ch'akisqa" }, "amount": "500g" },
+      { "name": { "en": "Pineapple", "es": "Piña", "qu": "Piña" }, "amount": "1 whole" },
+      { "name": { "en": "Cinnamon sticks", "es": "Canela en rama", "qu": "Kanila k'aspikuna" }, "amount": "3" },
+      { "name": { "en": "Cloves", "es": "Clavos de olor", "qu": "Clavukuna" }, "amount": "6" },
+      { "name": { "en": "Green apple, diced", "es": "Manzana verde picada", "qu": "Q'umir mansana kuchusqa" }, "amount": "1" },
+      { "name": { "en": "Dried apricots, diced", "es": "Orejones de durazno picados", "qu": "Ch'akisqa durazno kuchusqa" }, "amount": "100g" },
+      { "name": { "en": "Sweet potato starch", "es": "Chuño de camote", "qu": "Apichu ch'uñu" }, "amount": "80g" },
+      { "name": { "en": "Sugar", "es": "Azúcar", "qu": "Misk'i" }, "amount": "250g" },
+      { "name": { "en": "Lime juice", "es": "Jugo de limón", "qu": "Limu yaku" }, "amount": "3 tbsp" },
+      { "name": { "en": "Ground cinnamon", "es": "Canela molida", "qu": "Kutasqa kanila" }, "amount": "for topping" }
+    ],
+    "instructions": [
+      {
+        "en": "Place the purple corn cobs, pineapple peel and core, cinnamon sticks, and cloves in a large pot with 2.5 liters of water. Boil for 45 minutes until the liquid is a deep, vibrant purple.",
+        "es": "Colocar las mazorcas de maíz morado, la cáscara y corazón de piña, canela en rama y clavos en una olla grande con 2.5 litros de agua. Hervir por 45 minutos hasta que el líquido sea de un morado intenso y vibrante.",
+        "qu": "Kulli sara chuqlluta, piña qaranwan sunqunwan, kanila k'aspikunata, clavukunata hatun mankapi iskay ura khuskanniyuq litru yakuwan churay. Tawa chunka phisqayuq minutu timpuchiy yaku kulli kulli ancha kanankama."
+      },
+      {
+        "en": "Strain the liquid, pressing on the solids to extract all the color. Discard the solids. You should have about 2 liters of rich purple liquid.",
+        "es": "Colar el líquido, presionando los sólidos para extraer todo el color. Descartar los sólidos. Debe quedar aproximadamente 2 litros de líquido morado intenso.",
+        "qu": "Yakuta ch'uyanchay, rakukunata ñit'ispa tukuy tullpunta yarqachinapaq. Rakukunata wikch'uy. Iskay litru hina kulli yaku kanan."
+      },
+      {
+        "en": "Return the purple liquid to the pot. Add the sugar and stir until dissolved. Bring to a simmer. Add the diced apple, diced dried fruit, and diced pineapple flesh.",
+        "es": "Regresar el líquido morado a la olla. Añadir el azúcar y revolver hasta que se disuelva. Llevar a fuego lento. Añadir la manzana picada, la fruta seca picada y la pulpa de piña picada.",
+        "qu": "Kulli yakuta mankaman kutichiy. Misk'ita yapay unuyachiy kanankama takispa. Pisi ninapi timpuchiy. Kuchusqa mansanata, kuchusqa ch'akisqa rurukunata, kuchusqa piña aychata yapay."
+      },
+      {
+        "en": "Dissolve the sweet potato starch in half a cup of cold water. Slowly pour into the simmering purple liquid while stirring constantly. Cook for 5-10 minutes until the mixture thickens to a pudding-like consistency.",
+        "es": "Disolver el chuño de camote en media taza de agua fría. Verter lentamente en el líquido morado hirviendo mientras se revuelve constantemente. Cocinar por 5-10 minutos hasta que la mezcla espese a una consistencia de pudín.",
+        "qu": "Apichu ch'uñuta chawpi taza chiri yakupi unuyachiy. Allillamanta kulli timpuq yakuman hich'ay muyurichispa. Phisqa-chunka minutu wayk'uy chaqrusqa raku pudín hina kanankama."
+      },
+      {
+        "en": "Remove from heat and stir in the lime juice. Serve warm or cold, dusted with ground cinnamon. The classic companion is arroz con leche — one spoonful of each.",
+        "es": "Retirar del fuego e incorporar el jugo de limón. Servir tibio o frío, espolvoreado con canela molida. El acompañante clásico es el arroz con leche — una cucharada de cada uno.",
+        "qu": "Ninamanta hurquy, limu yakuta chaqruy. Q'uñi utaq chiri qaray, kutasqa kanilawan qhallisqa. Masinnin arroz con lechemi — sapa hukmanta huk wislla."
+      }
+    ],
+    "tags": ["sweet", "purple-corn", "pudding", "traditional"],
+    "featured": false
+  },
+  {
+    "id": "recipe-019",
+    "slug": "tiradito",
+    "title": {
+      "en": "Tiradito",
+      "es": "Tiradito",
+      "qu": "Tiraditu"
+    },
+    "description": {
+      "en": "Peru's elegant answer to sashimi. Paper-thin slices of raw fish dressed in a bright ají amarillo and lime sauce. Born from the meeting of Japanese and Peruvian culinary traditions — Nikkei cuisine at its finest.",
+      "es": "La elegante respuesta peruana al sashimi. Láminas finísimas de pescado crudo bañadas en una salsa brillante de ají amarillo y limón. Nacido del encuentro de las tradiciones culinarias japonesa y peruana — la cocina Nikkei en su máxima expresión.",
+      "qu": "Peruq k'acha sashimi nisqan. Challwa ch'in kuchusqa, q'illu uchu limu salsawan ch'allasqa. Japón Peruwan mikhuy yachay tupasqanmanta paqarisqa — Nikkei mikhuypa aswan allin kasqan."
+    },
+    "region": "costa",
+    "course": "appetizers",
+    "image": "/images/recipes/tiradito.png",
+    "prepTime": 15,
+    "cookTime": 0,
+    "servings": 4,
+    "difficulty": "medium",
+    "ingredients": [
+      { "name": { "en": "Fresh white fish fillet (sea bass or sole)", "es": "Filete de pescado blanco fresco (corvina o lenguado)", "qu": "Musuq yuraq challwa aycha" }, "amount": "400g" },
+      { "name": { "en": "Ají amarillo paste", "es": "Pasta de ají amarillo", "qu": "Q'illu uchu uch'ku" }, "amount": "2 tbsp" },
+      { "name": { "en": "Lime juice", "es": "Jugo de limón", "qu": "Limu yaku" }, "amount": "150ml" },
+      { "name": { "en": "Garlic clove", "es": "Diente de ajo", "qu": "Ahus kiru" }, "amount": "1" },
+      { "name": { "en": "Fresh ginger, grated", "es": "Jengibre fresco rallado", "qu": "Kión lluq'usqa" }, "amount": "1 tsp" },
+      { "name": { "en": "Extra virgin olive oil", "es": "Aceite de oliva extra virgen", "qu": "Oliva asiti" }, "amount": "2 tbsp" },
+      { "name": { "en": "Fresh cilantro", "es": "Cilantro fresco", "qu": "Musuq kulantru" }, "amount": "for garnish" },
+      { "name": { "en": "Boiled corn kernels", "es": "Granos de choclo hervidos", "qu": "Timpusqa chuqllu muhu" }, "amount": "for garnish" }
+    ],
+    "instructions": [
+      {
+        "en": "Using a very sharp knife, slice the fish fillet into thin, sashimi-style pieces of about 3mm thickness. Arrange the slices in a single layer on a chilled serving plate.",
+        "es": "Usando un cuchillo muy afilado, cortar el filete de pescado en láminas finas estilo sashimi de unos 3mm de grosor. Acomodar las láminas en una sola capa sobre un plato de servir frío.",
+        "qu": "Ancha allisqa kuchunawan, challwa aychata lluch'ka lluch'ka 3mm rakuyuq kuchuy, sashimi hina. Chiri p'ukupi huk sapalla kuchusqakunata mastay."
+      },
+      {
+        "en": "Prepare the tiger's milk sauce: blend the ají amarillo paste, lime juice, garlic, grated ginger, a pinch of salt, and white pepper until smooth and bright.",
+        "es": "Preparar la leche de tigre: licuar la pasta de ají amarillo, jugo de limón, ajo, jengibre rallado, una pizca de sal y pimienta blanca hasta que quede suave y brillante.",
+        "qu": "Uturunku lichinta wakichiy: q'illu uchu uch'kuta, limu yakuta, ahusta, lluq'usqa kión-ta, pisi kachita, yuraq pimintata llamp'u ch'ikchi kanankama licuadorapi kutay."
+      },
+      {
+        "en": "Just before serving, pour the sauce over the sliced fish, ensuring each piece is lightly coated. The acid from the lime will begin to gently cure the fish on contact.",
+        "es": "Justo antes de servir, verter la salsa sobre el pescado cortado, asegurándose de que cada pieza esté ligeramente cubierta. El ácido del limón comenzará a curar suavemente el pescado al contacto.",
+        "qu": "Qarayllapaq, salsata kuchusqa challwa hawaman hich'ay, sapa kuchusqa pisi p'istusqa kananta qhawaspa. Limup hayaqnin challwata allillamanta ch'allachiy qallarinqa."
+      },
+      {
+        "en": "Drizzle with extra virgin olive oil. Garnish with fresh cilantro leaves and a few boiled choclo kernels. Serve immediately — tiradito waits for no one.",
+        "es": "Rociar con aceite de oliva extra virgen. Decorar con hojas de cilantro fresco y algunos granos de choclo hervidos. Servir inmediatamente — el tiradito no espera a nadie.",
+        "qu": "Oliva asitiwan ch'allpay. Musuq kulantru laqhikunawan timpusqa chuqllu muhukunawan k'achanchay. Chayllamanta qaray — tiradituqa mana pitapas suyaychu."
+      }
+    ],
+    "tags": ["raw-fish", "nikkei", "elegant", "no-cook"],
+    "featured": false
+  },
+  {
+    "id": "recipe-020",
+    "slug": "patarashca",
+    "title": {
+      "en": "Patarashca",
+      "es": "Patarashca",
+      "qu": "Patarashka"
+    },
+    "description": {
+      "en": "A quintessential Amazon dish of fresh river fish seasoned with jungle spices and herbs, wrapped in bijao leaves and grilled over open flame. Simple, smoky, and bursting with flavor.",
+      "es": "Un plato esencial de la Amazonía de pescado fresco de río sazonado con especias y hierbas de la selva, envuelto en hojas de bijao y asado a la brasa. Sencillo, ahumado y lleno de sabor.",
+      "qu": "Antip anti suyunpa mikhunnan, mayu challwa musuq, sacha misk'ikunawan qurakunawan ch'allasqa, bijao laqhipi p'istusqa, kichay nina hawapi kankasqa. Sumaq, q'usñi, misk'iwan hunt'a."
+    },
+    "region": "amazon",
+    "course": "appetizers",
+    "image": "/images/recipes/patarashca.png",
+    "prepTime": 15,
+    "cookTime": 25,
+    "servings": 4,
+    "difficulty": "easy",
+    "ingredients": [
+      { "name": { "en": "River fish fillets (or tilapia)", "es": "Filetes de pescado de río (o tilapia)", "qu": "Mayu challwa aycha (utaq tilapia)" }, "amount": "4 fillets, 600g" },
+      { "name": { "en": "Ají charapita or ají dulce", "es": "Ají charapita o ají dulce", "qu": "Charapita uchu" }, "amount": "4" },
+      { "name": { "en": "Sacha culantro leaves", "es": "Hojas de sacha culantro", "qu": "Sacha kulantru laqhikuna" }, "amount": "6" },
+      { "name": { "en": "Cocona or tomatoes", "es": "Cocona o tomates", "qu": "Kukuna utaq tumatikuna" }, "amount": "2" },
+      { "name": { "en": "Red onion", "es": "Cebolla roja", "qu": "Puka sibulla" }, "amount": "1" },
+      { "name": { "en": "Garlic cloves", "es": "Dientes de ajo", "qu": "Ahus kirukuna" }, "amount": "4" },
+      { "name": { "en": "Cumin", "es": "Comino", "qu": "Kuminu" }, "amount": "1/2 tsp" },
+      { "name": { "en": "Bijao or banana leaves", "es": "Hojas de bijao o plátano", "qu": "Bijao utaq platanu laqhi" }, "amount": "4 large pieces" },
+      { "name": { "en": "Lime juice", "es": "Jugo de limón", "qu": "Limu yaku" }, "amount": "2 tbsp" }
+    ],
+    "instructions": [
+      {
+        "en": "Season the fish fillets with salt, cumin, minced garlic, and lime juice. Let sit for 15 minutes while you prepare the toppings.",
+        "es": "Sazonar los filetes de pescado con sal, comino, ajo picado y jugo de limón. Dejar reposar por 15 minutos mientras se preparan los acompañamientos.",
+        "qu": "Challwa aychata kachiwan, kuminuwan, kuchusqa ahusuwan, limu yakuwan churay. Phisqa chunka minutu samarichiy hawankunata wakichikuspa."
+      },
+      {
+        "en": "Thinly slice the onion, cocona or tomatoes, and ají peppers. Tear the sacha culantro leaves into pieces.",
+        "es": "Cortar finamente la cebolla, la cocona o tomates y los ajíes. Desmenuzar las hojas de sacha culantro en trozos.",
+        "qu": "Sibullata, kukunata utaq tumatikunata, uchukunata lluch'kalla kuchuy. Sacha kulantru laqhikunata t'aqakuna hina llik'iy."
+      },
+      {
+        "en": "Soften the bijao or banana leaves by briefly passing them over an open flame or blanching in hot water until pliable.",
+        "es": "Ablandar las hojas de bijao o plátano pasándolas brevemente sobre fuego abierto o blanqueándolas en agua caliente hasta que estén flexibles.",
+        "qu": "Bijao utaq platanu laqhikunata kichay nina hawapi asllata pasachispa utaq q'uñi yakupi llamp'uyachiy wist'u kanankama."
+      },
+      {
+        "en": "Place each fish fillet on a leaf. Top with sliced onion, cocona, ají, and sacha culantro. Fold the leaves tightly into sealed packets and secure with kitchen string or toothpicks.",
+        "es": "Colocar cada filete de pescado sobre una hoja. Cubrir con cebolla, cocona, ají y sacha culantro en rodajas. Doblar las hojas apretadamente formando paquetes sellados y asegurar con pita de cocina o palillos.",
+        "qu": "Sapa challwa aychata huk laqhi hawapi churay. Kuchusqa sibullawan, kukunawan, uchuwan, sacha kulantruwan p'istuy. Laqhikunata sinchita wisq'asqa q'ipi hina p'istuy, wayk'una q'aytuwan utaq palilluwan watay."
+      },
+      {
+        "en": "Grill the packets over medium heat for 12-15 minutes per side, or bake at 200°C (400°F) for 20-25 minutes. The fish is ready when it flakes easily. Unwrap at the table and serve with boiled yuca or rice.",
+        "es": "Asar los paquetes a fuego medio por 12-15 minutos por lado, o hornear a 200°C por 20-25 minutos. El pescado está listo cuando se deshace fácilmente. Desenvolver en la mesa y servir con yuca hervida o arroz.",
+        "qu": "Q'ipikunata chawpi ninapi sapa ladunpi chunka iskay-chunka phisqayuq minutu kankay, utaq 200°C hornupi iskay chunka-iskay chunka phisqayuq minutu kankay. Challwa facilta t'aqakuptin allinña. Misapi paskay, timpusqa rumuwan utaq arruswan qaray."
+      }
+    ],
+    "tags": ["fish", "wrapped", "grilled", "jungle"],
+    "featured": false
+  },
+  {
+    "id": "recipe-021",
+    "slug": "tacu-tacu",
+    "title": {
+      "en": "Tacu Tacu",
+      "es": "Tacu Tacu",
+      "qu": "Taku Taku"
+    },
+    "description": {
+      "en": "The art of Peruvian leftovers. Day-old rice and beans pan-fried into a golden, crispy cake — a beloved Lima staple that transforms humble ingredients into something irresistible. Often topped with a fried egg or steak.",
+      "es": "El arte de las sobras peruanas. Arroz y frejoles del día anterior fritos en sartén hasta formar una torta dorada y crocante — un querido clásico limeño que transforma ingredientes humildes en algo irresistible. A menudo cubierto con un huevo frito o bistec.",
+      "qu": "Peruq puchusqa mikhunkunapa artin. Qaynin p'unchay arruswan frejolwan sart'enpi kankasqa q'illu ch'aqwaq t'antaman — Limapa kuyasqa mikhunan, pisi imakunata mana saqiy atina mikhunaman tikrachin. Kankasqa runtuwan utaq bistecwan p'istusqa."
+    },
+    "region": "costa",
+    "course": "mains",
+    "image": "/images/recipes/tacu-tacu.png",
+    "prepTime": 15,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "easy",
+    "ingredients": [
+      { "name": { "en": "Cooked white rice (leftover)", "es": "Arroz blanco cocido (del día anterior)", "qu": "Wayk'usqa yuraq arrus (qayninmanta)" }, "amount": "400g" },
+      { "name": { "en": "Cooked canary beans or lentils", "es": "Frejoles canario o lentejas cocidos", "qu": "Wayk'usqa frejol utaq lintihakuna" }, "amount": "300g" },
+      { "name": { "en": "Onion, diced", "es": "Cebolla picada", "qu": "Kuchusqa sibulla" }, "amount": "1" },
+      { "name": { "en": "Garlic cloves", "es": "Dientes de ajo", "qu": "Ahus kirukuna" }, "amount": "2" },
+      { "name": { "en": "Ají amarillo paste", "es": "Pasta de ají amarillo", "qu": "Q'illu uchu uch'ku" }, "amount": "1 tbsp" },
+      { "name": { "en": "Vegetable oil", "es": "Aceite vegetal", "qu": "Asiti" }, "amount": "3 tbsp" },
+      { "name": { "en": "Fried eggs (for serving)", "es": "Huevos fritos (para servir)", "qu": "Kankasqa runtukuna (qaranapaq)" }, "amount": "4", "optional": true }
+    ],
+    "instructions": [
+      {
+        "en": "In a pan, sauté the diced onion and minced garlic in a tablespoon of oil until soft and fragrant. Add the ají amarillo paste and cook for one minute.",
+        "es": "En una sartén, sofreír la cebolla picada y el ajo picado en una cucharada de aceite hasta que estén suaves y fragantes. Añadir la pasta de ají amarillo y cocinar por un minuto.",
+        "qu": "Sart'enpi, kuchusqa sibullata ahustawan huk wislla asitimanta saltiy llamp'u q'apaq kanankama. Q'illu uchu uch'kuta yapay, huk minutu wayk'uy."
+      },
+      {
+        "en": "Add the cooked beans and mash them roughly with a fork, leaving some texture. Mix in the cooked rice. Season with salt and pepper. Stir until everything is well combined.",
+        "es": "Añadir los frejoles cocidos y aplastarlos rústicamente con un tenedor, dejando algo de textura. Mezclar con el arroz cocido. Sazonar con sal y pimienta. Revolver hasta que todo esté bien combinado.",
+        "qu": "Wayk'usqa frejolkunata yapay, tinidurwan pisi pisi takay, wakin rakuyuq kananta saqispa. Wayk'usqa arruswan chaqruy. Kachiwan pimintawan churay. Allinta takiy tukuy chaqrusqa kanankama."
+      },
+      {
+        "en": "Heat the remaining oil in a large non-stick skillet over medium-high heat. Press the rice and bean mixture into the pan, forming a thick cake. Cook without moving for 5-6 minutes until a golden, crispy crust forms on the bottom.",
+        "es": "Calentar el aceite restante en una sartén grande antiadherente a fuego medio-alto. Presionar la mezcla de arroz y frejoles en la sartén, formando una torta gruesa. Cocinar sin mover por 5-6 minutos hasta que se forme una costra dorada y crocante en el fondo.",
+        "qu": "Puchusqa asitita hatun sart'enpi chawpi-sinchi ninapi q'uñichiy. Arrus frejol chaqrusqata sart'enpi ñit'iy, raku t'anta ruwaspa. Mana kuyuchispa phisqa-suqta minutu wayk'uy uraypi q'illu ch'aqwaq qara kanankama."
+      },
+      {
+        "en": "Carefully flip the tacu tacu — use a plate to help if needed — and cook the other side for another 5 minutes until golden and crispy.",
+        "es": "Cuidadosamente voltear el tacu tacu — usar un plato para ayudar si es necesario — y cocinar el otro lado por 5 minutos más hasta que esté dorado y crocante.",
+        "qu": "Allillamanta taku takuta tikray — huk p'ukuwan yanapachikuy munaspaqa — huk ladunpi phisqa minutu aswan wayk'uy q'illu ch'aqwaq kanankama."
+      },
+      {
+        "en": "Cut into portions and serve hot. Traditionally topped with a fried egg, grilled steak, or seafood sauce. Accompany with salsa criolla — sliced red onion dressed with lime juice and cilantro.",
+        "es": "Cortar en porciones y servir caliente. Tradicionalmente cubierto con un huevo frito, bistec a la parrilla o salsa de mariscos. Acompañar con salsa criolla — cebolla roja en rodajas aderezada con jugo de limón y cilantro.",
+        "qu": "Rakikunaman kuchuy, q'uñi qaray. Ñawpa usuypi kankasqa runtuwan, kankasqa bistecwan utaq challwa salsawan p'istusqa. Salsa criollawan kuskachay — kuchusqa puka sibulla limu yakuwan kulantruwan ch'allasqa."
+      }
+    ],
+    "tags": ["rice", "beans", "crispy", "comfort-food"],
+    "featured": false
+  },
+  {
+    "id": "recipe-022",
+    "slug": "sopa-de-quinua",
+    "title": {
+      "en": "Sopa de Quinua",
+      "es": "Sopa de Quinua",
+      "qu": "Kinuwa Lawa"
+    },
+    "description": {
+      "en": "A nourishing Andean soup that has sustained highland communities for millennia. Fluffy quinoa simmered with potatoes, vegetables, and herbs in a light broth, finished with crumbled fresh cheese.",
+      "es": "Una sopa andina nutritiva que ha sustentado a las comunidades de las alturas por milenios. Quinua esponjosa cocida a fuego lento con papas, verduras y hierbas en un caldo ligero, terminada con queso fresco desmenuzado.",
+      "qu": "Antikuna lawannin, waranqa waranqa watakunata hanaq llaqta ayllukunata kawsachisqa. Kinuwa pusuqu, papawan, yurakunawan, qurakunawan, chuyaq caldumanta wayk'usqa, lluch'kasqa musuq queso t'akasqa."
+    },
+    "region": "andes",
+    "course": "appetizers",
+    "image": "/images/recipes/sopa-de-quinua.png",
+    "prepTime": 15,
+    "cookTime": 35,
+    "servings": 6,
+    "difficulty": "easy",
+    "ingredients": [
+      { "name": { "en": "White quinoa", "es": "Quinua blanca", "qu": "Yuraq kinuwa" }, "amount": "150g" },
+      { "name": { "en": "Potatoes, diced", "es": "Papas picadas", "qu": "Papa kuchusqa" }, "amount": "2 medium" },
+      { "name": { "en": "Carrot, diced", "es": "Zanahoria picada", "qu": "Sanahurya kuchusqa" }, "amount": "1" },
+      { "name": { "en": "Celery stalk, diced", "es": "Tallo de apio picado", "qu": "Apyu kuchusqa" }, "amount": "1" },
+      { "name": { "en": "Onion, diced", "es": "Cebolla picada", "qu": "Sibulla kuchusqa" }, "amount": "1" },
+      { "name": { "en": "Garlic cloves", "es": "Dientes de ajo", "qu": "Ahus kirukuna" }, "amount": "3" },
+      { "name": { "en": "Cumin", "es": "Comino", "qu": "Kuminu" }, "amount": "1/2 tsp" },
+      { "name": { "en": "Fresh oregano", "es": "Orégano fresco", "qu": "Musuq orégano" }, "amount": "1 tsp" },
+      { "name": { "en": "Queso fresco, crumbled", "es": "Queso fresco desmenuzado", "qu": "Musuq queso lluch'kasqa" }, "amount": "100g" },
+      { "name": { "en": "Fresh parsley", "es": "Perejil fresco", "qu": "Musuq perejil" }, "amount": "for garnish" }
+    ],
+    "instructions": [
+      {
+        "en": "Rinse the quinoa thoroughly under cold water for a couple of minutes, rubbing the grains between your hands to remove the bitter saponin coating. Drain well.",
+        "es": "Enjuagar la quinua bien bajo agua fría por un par de minutos, frotando los granos entre las manos para eliminar la capa amarga de saponina. Escurrir bien.",
+        "qu": "Kinuwata chiri yakupi allinta mayllay iskay minutu hina, makiykikunawan muhukunata qhaquspa hayaq saponina qaranra hurqunapaq. Allinta ch'akichiy."
+      },
+      {
+        "en": "In a large pot, sauté the diced onion, garlic, carrot, and celery in oil until softened, about 5 minutes. Add the cumin and cook for 30 seconds until fragrant.",
+        "es": "En una olla grande, sofreír la cebolla, ajo, zanahoria y apio picados en aceite hasta que estén suaves, unos 5 minutos. Añadir el comino y cocinar por 30 segundos hasta que esté fragante.",
+        "qu": "Hatun mankapi, kuchusqa sibullata, ahusta, sanahurya, apyuta asitimanta saltiy llamp'u kanankama, phisqa minutu hina. Kuminuta yapay, kimsa chunka sigunduta wayk'uy q'apaq kanankama."
+      },
+      {
+        "en": "Add 1.5 liters of water or chicken broth. Bring to a boil, then add the rinsed quinoa and diced potatoes.",
+        "es": "Añadir 1.5 litros de agua o caldo de pollo. Llevar a ebullición, luego añadir la quinua enjuagada y las papas picadas.",
+        "qu": "Huk ura khuskanniyuq litru yakuta utaq wallpa calduta yapay. Timpuchiy, chaymanta mayllaykusqa kinuwata kuchusqa papakunata yapay."
+      },
+      {
+        "en": "Reduce heat and simmer for 25-30 minutes until the quinoa is fluffy and translucent with visible spiral germs, and the potatoes are tender. Season with salt, pepper, and oregano.",
+        "es": "Reducir el fuego y cocinar a fuego lento por 25-30 minutos hasta que la quinua esté esponjosa y translúcida con los germinados visibles, y las papas estén tiernas. Sazonar con sal, pimienta y orégano.",
+        "qu": "Ninata pisiyachiy, iskay chunka phisqayuq-kimsa chunka minutu pisi ninapi wayk'uy kinuwa pusuqu ch'uyaq kanankama muyuriq germinasqayuq, papakunapas llamp'u kanankama. Kachiwan, pimintawan, oreganuwan churay."
+      },
+      {
+        "en": "Serve hot in deep bowls. Crumble fresh queso fresco on top and garnish with fresh parsley. A squeeze of lime is optional but adds a lovely brightness.",
+        "es": "Servir caliente en platos hondos. Desmenuzar queso fresco encima y decorar con perejil fresco. Un chorrito de limón es opcional pero añade un brillo encantador.",
+        "qu": "Q'uñi ukhu p'ukukunapi qaray. Hawanpi musuq queso lluch'kasqa t'akay, musuq perejilwan k'achanchay. Pisi limu munaspaqa yapay, sumaq ch'ikchita churan."
+      }
+    ],
+    "tags": ["soup", "quinoa", "vegetarian", "healthy"],
+    "featured": false
+  },
+  {
+    "id": "recipe-023",
+    "slug": "turron-de-dona-pepa",
+    "title": {
+      "en": "Turrón de Doña Pepa",
+      "es": "Turrón de Doña Pepa",
+      "qu": "Doña Pepaq Turrunin"
+    },
+    "description": {
+      "en": "A towering, colorful dessert made for Lima's October procession of the Señor de los Milagros. Layers of anise-scented cookie sticks drenched in dark chancaca syrup and showered with rainbow sprinkles.",
+      "es": "Un imponente y colorido postre hecho para la procesión de octubre del Señor de los Milagros en Lima. Capas de palitos de galleta con aroma a anís bañados en jarabe oscuro de chancaca y cubiertos con grageas de colores.",
+      "qu": "Limapa Señor de los Milagros tukuy santu killa puriynipaq ruwasqa hatun tullpu tullpu mikhuna. Anís q'apaq galleta k'aspikuna chancaca misk'i yakuwan quqchisqa, tullpu tullpu grageaswan qhallisqa."
+    },
+    "region": "costa",
+    "course": "desserts",
+    "image": "/images/recipes/turron-de-dona-pepa.png",
+    "prepTime": 45,
+    "cookTime": 30,
+    "servings": 12,
+    "difficulty": "hard",
+    "ingredients": [
+      { "name": { "en": "All-purpose flour", "es": "Harina sin preparar", "qu": "Hak'u" }, "amount": "500g" },
+      { "name": { "en": "Butter, softened", "es": "Mantequilla suavizada", "qu": "Mantequilla llamp'uchisqa" }, "amount": "250g" },
+      { "name": { "en": "Egg yolks", "es": "Yemas de huevo", "qu": "Runtu q'illu" }, "amount": "6" },
+      { "name": { "en": "Anise seeds", "es": "Semillas de anís", "qu": "Anís muhu" }, "amount": "2 tbsp" },
+      { "name": { "en": "Sesame seeds", "es": "Semillas de ajonjolí", "qu": "Ajonjolí muhu" }, "amount": "2 tbsp" },
+      { "name": { "en": "Vanilla extract", "es": "Extracto de vainilla", "qu": "Vainilla yaku" }, "amount": "1 tsp" },
+      { "name": { "en": "Baking powder", "es": "Polvo de hornear", "qu": "Hornuy p'usñu" }, "amount": "1 tsp" },
+      { "name": { "en": "Chancaca (raw cane sugar)", "es": "Chancaca", "qu": "Chancaca" }, "amount": "500g" },
+      { "name": { "en": "Pineapple, diced", "es": "Piña picada", "qu": "Piña kuchusqa" }, "amount": "1/2" },
+      { "name": { "en": "Orange peel", "es": "Cáscara de naranja", "qu": "Naranja qara" }, "amount": "from 1 orange" },
+      { "name": { "en": "Cinnamon sticks", "es": "Canela en rama", "qu": "Kanila k'aspikuna" }, "amount": "2" },
+      { "name": { "en": "Cloves", "es": "Clavos de olor", "qu": "Clavukuna" }, "amount": "4" },
+      { "name": { "en": "Colorful sprinkles (grageas)", "es": "Grageas de colores", "qu": "Tullpu tullpu grageas" }, "amount": "for decorating" }
+    ],
+    "instructions": [
+      {
+        "en": "Toast the anise seeds in a dry pan for 1 minute until fragrant. Simmer in 100ml of water for 10 minutes to extract the flavor. Strain and let the anise water cool.",
+        "es": "Tostar las semillas de anís en una sartén seca por 1 minuto hasta que estén fragantes. Hervir a fuego lento en 100ml de agua por 10 minutos para extraer el sabor. Colar y dejar enfriar el agua de anís.",
+        "qu": "Anís muhukunata ch'akisqa sart'enpi huk minutu q'apaq kanankama kankay. Pachaq mililitru yakupi chunka minutu pisi ninapi timpuchiy misk'inta yarqachinapaq. Ch'uyanchay, anís yakuta chiriyachiy."
+      },
+      {
+        "en": "Mix the flour, baking powder, and a pinch of salt. Cut in the softened butter until crumbly. Add the egg yolks, cooled anise water, sesame seeds, and vanilla. Knead into a firm, smooth dough. Rest for 20 minutes.",
+        "es": "Mezclar la harina, polvo de hornear y una pizca de sal. Cortar la mantequilla suavizada hasta que quede como migas. Añadir las yemas de huevo, el agua de anís fría, semillas de ajonjolí y vainilla. Amasar hasta obtener una masa firme y lisa. Reposar por 20 minutos.",
+        "qu": "Hak'uta, hornuy p'usñuta, pisi kachita takiy. Llamp'uchisqa mantequillata t'aqachasqa hina kuchuy. Runtu q'illukunata, chiri anís yakuta, ajonjolí muhukunata, vainillata yapay. Sinchi llamp'u masa kanankama khamuy. Iskay chunka minutu samachiy."
+      },
+      {
+        "en": "Roll pieces of dough into pencil-thick sticks about 15cm long. Place on a lined baking sheet and bake at 170°C (340°F) for 20-25 minutes until golden and firm. Let cool completely — the sticks should be crunchy.",
+        "es": "Formar trozos de masa en palitos del grosor de un lápiz de unos 15cm de largo. Colocar en una bandeja de horno forrada y hornear a 170°C por 20-25 minutos hasta que estén dorados y firmes. Dejar enfriar completamente — los palitos deben quedar crocantes.",
+        "qu": "Masa t'aqakunamanta lápiz raku k'aspikunata chunka phisqayuq santimitru suniyuq muliy. Huk hornu bandihayman churay, 170°C hornupi iskay chunka-iskay chunka phisqayuq minutu kankay q'illu sinchi kanankama. Tukuyninta chiriyachiy — k'aspikunaqa ch'aqwaq kanan."
+      },
+      {
+        "en": "Make the syrup: dissolve the chancaca in 500ml of water with cinnamon sticks, cloves, diced pineapple, and orange peel. Simmer for 30-40 minutes, stirring occasionally, until thick, dark, and syrupy. Strain.",
+        "es": "Hacer el jarabe: disolver la chancaca en 500ml de agua con canela en rama, clavos, piña picada y cáscara de naranja. Cocinar a fuego lento por 30-40 minutos, revolviendo de vez en cuando, hasta que esté espeso, oscuro y almibarado. Colar.",
+        "qu": "Misk'i yakuta ruwway: chancacata phisqa pachaq mililitru yakupi kanila k'aspikunawan, clavukunawan, kuchusqa piñawan, naranja qarawan unuyachiy. Kimsa chunka-tawa chunka minutu pisi ninapi wayk'uy, wakin kuti muyurichispa, raku yana misk'i yaku kanankama. Ch'uyanchay."
+      },
+      {
+        "en": "Arrange a layer of cookie sticks side by side on a flat tray. Drizzle generously with the warm chancaca syrup. Add another layer of sticks going the opposite direction. Repeat for 3-4 layers, drenching each layer.",
+        "es": "Acomodar una capa de palitos de galleta uno al lado del otro en una bandeja plana. Bañar generosamente con el jarabe caliente de chancaca. Añadir otra capa de palitos en dirección opuesta. Repetir por 3-4 capas, empapando cada capa.",
+        "qu": "Galleta k'aspikunata huk kuchunmanta huk kuchunman huk pampa bandihayman churay. Q'uñi chancaca misk'i yakuwan ashkata hich'ay. Huk kuchusqa k'aspi kuchuta wak laduman churay. Kimsa-tawa kuchusqakunata ruwapay, sapa kuchusqata quqchispa."
+      },
+      {
+        "en": "Shower the top layer with colorful sprinkles while the syrup is still sticky. Let the turrón set for at least 2 hours at room temperature before cutting into portions. The syrup will bind the layers together.",
+        "es": "Cubrir la capa superior con grageas de colores mientras el jarabe aún esté pegajoso. Dejar que el turrón repose por al menos 2 horas a temperatura ambiente antes de cortar en porciones. El jarabe unirá las capas.",
+        "qu": "Hawa kuchusqata tullpu tullpu grageaswan qhalliy misk'i yaku llit'iq kachkaptin. Iskay ura hina wasip q'uñinpi samachiy rakikunaman kuchunaykipaq. Misk'i yakuqa kuchusqakunata tinkichinqa."
+      }
+    ],
+    "tags": ["festive", "sweet", "layered", "october"],
+    "featured": false
+  },
+  {
+    "id": "recipe-024",
+    "slug": "ensalada-de-chonta",
+    "title": {
+      "en": "Ensalada de Chonta",
+      "es": "Ensalada de Chonta",
+      "qu": "Chuntha Ch'iqta"
+    },
+    "description": {
+      "en": "A bright, refreshing salad from the Amazon made with chonta — the tender heart of the palm tree. Tossed with tomato, red onion, and ají charapita in a simple lime dressing. Light and exotic.",
+      "es": "Una ensalada brillante y refrescante de la Amazonía hecha con chonta — el tierno corazón de palmera. Mezclada con tomate, cebolla roja y ají charapita en un simple aderezo de limón. Ligera y exótica.",
+      "qu": "Antisuyumanta ch'ikchi saminchasqa ch'iqta, chuntha — palmera sunqunmanta ruwasqa. Tumatiwan, puka sibullawan, charapita uchuwan limu ch'allasqapi takisqa. Salka, mana llasaq."
+    },
+    "region": "amazon",
+    "course": "appetizers",
+    "image": "/images/recipes/ensalada-de-chonta.png",
+    "prepTime": 15,
+    "cookTime": 0,
+    "servings": 4,
+    "difficulty": "easy",
+    "ingredients": [
+      { "name": { "en": "Fresh palm hearts (chonta)", "es": "Palmito fresco (chonta)", "qu": "Musuq chuntha" }, "amount": "400g" },
+      { "name": { "en": "Tomatoes", "es": "Tomates", "qu": "Tumatikuna" }, "amount": "2" },
+      { "name": { "en": "Red onion", "es": "Cebolla roja", "qu": "Puka sibulla" }, "amount": "1" },
+      { "name": { "en": "Ají charapita or fresh chili", "es": "Ají charapita o ají fresco", "qu": "Charapita uchu" }, "amount": "2" },
+      { "name": { "en": "Fresh cilantro", "es": "Cilantro fresco", "qu": "Musuq kulantru" }, "amount": "1/4 cup" },
+      { "name": { "en": "Lime juice", "es": "Jugo de limón", "qu": "Limu yaku" }, "amount": "3 tbsp" },
+      { "name": { "en": "Extra virgin olive oil", "es": "Aceite de oliva extra virgen", "qu": "Oliva asiti" }, "amount": "2 tbsp" }
+    ],
+    "instructions": [
+      {
+        "en": "If using fresh palm hearts, peel away the tough outer layers and slice the tender white interior into thin rounds or strips. If using canned, drain and slice.",
+        "es": "Si se usan palmitos frescos, pelar las capas externas duras y cortar el interior blanco y tierno en rodajas finas o tiras. Si se usan enlatados, escurrir y cortar.",
+        "qu": "Musuq chuntha llamk'aspaqa, hawa sinchi qarakunata qharay, ukhu yuraq llamp'uta lluch'ka muyukunaman utaq sedakunaman kuchuy. Latapi kaqtaqa ch'akichiy, kuchuy."
+      },
+      {
+        "en": "Cut the tomatoes into wedges. Slice the red onion into thin half-moons and soak briefly in cold water for 5 minutes to mellow the bite, then drain.",
+        "es": "Cortar los tomates en gajos. Cortar la cebolla roja en medias lunas finas y remojar brevemente en agua fría por 5 minutos para suavizar el sabor, luego escurrir.",
+        "qu": "Tumatikunata t'aqakunaman kuchuy. Puka sibullata lluch'ka killa chawpi hina kuchuy, chiri yakupi phisqa minutu unuyachiy hayaqninta pisiyachinapaq, chaymanta ch'akichiy."
+      },
+      {
+        "en": "Mince the ají charapita or fresh chili. Roughly chop the fresh cilantro.",
+        "es": "Picar finamente el ají charapita o ají fresco. Picar rústicamente el cilantro fresco.",
+        "qu": "Charapita uchuta utaq musuq uchuta uchuy uchuy kuchuy. Musuq kulantrurata raku raku kuchuy."
+      },
+      {
+        "en": "Combine the palm hearts, tomatoes, drained onion, chili, and cilantro in a bowl. Dress with lime juice, olive oil, salt, and pepper. Toss gently.",
+        "es": "Combinar los palmitos, tomates, cebolla escurrida, ají y cilantro en un recipiente. Aderezar con jugo de limón, aceite de oliva, sal y pimienta. Mezclar suavemente.",
+        "qu": "Chunthata, tumatikunata, ch'akichisqa sibullata, uchuta, kulantrurata huk p'ukupi kuskachay. Limu yakuwan, oliva asitiwan, kachiwan, pimintawan ch'allay. Allillamanta takiy."
+      },
+      {
+        "en": "Serve immediately as a fresh starter. Best enjoyed at room temperature to let the flavors mingle.",
+        "es": "Servir inmediatamente como entrada fresca. Se disfruta mejor a temperatura ambiente para que los sabores se mezclen.",
+        "qu": "Chayllamanta musuq ñawpaq mikhuna hina qaray. Wasip q'uñinpi aswan allinta mikhukun misk'ikuna tupanankupaq."
+      }
+    ],
+    "tags": ["salad", "fresh", "palm-heart", "jungle"],
+    "featured": false
+  },
+  {
+    "id": "recipe-025",
+    "slug": "chapo",
+    "title": {
+      "en": "Chapo",
+      "es": "Chapo",
+      "qu": "Chapu"
+    },
+    "description": {
+      "en": "A beloved Amazonian comfort dessert made from ripe plantains simmered with cinnamon and cloves until thick and creamy. Sweet, simple, and deeply satisfying — a natural energy booster enjoyed throughout the jungle.",
+      "es": "Un querido postre reconfortante de la Amazonía hecho de plátanos maduros cocidos con canela y clavo hasta que esté espeso y cremoso. Dulce, sencillo y profundamente satisfactorio — un energizante natural disfrutado en toda la selva.",
+      "qu": "Antisuyupa kuyasqa sunqu q'uñichiq mikhunan, puqusqa platanumanta ruwasqa, kanilawan clavuwan raku crema kanankama wayk'usqa. Misk'i, ch'ulla, sunqu ukhumanta kusichiq — sacha sacha hunt'api upyasqa kallpachaq."
+    },
+    "region": "amazon",
+    "course": "desserts",
+    "image": "/images/recipes/chapo.png",
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "easy",
+    "ingredients": [
+      { "name": { "en": "Very ripe plantains (dark skin)", "es": "Plátanos muy maduros (cáscara oscura)", "qu": "Ancha puqusqa platanu (yana qara)" }, "amount": "4" },
+      { "name": { "en": "Water", "es": "Agua", "qu": "Yaku" }, "amount": "500ml" },
+      { "name": { "en": "Cinnamon stick", "es": "Canela en rama", "qu": "Kanila k'aspi" }, "amount": "1" },
+      { "name": { "en": "Cloves", "es": "Clavos de olor", "qu": "Clavukuna" }, "amount": "2" },
+      { "name": { "en": "Sugar", "es": "Azúcar", "qu": "Misk'i" }, "amount": "2 tbsp", "optional": true },
+      { "name": { "en": "Vanilla extract", "es": "Extracto de vainilla", "qu": "Vainilla yaku" }, "amount": "1 tsp", "optional": true }
+    ],
+    "instructions": [
+      {
+        "en": "Peel the very ripe plantains and cut into thick chunks. The riper the plantain, the sweeter your chapo will be — look for plantains with dark, almost black skin.",
+        "es": "Pelar los plátanos muy maduros y cortar en trozos gruesos. Cuanto más maduro el plátano, más dulce será tu chapo — busca plátanos con cáscara oscura, casi negra.",
+        "qu": "Ancha puqusqa platanukunata qharay, raku t'aqakunaman kuchuy. Aswan puqusqa platanuqa aswan misk'i chapuykita ruwan — yana yana qarapi platanukunata maskay."
+      },
+      {
+        "en": "Place the plantain chunks in a pot with the water, cinnamon stick, and cloves. Bring to a boil, then reduce heat and simmer for 10-15 minutes until the plantains are very soft and falling apart.",
+        "es": "Colocar los trozos de plátano en una olla con el agua, canela en rama y clavos. Llevar a ebullición, luego reducir el fuego y cocinar a fuego lento por 10-15 minutos hasta que los plátanos estén muy suaves y se deshagan.",
+        "qu": "Platanu t'aqakunata mankapi yakuwan, kanila k'aspiwan, clavukunawan churay. Timpuchiy, chaymanta ninata pisiyachiy, chunka-chunka phisqayuq minutu pisi ninapi wayk'uy platanukuna ancha llamp'u t'aqakuptin."
+      },
+      {
+        "en": "Remove the cinnamon stick and cloves. Mash the plantains in the cooking liquid with a wooden spoon or potato masher until you get a thick, smooth consistency — somewhere between a pudding and a thick drink.",
+        "es": "Retirar la canela en rama y los clavos. Machacar los plátanos en el líquido de cocción con una cuchara de madera o prensapapas hasta obtener una consistencia espesa y suave — algo entre un pudín y una bebida espesa.",
+        "qu": "Kanila k'aspita clavukunata hurquy. Wayk'usqa yaku ukhupi platanukunata k'ullu wisllawan utaq papa ñit'inawan takay raku llamp'u kanankama — pudín upyana raku chawpipi."
+      },
+      {
+        "en": "Taste and add sugar only if needed — very ripe plantains are usually sweet enough on their own. Stir in vanilla extract if using.",
+        "es": "Probar y añadir azúcar solo si es necesario — los plátanos muy maduros suelen ser suficientemente dulces por sí solos. Incorporar el extracto de vainilla si se desea.",
+        "qu": "Malliy, misk'ita munaspallaqa yapay — ancha puqusqa platanukunaqa kikinmanta misk'ipuni kanku. Munaspaqa vainilla yakuta chaqruy."
+      },
+      {
+        "en": "Serve warm in cups or bowls. In the Amazon, chapo is enjoyed any time of day — as a nourishing breakfast, an afternoon snack, or a comforting dessert.",
+        "es": "Servir tibio en tazas o recipientes. En la Amazonía, el chapo se disfruta a cualquier hora — como un desayuno nutritivo, una merienda o un postre reconfortante.",
+        "qu": "Q'uñi tazakunapi utaq p'ukukunapi qaray. Antisuyupi, chapuqa ima pachapiqa mikhukun — kallpachaq tutamanta mikhuna, chawpi p'unchay mikhuna, utaq sunqu q'uñichiq mikhuna."
+      }
+    ],
+    "tags": ["plantain", "sweet", "simple", "jungle"],
+    "featured": false
+  },
+  {
+    "id": "recipe-026",
+    "slug": "pollo-a-la-brasa",
+    "title": {
+      "en": "Pollo a la Brasa",
+      "es": "Pollo a la Brasa",
+      "qu": "Kankasqa Wallpa"
+    },
+    "description": {
+      "en": "Peru's most eaten dish — and it's not even close. Whole chicken marinated in a dark, aromatic blend of soy sauce, beer, garlic, cumin, and paprika, then spit-roasted until the skin shatters and the meat falls off the bone. Served with crispy fries and a dozen sauces.",
+      "es": "El plato más consumido del Perú — y por mucho. Pollo entero marinado en una mezcla oscura y aromática de sillao, cerveza, ajo, comino y pimentón, luego asado al carbón hasta que la piel cruja y la carne se caiga del hueso. Servido con papas fritas crocantes y una docena de salsas.",
+      "qu": "Peruq aswan mikhusqa mikhunan — manapuni huktaq tupanchu. Hunt'a wallpa, sillawpi, sirvisapi, ahusupi, kuminupi, pimintunpi ch'allasqa, chaymanta nina k'aspimanta kankasqa qara ch'aqwaq kanankama, aycha tullumanta urmaptin. Papa frita ch'aqwaqwan chunka iskay salsawan qarasqa."
+    },
+    "region": "costa",
+    "course": "mains",
+    "image": "/images/recipes/pollo-a-la-brasa.png",
+    "prepTime": 20,
+    "cookTime": 90,
+    "servings": 4,
+    "difficulty": "medium",
+    "ingredients": [
+      { "name": { "en": "Whole chicken", "es": "Pollo entero", "qu": "Hunt'a wallpa" }, "amount": "1.5kg" },
+      { "name": { "en": "Soy sauce", "es": "Sillao (salsa de soya)", "qu": "Sillaw" }, "amount": "3 tbsp" },
+      { "name": { "en": "Dark beer", "es": "Cerveza negra", "qu": "Yana sirvisa" }, "amount": "120ml" },
+      { "name": { "en": "Garlic cloves", "es": "Dientes de ajo", "qu": "Ahus kirukuna" }, "amount": "6" },
+      { "name": { "en": "Ground cumin", "es": "Comino molido", "qu": "Kutasqa kuminu" }, "amount": "1 tbsp" },
+      { "name": { "en": "Paprika", "es": "Pimentón", "qu": "Pimintun" }, "amount": "1 tbsp" },
+      { "name": { "en": "Dried oregano", "es": "Orégano seco", "qu": "Ch'akisqa orégano" }, "amount": "1 tsp" },
+      { "name": { "en": "Red wine vinegar", "es": "Vinagre de vino tinto", "qu": "Puka vinu vinagri" }, "amount": "2 tbsp" },
+      { "name": { "en": "Vegetable oil", "es": "Aceite vegetal", "qu": "Asiti" }, "amount": "2 tbsp" },
+      { "name": { "en": "Salt and black pepper", "es": "Sal y pimienta negra", "qu": "Kachi yana piminta" }, "amount": "to taste" },
+      { "name": { "en": "French fries (for serving)", "es": "Papas fritas (para servir)", "qu": "Papa frita (qaranapaq)" }, "amount": "400g" },
+      { "name": { "en": "Green salad (for serving)", "es": "Ensalada verde (para servir)", "qu": "Q'umir ch'iqta (qaranapaq)" }, "amount": "1 bowl" }
+    ],
+    "instructions": [
+      {
+        "en": "Blend the garlic, soy sauce, dark beer, cumin, paprika, oregano, vinegar, oil, salt, and pepper into a smooth marinade.",
+        "es": "Licuar el ajo, sillao, cerveza negra, comino, pimentón, orégano, vinagre, aceite, sal y pimienta hasta obtener un adobo homogéneo.",
+        "qu": "Ahusta, sillawta, yana sirvisata, kuminuta, pimintunta, oreganuta, vinagruta, asitita, kachita, pimintata licuadorapi llamp'u ch'allasqa kanankama kutay."
+      },
+      {
+        "en": "Pat the whole chicken dry. Rub the marinade generously all over the chicken, including under the skin and inside the cavity. Cover and refrigerate for at least 4 hours, ideally overnight.",
+        "es": "Secar el pollo entero. Frotar el adobo generosamente por todo el pollo, incluyendo debajo de la piel y dentro de la cavidad. Tapar y refrigerar por al menos 4 horas, idealmente toda la noche.",
+        "qu": "Hunt'a wallpata ch'akichiy. Ch'allasqata wallpa tukuynintinpi allinta qhaquy, qara uranpipas, ukhu t'uqunpipas. P'istuy, tawa ura utaq tuta hunt'a chiriyachiqpi waqaychay."
+      },
+      {
+        "en": "Remove the chicken from the refrigerator one hour before cooking to bring it to room temperature. Preheat your oven to 200°C (400°F), or prepare a charcoal rotisserie if available.",
+        "es": "Retirar el pollo del refrigerador una hora antes de cocinar para que llegue a temperatura ambiente. Precalentar el horno a 200°C, o preparar un asador a carbón si está disponible.",
+        "qu": "Wayk'unaykipaq huk ura ñawpaqta wallpata chiriyachiqmanta hurquy wasip q'uñinman chayananpaq. Hornuta 200°C q'uñichiy, utaq k'illimsa kankana tiyaptin wakichiy."
+      },
+      {
+        "en": "Place the chicken on a roasting rack over a tray to catch the drippings. Roast for 1 hour and 15-30 minutes, basting with the pan juices every 20 minutes, until the skin is deep golden-brown and crispy and the internal temperature reaches 75°C (165°F).",
+        "es": "Colocar el pollo sobre una rejilla de asar encima de una bandeja para recoger los jugos. Asar por 1 hora y 15-30 minutos, pincelando con los jugos de la bandeja cada 20 minutos, hasta que la piel esté dorada y crocante y la temperatura interna llegue a 75°C.",
+        "qu": "Wallpata huk kankana k'aspi hawapi bandiha hawaman churay yakukuna urmananpaq. Huk ura chunka phisqayuq-kimsa chunka minutu kankay, iskay chunka minutu sapa bandihapa yakunkunawan qhaquspa, qara q'illu ch'aqwaq kanankama, ukhu q'uñiynin 75°C chayanankama."
+      },
+      {
+        "en": "Let the chicken rest for 10 minutes before carving. Serve with crispy french fries, a simple green salad, and plenty of ají sauce, mayonnaise, and ketchup — the holy trinity of pollería sauces.",
+        "es": "Dejar reposar el pollo por 10 minutos antes de cortar. Servir con papas fritas crocantes, una ensalada verde simple y abundante salsa de ají, mayonesa y ketchup — la santísima trinidad de las salsas de pollería.",
+        "qu": "Chunka minutu wallpata samachiy kuchunaykipaq. Ch'aqwaq papa fritawan, ch'ulla q'umir ch'iqtawan, ashka uchu salsawan, mayonesawan, ketchupwan qaray — polleríapa kimsa qullana salsankuna."
+      }
+    ],
+    "tags": ["chicken", "rotisserie", "iconic", "crispy"],
+    "featured": false
+  },
+  {
+    "id": "recipe-027",
+    "slug": "arroz-con-mariscos",
+    "title": {
+      "en": "Arroz con Mariscos",
+      "es": "Arroz con Mariscos",
+      "qu": "Arrus Mariskukunawan"
+    },
+    "description": {
+      "en": "Peru's beloved seafood rice — a vibrant, flavor-packed dish where rice is cooked in a rich aji amarillo and tomato broth with shrimp, squid, mussels, and octopus. A coastal feast in every bite.",
+      "es": "El querido arroz con mariscos del Perú — un plato vibrante donde el arroz se cocina en un caldo rico de ají amarillo y tomate con langostinos, calamares, mejillones y pulpo. Una fiesta costeña en cada bocado.",
+      "qu": "Peruq munasqa arroz mariskukunawan — kawsay hunt'asqa mikhunan, arrus q'illu uchu tumate kaldunpi wayk'usqa, yukra, kalamari, ch'uru, pulpu ima. Qucha pata raymi sapa kañasqapi."
+    },
+    "region": "costa",
+    "course": "mains",
+    "image": "/images/recipes/arroz-con-mariscos.png",
+    "prepTime": 25,
+    "cookTime": 35,
+    "servings": 4,
+    "difficulty": "medium",
+    "ingredients": [
+      { "name": { "en": "Long-grain rice", "es": "Arroz de grano largo", "qu": "Arrus suni" }, "amount": "2 cups" },
+      { "name": { "en": "Shrimp, peeled", "es": "Langostinos pelados", "qu": "Yukra t'iqrasqa" }, "amount": "300g" },
+      { "name": { "en": "Squid, sliced into rings", "es": "Calamares en rodajas", "qu": "Kalamari muyuchisqa" }, "amount": "200g" },
+      { "name": { "en": "Mussels in shell", "es": "Mejillones con concha", "qu": "Ch'uru qarantin" }, "amount": "12" },
+      { "name": { "en": "Octopus, cooked and diced", "es": "Pulpo cocido y picado", "qu": "Pulpu wayk'usqa kuchusqa" }, "amount": "150g" },
+      { "name": { "en": "Aji amarillo paste", "es": "Pasta de ají amarillo", "qu": "Q'illu uchu ñut'u" }, "amount": "3 tbsp" },
+      { "name": { "en": "Red onion, diced", "es": "Cebolla roja picada", "qu": "Puka sibulla kuchusqa" }, "amount": "1 large" },
+      { "name": { "en": "Garlic cloves, minced", "es": "Dientes de ajo picados", "qu": "Ahus kuchusqa" }, "amount": "4" },
+      { "name": { "en": "Tomatoes, diced", "es": "Tomates picados", "qu": "Tumati kuchusqa" }, "amount": "2 medium" },
+      { "name": { "en": "Fish or seafood stock", "es": "Caldo de pescado o mariscos", "qu": "Challwa kaldu" }, "amount": "3 cups" },
+      { "name": { "en": "White wine", "es": "Vino blanco", "qu": "Yuraq vinu" }, "amount": "1/2 cup" },
+      { "name": { "en": "Peas", "es": "Arvejas", "qu": "Albirha" }, "amount": "1/2 cup" },
+      { "name": { "en": "Red bell pepper, diced", "es": "Pimiento rojo picado", "qu": "Puka pimintun kuchusqa" }, "amount": "1" },
+      { "name": { "en": "Fresh cilantro", "es": "Cilantro fresco", "qu": "Musuq kulantru" }, "amount": "1/4 cup" },
+      { "name": { "en": "Cumin", "es": "Comino", "qu": "Kuminu" }, "amount": "1 tsp" }
+    ],
+    "instructions": [
+      {
+        "en": "Heat oil in a large, deep skillet or pot over medium-high heat. Sauté the diced onion until softened, about 3 minutes. Add garlic and cook for 1 minute until fragrant.",
+        "es": "Calentar aceite en una sartén grande y profunda o una olla a fuego medio-alto. Sofreír la cebolla picada hasta que esté suave, unos 3 minutos. Agregar el ajo y cocinar por 1 minuto hasta que esté fragante.",
+        "qu": "Hatun sartinpi utaq mankapi wirawan q'uñichiy. Kuchusqa sibullata kimsaminutu saruchiy. Ahusta yapay, huk minutu wayk'uy q'apaq kanankama."
+      },
+      {
+        "en": "Add the aji amarillo paste, cumin, and diced tomatoes. Cook for 5 minutes, stirring frequently, until the tomatoes break down into a thick base.",
+        "es": "Agregar la pasta de ají amarillo, comino y tomates picados. Cocinar por 5 minutos, revolviendo frecuentemente, hasta que los tomates se deshagan en una base espesa.",
+        "qu": "Q'illu uchu ñut'uta, kuminuta, kuchusqa tumatita yapay. Phisqa minutu wayk'uy, kutipakuspa, tumati rak'i rakinankama."
+      },
+      {
+        "en": "Add the rice and stir to coat in the sauce for 2 minutes. Pour in the white wine and let it evaporate. Add the fish stock, season with salt and pepper, and bring to a boil.",
+        "es": "Agregar el arroz y revolver para cubrirlo con la salsa por 2 minutos. Verter el vino blanco y dejar evaporar. Agregar el caldo de pescado, sazonar con sal y pimienta, y llevar a ebullición.",
+        "qu": "Arrusta yapay, iskay minutu salsawan qhaquy. Yuraq vinuta hich'ay, ch'akichinanpaq suyay. Challwa kalduta yapay, kachita pimintata churay, timpurichiy."
+      },
+      {
+        "en": "Reduce heat to low, cover, and cook for 15 minutes. Meanwhile, steam the mussels in a splash of wine in a separate pot until they open, about 3 minutes. Discard any that don't open.",
+        "es": "Reducir el fuego a bajo, tapar y cocinar por 15 minutos. Mientras tanto, cocinar los mejillones al vapor con un poco de vino en otra olla hasta que se abran, unos 3 minutos. Descartar los que no se abran.",
+        "qu": "Ninata pisiyachiy, kirpay, chunka phisqayuq minutu wayk'uy. Chaykamaqa ch'uruta huk mankapi vinuwan kimsaminutu timpuchiy kichakunankama. Mana kichakuqkunata wikch'uy."
+      },
+      {
+        "en": "Uncover the rice, add the shrimp, squid, octopus, peas, and bell pepper. Fold gently and cook uncovered for 5-7 minutes until the shrimp turns pink and the rice is tender.",
+        "es": "Destapar el arroz, agregar los langostinos, calamares, pulpo, arvejas y pimiento. Mezclar suavemente y cocinar destapado por 5-7 minutos hasta que los langostinos estén rosados y el arroz tierno.",
+        "qu": "Arrusta kichay, yukrata, kalamarita, pulputa, albirhata, pimintunta yapay. Allinta takiy, phisqa-qanchis minutu wayk'uy yukra puka tukunankama arrus llamp'u kanankama."
+      },
+      {
+        "en": "Arrange the steamed mussels on top. Garnish with fresh cilantro and serve immediately with a wedge of lime.",
+        "es": "Colocar los mejillones al vapor encima. Decorar con cilantro fresco y servir inmediatamente con un trozo de limón.",
+        "qu": "Ch'urukunata hawanman churay. Musuq kulantruwan k'achanchay, limu t'aqawan qaray."
+      }
+    ],
+    "tags": ["seafood", "rice", "coastal", "one-pot"],
+    "featured": false
+  },
+  {
+    "id": "recipe-028",
+    "slug": "parihuela",
+    "title": {
+      "en": "Parihuela",
+      "es": "Parihuela",
+      "qu": "Pariwila"
+    },
+    "description": {
+      "en": "A rich, fiery Peruvian seafood soup loaded with fish, shrimp, crab, and mussels in a bold aji panca and tomato broth. Often called 'the breakfast of champions' and beloved as a hangover cure along the coast.",
+      "es": "Una rica y picante sopa peruana de mariscos cargada de pescado, langostinos, cangrejo y mejillones en un caldo intenso de ají panca y tomate. Conocida como 'el levantamuertos' y adorada como cura de resaca en toda la costa.",
+      "qu": "Challwakuna, yukra, apanqura, ch'uru ima hunt'asqa sumaq ruphasqa qucha mikhu kaldu. Ahi panka tumatewan ruwasqa. Qucha patapi 'kawsarichiq' nisqa, mach'asqakunapaq hampi."
+    },
+    "region": "costa",
+    "course": "mains",
+    "image": "/images/recipes/parihuela.png",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "medium",
+    "ingredients": [
+      { "name": { "en": "White fish fillets, cubed", "es": "Filetes de pescado blanco en cubos", "qu": "Yuraq challwa aycha t'aqasqa" }, "amount": "400g" },
+      { "name": { "en": "Shrimp, shell on", "es": "Langostinos con cáscara", "qu": "Yukra qarantin" }, "amount": "250g" },
+      { "name": { "en": "Blue crab, halved", "es": "Cangrejo, cortado por la mitad", "qu": "Apanqura, ch'iqtasqa" }, "amount": "2" },
+      { "name": { "en": "Mussels in shell", "es": "Mejillones con concha", "qu": "Ch'uru qarantin" }, "amount": "12" },
+      { "name": { "en": "Squid, sliced", "es": "Calamares en rodajas", "qu": "Kalamari kuchusqa" }, "amount": "150g" },
+      { "name": { "en": "Aji panca paste", "es": "Pasta de ají panca", "qu": "Panka uchu ñut'u" }, "amount": "3 tbsp" },
+      { "name": { "en": "Aji amarillo paste", "es": "Pasta de ají amarillo", "qu": "Q'illu uchu ñut'u" }, "amount": "1 tbsp" },
+      { "name": { "en": "Red onion, diced", "es": "Cebolla roja picada", "qu": "Puka sibulla kuchusqa" }, "amount": "1 large" },
+      { "name": { "en": "Garlic cloves, minced", "es": "Dientes de ajo picados", "qu": "Ahus kuchusqa" }, "amount": "5" },
+      { "name": { "en": "Tomatoes, diced", "es": "Tomates picados", "qu": "Tumati kuchusqa" }, "amount": "3 medium" },
+      { "name": { "en": "Fish stock", "es": "Caldo de pescado", "qu": "Challwa kaldu" }, "amount": "6 cups" },
+      { "name": { "en": "White wine", "es": "Vino blanco", "qu": "Yuraq vinu" }, "amount": "1/2 cup" },
+      { "name": { "en": "Fresh cilantro", "es": "Cilantro fresco", "qu": "Musuq kulantru" }, "amount": "1/4 cup" },
+      { "name": { "en": "Lime", "es": "Limón", "qu": "Limu" }, "amount": "2" },
+      { "name": { "en": "Cumin", "es": "Comino", "qu": "Kuminu" }, "amount": "1 tsp" },
+      { "name": { "en": "Oregano", "es": "Orégano", "qu": "Uriqanu" }, "amount": "1/2 tsp" }
+    ],
+    "instructions": [
+      {
+        "en": "Heat oil in a large pot over medium heat. Sauté the onion for 3 minutes, then add garlic, aji panca paste, aji amarillo paste, cumin, and oregano. Cook for 2 minutes until very fragrant.",
+        "es": "Calentar aceite en una olla grande a fuego medio. Sofreír la cebolla por 3 minutos, luego agregar el ajo, pasta de ají panca, pasta de ají amarillo, comino y orégano. Cocinar por 2 minutos hasta que esté muy fragante.",
+        "qu": "Hatun mankapi wirawan q'uñichiy. Sibullata kimsa minutu saruchiy, chaymanta ahusta, panka uchu ñut'uta, q'illu uchu ñut'uta, kuminuta, uriqanuta yapay. Iskay minutu wayk'uy q'apaq kanankama."
+      },
+      {
+        "en": "Add the diced tomatoes and cook for 5 minutes, crushing them with a spoon until they form a thick paste. Pour in the white wine and let it reduce by half.",
+        "es": "Agregar los tomates picados y cocinar por 5 minutos, aplastándolos con una cuchara hasta formar una pasta espesa. Verter el vino blanco y dejar reducir a la mitad.",
+        "qu": "Kuchusqa tumatita yapay, phisqa minutu wisllawan ñit'ispa wayk'uy ñut'u kanankama. Yuraq vinuta hich'ay, khuskannin pisiyachinanpaq suyay."
+      },
+      {
+        "en": "Pour in the fish stock and bring to a strong boil. Add the crab pieces first and cook for 10 minutes.",
+        "es": "Verter el caldo de pescado y llevar a ebullición fuerte. Agregar primero las piezas de cangrejo y cocinar por 10 minutos.",
+        "qu": "Challwa kalduta hich'ay, sinchita timpurichiy. Ñawpaqta apanqura t'aqakunata yapay, chunka minutu wayk'uy."
+      },
+      {
+        "en": "Add the fish cubes, squid, and mussels. Cook for 5 minutes. Then add the shrimp and cook for 3 more minutes until the shrimp are pink and the mussels have opened. Discard any mussels that remain closed.",
+        "es": "Agregar los cubos de pescado, calamares y mejillones. Cocinar por 5 minutos. Luego agregar los langostinos y cocinar por 3 minutos más hasta que los langostinos estén rosados y los mejillones se hayan abierto. Descartar los mejillones que no se abran.",
+        "qu": "Challwa t'aqata, kalamarita, ch'urukunata yapay. Phisqa minutu wayk'uy. Chaymanta yukrata yapay, kimsa minutu astawan wayk'uy yukra puka ch'uru kichasqa kanankama. Mana kichakuq ch'urukunata wikch'uy."
+      },
+      {
+        "en": "Taste and adjust salt. Ladle into deep bowls, squeeze fresh lime juice generously over each serving, and top with cilantro. Serve immediately with crusty bread.",
+        "es": "Probar y ajustar la sal. Servir en platos hondos con cucharón, exprimir abundante jugo de limón fresco sobre cada porción y decorar con cilantro. Servir inmediatamente con pan crujiente.",
+        "qu": "Kachita malliy, munayniykiman hina churay. Ukhun p'ukukunaman hich'ay, sapa qarasqaman limu yakuta ch'irmay, kulantruwan k'achanchay. T'antawan qaray."
+      }
+    ],
+    "tags": ["seafood", "soup", "spicy", "hearty"],
+    "featured": false
+  },
+  {
+    "id": "recipe-029",
+    "slug": "leche-de-tigre",
+    "title": {
+      "en": "Leche de Tigre",
+      "es": "Leche de Tigre",
+      "qu": "Uturunkupa Lichin"
+    },
+    "description": {
+      "en": "The electrifying citrus-chili marinade from ceviche, elevated to a dish of its own. This creamy, spicy 'tiger's milk' is packed with fresh fish, shrimp, and crunchy corn — Peru's ultimate appetizer and legendary pick-me-up.",
+      "es": "La electrizante marinada cítrica con ají del ceviche, elevada a un plato propio. Esta cremosa y picante 'leche de tigre' está cargada de pescado fresco, langostinos y maíz crocante — la entrada máxima del Perú y legendario reconstituyente.",
+      "qu": "Cevichipa kawsay quq limu-uchu yakun, kikin mikhuyman huqarisqa. Kay llimp'u, ruphasqa 'uturunkupa lichin' musuq challwa, yukra, ch'aqwaq sara hunt'asqa — Peruq ancha sumaq ñawpaq mikhunnan, ñuqanchista kawsarichiq."
+    },
+    "region": "costa",
+    "course": "appetizers",
+    "image": "/images/recipes/leche-de-tigre.png",
+    "prepTime": 15,
+    "cookTime": 0,
+    "servings": 4,
+    "difficulty": "easy",
+    "ingredients": [
+      { "name": { "en": "Fresh white fish fillet", "es": "Filete de pescado blanco fresco", "qu": "Musuq yuraq challwa aycha" }, "amount": "300g" },
+      { "name": { "en": "Shrimp, peeled", "es": "Langostinos pelados", "qu": "Yukra t'iqrasqa" }, "amount": "100g" },
+      { "name": { "en": "Lime juice", "es": "Jugo de limón", "qu": "Limu yaku" }, "amount": "250ml" },
+      { "name": { "en": "Fish stock, cold", "es": "Caldo de pescado frío", "qu": "Challwa kaldu chiri" }, "amount": "1/4 cup" },
+      { "name": { "en": "Red onion, roughly chopped", "es": "Cebolla roja picada gruesa", "qu": "Puka sibulla hatunta kuchusqa" }, "amount": "1/2" },
+      { "name": { "en": "Celery stalk", "es": "Tallo de apio", "qu": "Apiyu saphi" }, "amount": "1" },
+      { "name": { "en": "Aji limo chili", "es": "Ají limo", "qu": "Limu uchu" }, "amount": "2" },
+      { "name": { "en": "Fresh ginger, small piece", "es": "Jengibre fresco, trozo pequeño", "qu": "Musuq kión, huch'uy t'aqa" }, "amount": "1cm" },
+      { "name": { "en": "Fresh cilantro", "es": "Cilantro fresco", "qu": "Musuq kulantru" }, "amount": "1/4 cup" },
+      { "name": { "en": "Cancha (toasted corn)", "es": "Cancha (maíz tostado)", "qu": "Kamcha (hamk'a sara)" }, "amount": "1/2 cup" },
+      { "name": { "en": "Choclo (Peruvian corn), boiled", "es": "Choclo hervido", "qu": "Wayk'usqa chuqllu" }, "amount": "1 ear" }
+    ],
+    "instructions": [
+      {
+        "en": "Set aside about 100g of the fish, cut into small cubes, for garnish. Roughly chop the remaining fish.",
+        "es": "Reservar unos 100g de pescado cortado en cubitos pequeños para decorar. Picar el pescado restante en trozos grandes.",
+        "qu": "Huch'uy t'aqachisqa 100g challwata k'achanchanapaq t'aqay. Puchusqa challwata hatunta kuchuy."
+      },
+      {
+        "en": "In a blender, combine the roughly chopped fish, lime juice, cold fish stock, half the onion, celery, ginger, one aji limo (seeded), and a big pinch of salt. Blend until completely smooth and creamy.",
+        "es": "En una licuadora, combinar el pescado picado, jugo de limón, caldo de pescado frío, la mitad de la cebolla, apio, jengibre, un ají limo (sin semillas) y una pizca grande de sal. Licuar hasta que esté completamente suave y cremoso.",
+        "qu": "Lic'wanapi challwa kuchusqata, limu yakuta, chiri challwa kalduta, khuskan sibullata, apiyuta, kión-ta, huk limu uchuta (mana muruntin), kachita churay. Sumaqta lic'way llimp'u kanankama."
+      },
+      {
+        "en": "Strain through a fine sieve for a silky texture. Taste and adjust lime juice and salt — it should be bright, punchy, and slightly spicy.",
+        "es": "Colar por un colador fino para una textura sedosa. Probar y ajustar el limón y la sal — debe ser brillante, vibrante y ligeramente picante.",
+        "qu": "Ñañu suysunawan suysuy sida hina kananpaq. Malliy, limu yakuta kachitawan munayniykiman hina churay — k'anchaq, sinchi, huch'uy ruphasqa kanan."
+      },
+      {
+        "en": "Dice the remaining onion half into thin slivers. Slice the remaining aji limo. Cut the shrimp in half lengthwise.",
+        "es": "Cortar la otra mitad de cebolla en tiras finas. Cortar el ají limo restante. Cortar los langostinos por la mitad a lo largo.",
+        "qu": "Puchusqa sibullata ñañu seda hina kuchuy. Puchusqa limu uchuta kuchuy. Yukrata sayayninta ch'iqtay."
+      },
+      {
+        "en": "Pour the leche de tigre into chilled glasses or bowls. Add the fish cubes, shrimp halves, onion slivers, and aji limo slices. Top with cancha corn, a few choclo kernels, and cilantro leaves. Serve immediately, ice cold.",
+        "es": "Verter la leche de tigre en vasos o platos hondos fríos. Agregar los cubitos de pescado, mitades de langostino, tiras de cebolla y rodajas de ají limo. Coronar con cancha, algunos granos de choclo y hojas de cilantro. Servir inmediatamente, bien frío.",
+        "qu": "Uturunkupa lichinta chiriyachisqa vasuman utaq p'ukuman hich'ay. Challwa t'aqata, yukra ch'iqtata, sibulla sedakunata, limu uchu kuchusqata yapay. Kamchawan, chuqllu murukunawan, kulantru laqhiwan k'achanchay. Chiri chirillata qaray."
+      }
+    ],
+    "tags": ["seafood", "citrus", "no-cook", "appetizer", "fresh"],
+    "featured": false
+  },
+  {
+    "id": "recipe-030",
+    "slug": "sudado-de-pescado",
+    "title": {
+      "en": "Sudado de Pescado",
+      "es": "Sudado de Pescado",
+      "qu": "Challwa Sudasqa"
+    },
+    "description": {
+      "en": "A comforting Peruvian fish stew where thick fillets are gently braised in a fragrant tomato, onion, and aji amarillo broth. Simple, soulful, and deeply satisfying — this is home cooking at its finest along the Peruvian coast.",
+      "es": "Un reconfortante guiso peruano de pescado donde filetes gruesos se cocinan suavemente en un caldo fragante de tomate, cebolla y ají amarillo. Simple, con alma y profundamente satisfactorio — la mejor cocina casera de la costa peruana.",
+      "qu": "Sonqo q'uñiq Peruq challwa mikhunnan, raku challwa aycha tumati, sibulla, q'illu uchu kaldunpi llamp'ulla wayk'usqa. Sumaq, sonqoyuq, tukuy sunqu hunt'achiq — qucha pata wasipa aswan sumaq mikhunnan."
+    },
+    "region": "costa",
+    "course": "mains",
+    "image": "/images/recipes/sudado-de-pescado.png",
+    "prepTime": 10,
+    "cookTime": 25,
+    "servings": 4,
+    "difficulty": "easy",
+    "ingredients": [
+      { "name": { "en": "White fish fillets (sea bass or grouper)", "es": "Filetes de pescado blanco (corvina o mero)", "qu": "Yuraq challwa aycha (corvina utaq mero)" }, "amount": "4 thick fillets" },
+      { "name": { "en": "Red onion, sliced into half-moons", "es": "Cebolla roja en medias lunas", "qu": "Puka sibulla killa ch'iqtasqa" }, "amount": "2 large" },
+      { "name": { "en": "Tomatoes, sliced", "es": "Tomates en rodajas", "qu": "Tumati kuchusqa" }, "amount": "3 large" },
+      { "name": { "en": "Aji amarillo paste", "es": "Pasta de ají amarillo", "qu": "Q'illu uchu ñut'u" }, "amount": "2 tbsp" },
+      { "name": { "en": "Garlic cloves, minced", "es": "Dientes de ajo picados", "qu": "Ahus kuchusqa" }, "amount": "4" },
+      { "name": { "en": "Chicha de jora or white wine", "es": "Chicha de jora o vino blanco", "qu": "Hura aqha utaq yuraq vinu" }, "amount": "1/2 cup" },
+      { "name": { "en": "Fish stock", "es": "Caldo de pescado", "qu": "Challwa kaldu" }, "amount": "1/2 cup" },
+      { "name": { "en": "Fresh cilantro", "es": "Cilantro fresco", "qu": "Musuq kulantru" }, "amount": "1/4 cup" },
+      { "name": { "en": "Cumin", "es": "Comino", "qu": "Kuminu" }, "amount": "1/2 tsp" },
+      { "name": { "en": "Yuca, boiled", "es": "Yuca hervida", "qu": "Yuka timpusqa" }, "amount": "400g", "optional": true },
+      { "name": { "en": "White rice", "es": "Arroz blanco", "qu": "Yuraq arrus" }, "amount": "for serving" }
+    ],
+    "instructions": [
+      {
+        "en": "Season the fish fillets generously with salt, pepper, and cumin. Set aside while you prepare the broth.",
+        "es": "Sazonar los filetes de pescado generosamente con sal, pimienta y comino. Reservar mientras preparas el caldo.",
+        "qu": "Challwa aychata kachiman pimintaman kuminuman allinta churay. Kalduta wakichinaykikama t'aqay."
+      },
+      {
+        "en": "Heat oil in a wide, deep pot over medium heat. Sauté the garlic and aji amarillo paste for 1 minute. Add the sliced onions and cook for 3 minutes until just softened.",
+        "es": "Calentar aceite en una olla ancha y profunda a fuego medio. Sofreír el ajo y la pasta de ají amarillo por 1 minuto. Agregar las cebollas cortadas y cocinar por 3 minutos hasta que estén suaves.",
+        "qu": "Hatun ukhun mankapi wirawan q'uñichiy. Ahusta q'illu uchu ñut'utawan huk minutu saruchiy. Kuchusqa sibullakunata yapay, kimsa minutu wayk'uy llamp'u kanankama."
+      },
+      {
+        "en": "Layer the tomato slices over the onions. Pour in the chicha de jora (or white wine) and fish stock. Bring to a gentle simmer.",
+        "es": "Colocar las rodajas de tomate sobre las cebollas. Verter la chicha de jora (o vino blanco) y el caldo de pescado. Llevar a un hervor suave.",
+        "qu": "Tumati kuchusqata sibullakunapa hawanman churay. Hura aqhata (utaq yuraq vinuta) challwa kaldutawan hich'ay. Allillamanta timpurichiy."
+      },
+      {
+        "en": "Nestle the seasoned fish fillets into the broth. Cover tightly and cook for 12-15 minutes without stirring — the steam does the work. The fish is ready when it flakes easily.",
+        "es": "Acomodar los filetes de pescado sazonados en el caldo. Tapar bien y cocinar por 12-15 minutos sin revolver — el vapor hace el trabajo. El pescado está listo cuando se deshace fácilmente.",
+        "qu": "Kachisqa challwa aychata kalduman churay. Allinta kirpay, chunka iskay-chunka phisqayuq minutu mana kuyuchispa wayk'uy — wayra ruwan. Challwa hawkalla rak'ikuptin wakisqaña."
+      },
+      {
+        "en": "Carefully transfer fish to serving plates. Spoon the broth and vegetables over the top. Garnish with fresh cilantro and serve with white rice and boiled yuca if desired.",
+        "es": "Transferir cuidadosamente el pescado a los platos. Verter el caldo y las verduras por encima. Decorar con cilantro fresco y servir con arroz blanco y yuca hervida si se desea.",
+        "qu": "Allillata challwata qarana p'ukukunaman apay. Kalduta qhurakunatawan hawanman hich'ay. Musuq kulantruwan k'achanchay, yuraq arruswan timpusqa yukawan munaspaqa qaray."
+      }
+    ],
+    "tags": ["seafood", "stew", "comfort-food", "homestyle"],
+    "featured": false
+  },
+  {
+    "id": "recipe-031",
+    "slug": "tacu-tacu-a-lo-macho",
+    "title": {
+      "en": "Tacu Tacu a lo Macho",
+      "es": "Tacu Tacu a lo Macho",
+      "qu": "Taku Taku a lo Macho"
+    },
+    "description": {
+      "en": "The ultimate Peruvian surf combo — a golden, crispy pan-fried cake of rice and beans topped with a rich, spicy seafood sauce brimming with shrimp, squid, octopus, and mussels. Bold, hearty, and unforgettable.",
+      "es": "La combinación marina definitiva del Perú — una torta dorada y crocante de arroz con frijoles frita en sartén, cubierta con una salsa de mariscos rica y picante repleta de langostinos, calamares, pulpo y mejillones. Audaz, contundente e inolvidable.",
+      "qu": "Peruq tukuy atiynin qucha mikhunnan — quri kulur ch'aqwaq arrus frijolwan kankasqa t'anta, yukra, kalamari, pulpu, ch'uru hunt'asqa ruphasqa marisko salsawan qatasqa. Sinchi, wiqsa hunt'achiq, mana qunqana."
+    },
+    "region": "costa",
+    "course": "mains",
+    "image": "/images/recipes/tacu-tacu-a-lo-macho.png",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "hard",
+    "ingredients": [
+      { "name": { "en": "Cooked white rice (day-old is best)", "es": "Arroz blanco cocido (mejor del día anterior)", "qu": "Wayk'usqa yuraq arrus (qayna p'unchaw aswan allin)" }, "amount": "3 cups" },
+      { "name": { "en": "Cooked canary beans or lentils", "es": "Frijoles canarios o lentejas cocidas", "qu": "Wayk'usqa frijol utaq lintihakuna" }, "amount": "1.5 cups" },
+      { "name": { "en": "Aji amarillo paste", "es": "Pasta de ají amarillo", "qu": "Q'illu uchu ñut'u" }, "amount": "2 tbsp" },
+      { "name": { "en": "Red onion, diced (for tacu tacu)", "es": "Cebolla roja picada (para tacu tacu)", "qu": "Puka sibulla kuchusqa (taku takupaq)" }, "amount": "1/2" },
+      { "name": { "en": "Garlic cloves, minced", "es": "Dientes de ajo picados", "qu": "Ahus kuchusqa" }, "amount": "3" },
+      { "name": { "en": "Shrimp, peeled", "es": "Langostinos pelados", "qu": "Yukra t'iqrasqa" }, "amount": "250g" },
+      { "name": { "en": "Squid, sliced into rings", "es": "Calamares en rodajas", "qu": "Kalamari muyuchisqa" }, "amount": "150g" },
+      { "name": { "en": "Octopus, cooked and sliced", "es": "Pulpo cocido y cortado", "qu": "Pulpu wayk'usqa kuchusqa" }, "amount": "150g" },
+      { "name": { "en": "Mussels in shell", "es": "Mejillones con concha", "qu": "Ch'uru qarantin" }, "amount": "8" },
+      { "name": { "en": "Aji panca paste", "es": "Pasta de ají panca", "qu": "Panka uchu ñut'u" }, "amount": "2 tbsp" },
+      { "name": { "en": "Red onion, diced (for sauce)", "es": "Cebolla roja picada (para la salsa)", "qu": "Puka sibulla kuchusqa (salsapaq)" }, "amount": "1" },
+      { "name": { "en": "Garlic cloves, minced (for sauce)", "es": "Dientes de ajo picados (para la salsa)", "qu": "Ahus kuchusqa (salsapaq)" }, "amount": "3" },
+      { "name": { "en": "Tomatoes, diced", "es": "Tomates picados", "qu": "Tumati kuchusqa" }, "amount": "2 medium" },
+      { "name": { "en": "White wine", "es": "Vino blanco", "qu": "Yuraq vinu" }, "amount": "1/3 cup" },
+      { "name": { "en": "Fish stock", "es": "Caldo de pescado", "qu": "Challwa kaldu" }, "amount": "1/2 cup" },
+      { "name": { "en": "Evaporated milk", "es": "Leche evaporada", "qu": "Ch'akichisqa liqi" }, "amount": "1/4 cup" },
+      { "name": { "en": "Fresh cilantro and parsley", "es": "Cilantro y perejil frescos", "qu": "Musuq kulantru pirhilwan" }, "amount": "for garnish" }
+    ],
+    "instructions": [
+      {
+        "en": "Make the tacu tacu: sauté the diced onion and half the garlic in oil until soft. Add 1 tablespoon of aji amarillo paste and stir for 1 minute. Add the beans and mash roughly, leaving some chunks. Mix in the cooked rice until well combined. Season with salt and pepper.",
+        "es": "Preparar el tacu tacu: sofreír la cebolla picada y la mitad del ajo en aceite hasta que estén suaves. Agregar 1 cucharada de pasta de ají amarillo y revolver por 1 minuto. Agregar los frijoles y aplastar ligeramente, dejando algunos trozos. Mezclar con el arroz cocido hasta que estén bien combinados. Sazonar con sal y pimienta.",
+        "qu": "Taku takuta ruway: kuchusqa sibullata khuskan ahuswan wirapi saruchiy llamp'u kanankama. Huk wislla q'illu uchu ñut'uta yapay, huk minutu kuyuchiy. Frijolkunata yapay, huch'uyta ñit'iy wakin t'aqakuna kananpaq. Wayk'usqa arruswan takiy allinta huñunankama. Kachiman pimintaman churay."
+      },
+      {
+        "en": "Divide the mixture into 4 portions and shape into thick patties. Pan-fry in a generous amount of oil over medium-high heat for 4-5 minutes per side until golden and crispy. Keep warm.",
+        "es": "Dividir la mezcla en 4 porciones y darles forma de tortitas gruesas. Freír en una cantidad generosa de aceite a fuego medio-alto por 4-5 minutos por lado hasta que estén dorados y crocantes. Mantener calientes.",
+        "qu": "Taqisqata tawa t'aqaman rakiy, raku t'anta hina ruwanay. Ashka wirapi sinchi ninapi sapa ladunta tawa-phisqa minutu kankay quri kulur ch'aqwaq kanankama. Q'uñillata waqaychay."
+      },
+      {
+        "en": "Make the salsa a lo macho: in a separate pan, heat oil and sauté the remaining onion and garlic for 2 minutes. Add the aji panca paste and remaining aji amarillo paste. Cook for 2 minutes.",
+        "es": "Preparar la salsa a lo macho: en otra sartén, calentar aceite y sofreír la cebolla y el ajo restantes por 2 minutos. Agregar la pasta de ají panca y la pasta de ají amarillo restante. Cocinar por 2 minutos.",
+        "qu": "Salsa a lo machota ruway: huk sartinpi wirawan sibullata ahustawan iskay minutu saruchiy. Panka uchu ñut'uta puchusqa q'illu uchu ñut'utawan yapay. Iskay minutu wayk'uy."
+      },
+      {
+        "en": "Add the diced tomatoes and cook for 3 minutes. Pour in the white wine and fish stock, bring to a simmer. Add the squid and octopus and cook for 3 minutes.",
+        "es": "Agregar los tomates picados y cocinar por 3 minutos. Verter el vino blanco y el caldo de pescado, llevar a un hervor suave. Agregar los calamares y el pulpo y cocinar por 3 minutos.",
+        "qu": "Kuchusqa tumatita yapay, kimsa minutu wayk'uy. Yuraq vinuta challwa kaldutawan hich'ay, timpurichiy. Kalamarita pulputawan yapay, kimsa minutu wayk'uy."
+      },
+      {
+        "en": "Add the shrimp and mussels. Cover and cook for 3-4 minutes until shrimp are pink and mussels open. Stir in the evaporated milk to make the sauce creamy. Adjust salt and add a squeeze of lime.",
+        "es": "Agregar los langostinos y mejillones. Tapar y cocinar por 3-4 minutos hasta que los langostinos estén rosados y los mejillones se abran. Incorporar la leche evaporada para hacer la salsa cremosa. Ajustar la sal y agregar un chorrito de limón.",
+        "qu": "Yukrata ch'urukunatawan yapay. Kirpay, kimsa-tawa minutu wayk'uy yukra puka ch'uru kichasqa kanankama. Ch'akichisqa liqita yapay salsa llimp'u kananpaq. Kachita allinyachiy, limu yakuta hich'ay."
+      },
+      {
+        "en": "Place a tacu tacu patty on each plate. Spoon the generous seafood sauce over the top, arranging the shellfish attractively. Garnish with cilantro and parsley. Serve immediately.",
+        "es": "Colocar una tortita de tacu tacu en cada plato. Verter generosamente la salsa de mariscos por encima, acomodando los mariscos de forma atractiva. Decorar con cilantro y perejil. Servir inmediatamente.",
+        "qu": "Sapa p'ukuman huk taku taku t'antata churay. Marisko salsata hawanman ashkata hich'ay, mariskukunata sumaqta churay. Kulantruwan pirhilwan k'achanchay. Chayllapacha qaray."
+      }
+    ],
+    "tags": ["seafood", "rice", "beans", "crispy", "sauce", "hearty"],
+    "featured": false
+  },
+  {
+    "id": "recipe-032",
+    "slug": "picante-de-cuy",
+    "title": {
+      "en": "Picante de Cuy",
+      "es": "Picante de Cuy",
+      "qu": "Quwi Pikanti"
+    },
+    "description": {
+      "en": "Huánuco's pride — whole guinea pig fried until the skin shatters with crispiness, then drenched in a rich, fiery sauce of aji panca, toasted peanuts, and garlic. A celebratory dish served at festivals and family gatherings throughout the central Andes, with golden potatoes soaking up every drop of sauce.",
+      "es": "El orgullo de Huánuco — cuy entero frito hasta que la piel cruja de lo crocante, luego bañado en una salsa rica y picante de ají panca, maní tostado y ajo. Un plato de celebración servido en festividades y reuniones familiares en los Andes centrales, con papas doradas absorbiendo cada gota de salsa.",
+      "qu": "Wanukupa k'uchichakuynin — hunt'a quwi qarantin ch'aqwaq kanankama kankasqa, chaymanta panka uchu, hamk'asqa inchiq, ahus salsawan hunt'achisqa. Raymi mikhu, raymi ayllu huñunakuykunapi tukuy chawpi qhishwa suyupi qarasqa, quri papa sapa ch'ulla salsata ch'unqaspa."
+    },
+    "region": "andes",
+    "course": "mains",
+    "image": "/images/recipes/picante-de-cuy.png",
+    "prepTime": 30,
+    "cookTime": 35,
+    "servings": 2,
+    "difficulty": "hard",
+    "ingredients": [
+      { "name": { "en": "Whole guinea pig, cleaned", "es": "Cuy entero, limpio", "qu": "Hunt'a quwi, ch'uya" }, "amount": "1 (about 800g)" },
+      { "name": { "en": "Garlic cloves, minced", "es": "Dientes de ajo picados", "qu": "Ahus kuchusqa" }, "amount": "6" },
+      { "name": { "en": "Cumin", "es": "Comino", "qu": "Kuminu" }, "amount": "1 tbsp" },
+      { "name": { "en": "Aji panca paste", "es": "Pasta de ají panca", "qu": "Panka uchu ñut'u" }, "amount": "3 tbsp" },
+      { "name": { "en": "Aji amarillo paste", "es": "Pasta de ají amarillo", "qu": "Q'illu uchu ñut'u" }, "amount": "1 tbsp" },
+      { "name": { "en": "Roasted peanuts, ground", "es": "Maní tostado molido", "qu": "Hamk'asqa inchiq, kutasqa" }, "amount": "1/2 cup" },
+      { "name": { "en": "Red onion, diced", "es": "Cebolla roja picada", "qu": "Puka sibulla kuchusqa" }, "amount": "1 large" },
+      { "name": { "en": "White vinegar", "es": "Vinagre blanco", "qu": "Yuraq vinagri" }, "amount": "2 tbsp" },
+      { "name": { "en": "Vegetable oil for frying", "es": "Aceite vegetal para freír", "qu": "Qhura wira kankanapaq" }, "amount": "2 cups" },
+      { "name": { "en": "Yellow potatoes", "es": "Papas amarillas", "qu": "Q'illu papa" }, "amount": "6 medium" },
+      { "name": { "en": "White rice", "es": "Arroz blanco", "qu": "Yuraq arrus" }, "amount": "for serving" }
+    ],
+    "instructions": [
+      {
+        "en": "Make the marinade: combine half the garlic, cumin, 1 tablespoon of aji panca paste, vinegar, salt, and pepper. Rub the mixture all over the whole guinea pig, including under the skin. Marinate for at least 2 hours, or overnight in the refrigerator.",
+        "es": "Preparar el adobo: combinar la mitad del ajo, comino, 1 cucharada de pasta de ají panca, vinagre, sal y pimienta. Frotar la mezcla por todo el cuy entero, incluyendo debajo de la piel. Marinar por al menos 2 horas, o toda la noche en el refrigerador.",
+        "qu": "Adobuta ruway: khuskan ahusta, kuminuta, huk wislla panka uchu ñut'uta, vinagrita, kachita, pimintata takiy. Tukuy hunt'a quwiman qhaquy, qara ukhunpipas. Iskay ura utaq tuta hunt'a chiriyachiqpi churay."
+      },
+      {
+        "en": "Boil the potatoes until just tender. Drain and set aside. Pat the marinated guinea pig completely dry with paper towels — this is essential for crispy skin.",
+        "es": "Hervir las papas hasta que estén apenas tiernas. Escurrir y reservar. Secar completamente el cuy marinado con toallas de papel — esto es esencial para una piel crocante.",
+        "qu": "Papata llamp'u kanankama timpuchiy. Sutuchiy, t'aqay. Adobasqa quwita papil tuwalawan ch'akichiy — ch'aqwaq qarapaq kay ancha allin."
+      },
+      {
+        "en": "Heat the oil in a large, deep skillet over medium-high heat. Carefully fry the whole guinea pig for 10-12 minutes per side until the skin is deep golden and very crispy all over. Drain on a wire rack.",
+        "es": "Calentar el aceite en una sartén grande y profunda a fuego medio-alto. Freír cuidadosamente el cuy entero por 10-12 minutos por lado hasta que la piel esté bien dorada y muy crocante por todos lados. Escurrir sobre una rejilla.",
+        "qu": "Wirata hatun sartinpi sinchi ninapi q'uñichiy. Allillata hunt'a quwita sapa ladunta chunka-chunka iskayniyuq minutu kankay qara tukuy ladunpi quri ch'aqwaq kanankama. K'aspi hawapi wiranta ch'akichiy."
+      },
+      {
+        "en": "Make the picante sauce: in a separate pan, heat a little oil and sauté the remaining garlic and diced onion for 3 minutes. Add the remaining aji panca paste and the aji amarillo paste. Cook for 2 minutes. Add the ground peanuts and 1 cup of water. Simmer for 10 minutes, stirring often, until the sauce is thick and rich. Season with salt.",
+        "es": "Preparar la salsa picante: en otra sartén, calentar un poco de aceite y sofreír el ajo restante y la cebolla picada por 3 minutos. Agregar la pasta de ají panca restante y la pasta de ají amarillo. Cocinar por 2 minutos. Agregar el maní molido y 1 taza de agua. Hervir a fuego lento por 10 minutos, revolviendo frecuentemente, hasta que la salsa esté espesa y rica. Sazonar con sal.",
+        "qu": "Pikanti salsata ruway: huk sartinpi huch'uy wirawan puchusqa ahusta kuchusqa sibullutawan kimsa minutu saruchiy. Puchusqa panka uchu ñut'uta q'illu uchu ñut'utawan yapay. Iskay minutu wayk'uy. Kutasqa inchiqta huk vasu yakutawan yapay. Chunka minutu timpuchiy, kutipakuspa, salsa raku sumaq kanankama. Kachita churay."
+      },
+      {
+        "en": "Place the whole crispy guinea pig on a large platter. Pour the hot peanut-aji sauce generously over the top. Surround with the boiled potatoes, which will soak up the sauce. Serve with white rice.",
+        "es": "Colocar el cuy crocante entero en una fuente grande. Verter generosamente la salsa caliente de maní y ají por encima. Rodear con las papas hervidas, que absorberán la salsa. Servir con arroz blanco.",
+        "qu": "Hunt'a ch'aqwaq quwita hatun p'ukuman churay. Ruphaq inchiq-uchu salsata ashkata hawanman hich'ay. Timpusqa papakunawan muyurichiy, salsata ch'unqanqaku. Yuraq arruswan qaray."
+      }
+    ],
+    "tags": ["guinea-pig", "fried", "spicy", "peanut", "huanuco", "celebratory"],
+    "featured": false
+  },
+  {
+    "id": "recipe-033",
+    "slug": "chupe-de-camarones",
+    "title": {
+      "en": "Chupe de Camarones",
+      "es": "Chupe de Camarones",
+      "qu": "Yukra Chupi"
+    },
+    "description": {
+      "en": "Arequipa's legendary shrimp chowder — a rich, creamy soup loaded with whole river shrimp, potatoes, corn, fava beans, rice, fresh cheese, and a poached egg. The pride of southern Peru and one of its most comforting dishes.",
+      "es": "El legendario chupe de camarones de Arequipa — una sopa rica y cremosa cargada de camarones de río enteros, papas, choclo, habas, arroz, queso fresco y un huevo escalfado. El orgullo del sur del Perú y uno de sus platos más reconfortantes.",
+      "qu": "Arequipapa riqsisqa yukra chupin — llimp'u, sumaq kaldu hunt'a mayu yukrawan, papawan, chuqlluwan, hawaswan, arruswan, musuq kisu, runtu ima. Perú suyupa kuska k'uchichakuynin, ancha sonqo q'uñiq mikhunkunanmanta huk."
+    },
+    "region": "andes",
+    "course": "mains",
+    "image": "/images/recipes/chupe-de-camarones.png",
+    "prepTime": 20,
+    "cookTime": 40,
+    "servings": 4,
+    "difficulty": "medium",
+    "ingredients": [
+      { "name": { "en": "Whole river shrimp (head-on)", "es": "Camarones de río enteros (con cabeza)", "qu": "Hunt'a mayu yukra (umantin)" }, "amount": "500g" },
+      { "name": { "en": "Yellow potatoes, cubed", "es": "Papas amarillas en cubos", "qu": "Q'illu papa t'aqasqa" }, "amount": "3 medium" },
+      { "name": { "en": "Corn on the cob, cut into rounds", "es": "Choclo cortado en rodajas", "qu": "Chuqllu muyuta kuchusqa" }, "amount": "2 ears" },
+      { "name": { "en": "Fava beans, peeled", "es": "Habas peladas", "qu": "Hawas t'iqrasqa" }, "amount": "1 cup" },
+      { "name": { "en": "Rice", "es": "Arroz", "qu": "Arrus" }, "amount": "1/4 cup" },
+      { "name": { "en": "Evaporated milk", "es": "Leche evaporada", "qu": "Ch'akichisqa liqi" }, "amount": "1 cup" },
+      { "name": { "en": "Fresh queso fresco", "es": "Queso fresco", "qu": "Musuq kisu" }, "amount": "100g" },
+      { "name": { "en": "Eggs", "es": "Huevos", "qu": "Runtukuna" }, "amount": "4" },
+      { "name": { "en": "Aji amarillo paste", "es": "Pasta de ají amarillo", "qu": "Q'illu uchu ñut'u" }, "amount": "2 tbsp" },
+      { "name": { "en": "Aji panca paste", "es": "Pasta de ají panca", "qu": "Panka uchu ñut'u" }, "amount": "1 tbsp" },
+      { "name": { "en": "Red onion, diced", "es": "Cebolla roja picada", "qu": "Puka sibulla kuchusqa" }, "amount": "1" },
+      { "name": { "en": "Garlic cloves, minced", "es": "Dientes de ajo picados", "qu": "Ahus kuchusqa" }, "amount": "4" },
+      { "name": { "en": "Dried oregano", "es": "Orégano seco", "qu": "Ch'aki uriqanu" }, "amount": "1 tsp" },
+      { "name": { "en": "Huacatay (black mint)", "es": "Huacatay", "qu": "Wakatay" }, "amount": "2 sprigs", "optional": true },
+      { "name": { "en": "Fresh cilantro", "es": "Cilantro fresco", "qu": "Musuq kulantru" }, "amount": "for garnish" }
+    ],
+    "instructions": [
+      {
+        "en": "Remove the heads from half the shrimp. Sauté the heads in a little oil for 3 minutes, then add 6 cups of water and simmer for 15 minutes to make a rich shrimp stock. Strain and reserve.",
+        "es": "Retirar las cabezas de la mitad de los camarones. Sofreír las cabezas en un poco de aceite por 3 minutos, luego agregar 6 tazas de agua y hervir a fuego lento por 15 minutos para hacer un caldo rico de camarones. Colar y reservar.",
+        "qu": "Khuskan yukrakunapa umanta hurquy. Umakunata huch'uy wirapi kimsa minutu saruchiy, chaymanta suqta vasu yakuta yapay, chunka phisqayuq minutu timpuchiy sumaq yukra kalduta ruwanaykipaq. Suysuy, waqaychay."
+      },
+      {
+        "en": "In a large pot, heat oil and sauté the onion for 3 minutes. Add garlic, aji amarillo paste, aji panca paste, and oregano. Cook for 2 minutes until fragrant.",
+        "es": "En una olla grande, calentar aceite y sofreír la cebolla por 3 minutos. Agregar el ajo, pasta de ají amarillo, pasta de ají panca y orégano. Cocinar por 2 minutos hasta que esté fragante.",
+        "qu": "Hatun mankapi wirawan sibullata kimsa minutu saruchiy. Ahusta, q'illu uchu ñut'uta, panka uchu ñut'uta, uriqanuta yapay. Iskay minutu wayk'uy q'apaq kanankama."
+      },
+      {
+        "en": "Pour in the shrimp stock. Add the potatoes, corn rounds, and rice. Bring to a boil, then reduce to a simmer and cook for 15 minutes until the potatoes are almost tender.",
+        "es": "Verter el caldo de camarones. Agregar las papas, rodajas de choclo y arroz. Llevar a ebullición, luego reducir a fuego lento y cocinar por 15 minutos hasta que las papas estén casi tiernas.",
+        "qu": "Yukra kalduta hich'ay. Papata, chuqllu muyukunata, arrusta yapay. Timpurichiy, chaymanta pisiyachiy, chunka phisqayuq minutu wayk'uy papa yaqa llamp'u kanankama."
+      },
+      {
+        "en": "Add the fava beans and all the shrimp (whole ones and peeled tails). Cook for 5 minutes. Stir in the evaporated milk and crumble in the queso fresco. Season with salt and pepper.",
+        "es": "Agregar las habas y todos los camarones (enteros y colas peladas). Cocinar por 5 minutos. Incorporar la leche evaporada y desmenuzar el queso fresco. Sazonar con sal y pimienta.",
+        "qu": "Hawasta tukuy yukrakunatawan yapay (hunt'a kaqkunata t'iqrasqa chupankunatawan). Phisqa minutu wayk'uy. Ch'akichisqa liqita yapay, musuq kisuta t'akunay. Kachiman pimintaman churay."
+      },
+      {
+        "en": "Carefully crack one egg into each serving bowl. Ladle the hot chupe over the eggs — the heat will gently poach them. Garnish with huacatay or cilantro and serve immediately with crusty bread.",
+        "es": "Cuidadosamente romper un huevo en cada plato. Servir el chupe caliente sobre los huevos — el calor los escalfará suavemente. Decorar con huacatay o cilantro y servir inmediatamente con pan crujiente.",
+        "qu": "Allillata sapa qarana p'ukuman huk runtuta paqiy. Ruphaq chupita runtukunapa hawanman hich'ay — q'uñiynin llamp'uyachispa wayk'unqa. Wakataywan utaq kulantruwan k'achanchay, ch'aqwaq t'antawan qaray."
+      }
+    ],
+    "tags": ["shrimp", "soup", "arequipa", "comfort-food", "creamy"],
+    "featured": false
+  },
+  {
+    "id": "recipe-034",
+    "slug": "olluquito-con-charqui",
+    "title": {
+      "en": "Olluquito con Charqui",
+      "es": "Olluquito con Charqui",
+      "qu": "Ullukitu Charqiwan"
+    },
+    "description": {
+      "en": "A deeply traditional Andean stew of julienned olluco tubers cooked with charqui (dried llama or beef jerky). This ancient pre-Columbian dish showcases Peru's incredible native potato diversity and the highland art of preserving meat.",
+      "es": "Un guiso andino profundamente tradicional de ollucos cortados en juliana cocinados con charqui (carne seca de llama o res). Este antiguo plato precolombino muestra la increíble diversidad de tubérculos nativos del Perú y el arte serrano de conservar la carne.",
+      "qu": "Ancha ñawpa qhishwa mikhuna, ulluku seda hina kuchusqa charqiwan wayk'usqa. Kay ñawpa Kulumbu manaraq mikhuna Peruqa papa laya layankunata rikuchin, hanaq suyupa aycha waqaychay yachaynintawan."
+    },
+    "region": "andes",
+    "course": "mains",
+    "image": "/images/recipes/olluquito-con-charqui.png",
+    "prepTime": 20,
+    "cookTime": 35,
+    "servings": 4,
+    "difficulty": "medium",
+    "ingredients": [
+      { "name": { "en": "Olluco tubers, julienned", "es": "Ollucos cortados en juliana", "qu": "Ulluku seda hina kuchusqa" }, "amount": "600g" },
+      { "name": { "en": "Charqui (dried beef or llama jerky)", "es": "Charqui (carne seca de res o llama)", "qu": "Charqi (ch'aki waka utaq llama aycha)" }, "amount": "200g" },
+      { "name": { "en": "Red onion, diced", "es": "Cebolla roja picada", "qu": "Puka sibulla kuchusqa" }, "amount": "1 large" },
+      { "name": { "en": "Garlic cloves, minced", "es": "Dientes de ajo picados", "qu": "Ahus kuchusqa" }, "amount": "4" },
+      { "name": { "en": "Aji amarillo paste", "es": "Pasta de ají amarillo", "qu": "Q'illu uchu ñut'u" }, "amount": "2 tbsp" },
+      { "name": { "en": "Aji panca paste", "es": "Pasta de ají panca", "qu": "Panka uchu ñut'u" }, "amount": "1 tbsp" },
+      { "name": { "en": "Tomato, diced", "es": "Tomate picado", "qu": "Tumati kuchusqa" }, "amount": "1 medium" },
+      { "name": { "en": "Cumin", "es": "Comino", "qu": "Kuminu" }, "amount": "1/2 tsp" },
+      { "name": { "en": "Fresh parsley, chopped", "es": "Perejil fresco picado", "qu": "Musuq pirhil kuchusqa" }, "amount": "1/4 cup" },
+      { "name": { "en": "White rice", "es": "Arroz blanco", "qu": "Yuraq arrus" }, "amount": "for serving" }
+    ],
+    "instructions": [
+      {
+        "en": "Soak the charqui in warm water for at least 1 hour, changing the water twice. Once rehydrated, shred it into thin strips by hand or with a fork.",
+        "es": "Remojar el charqui en agua tibia por al menos 1 hora, cambiando el agua dos veces. Una vez rehidratado, desmenuzarlo en tiras finas con las manos o un tenedor.",
+        "qu": "Charqita q'uñi yakupi huk ura churay, iskay kuti yakuta tikray. Yaku hapiptin, makiykiwan utaq tinidurwan ñañu sedakunaman llik'iy."
+      },
+      {
+        "en": "Heat oil in a large pot over medium heat. Sauté the onion until translucent, about 4 minutes. Add the garlic, aji amarillo paste, aji panca paste, and cumin. Cook for 2 minutes until fragrant.",
+        "es": "Calentar aceite en una olla grande a fuego medio. Sofreír la cebolla hasta que esté translúcida, unos 4 minutos. Agregar el ajo, pasta de ají amarillo, pasta de ají panca y comino. Cocinar por 2 minutos hasta que esté fragante.",
+        "qu": "Hatun mankapi wirawan q'uñichiy. Sibullata ch'uyay kanankama saruchiy, tawa minutu hina. Ahusta, q'illu uchu ñut'uta, panka uchu ñut'uta, kuminuta yapay. Iskay minutu wayk'uy q'apaq kanankama."
+      },
+      {
+        "en": "Add the diced tomato and cook for 3 minutes until softened. Add the shredded charqui and stir well to coat in the sauce.",
+        "es": "Agregar el tomate picado y cocinar por 3 minutos hasta que se ablande. Agregar el charqui desmenuzado y revolver bien para cubrirlo con la salsa.",
+        "qu": "Kuchusqa tumatita yapay, kimsa minutu wayk'uy llamp'u kanankama. Llik'isqa charqita yapay, salsawan allinta qhaquy."
+      },
+      {
+        "en": "Add the julienned olluco tubers. Stir to combine, add 1/2 cup of water, cover, and cook for 20-25 minutes on medium-low heat, stirring occasionally. The ollucos will release their own liquid and become tender and slightly slippery.",
+        "es": "Agregar los ollucos en juliana. Revolver para combinar, agregar 1/2 taza de agua, tapar y cocinar por 20-25 minutos a fuego medio-bajo, revolviendo ocasionalmente. Los ollucos soltarán su propio líquido y quedarán tiernos y ligeramente resbalosos.",
+        "qu": "Seda hina kuchusqa ullukukunata yapay. Takiy, khuskan vasu yakuta yapay, kirpay, iskay chunka-iskay chunka phisqayuq minutu wayk'uy, wakin kutikuna kuyuchispa. Ullukukuna kikin yakunkuta hurqunqa, llamp'u llusk'a hina tukuspa."
+      },
+      {
+        "en": "Season with salt and pepper to taste. The stew should be moist but not soupy. Stir in the fresh parsley and serve hot over white rice.",
+        "es": "Sazonar con sal y pimienta al gusto. El guiso debe estar húmedo pero no aguado. Incorporar el perejil fresco y servir caliente sobre arroz blanco.",
+        "qu": "Kachiman pimintaman munayniykiman hina churay. Mikhunaqa huq'u kanan, manataq yakullachu. Musuq pirhilta yapay, ruphaqta yuraq arrus hawapi qaray."
+      }
+    ],
+    "tags": ["tubers", "jerky", "traditional", "pre-columbian", "stew"],
+    "featured": false
+  },
+  {
+    "id": "recipe-035",
+    "slug": "queso-helado",
+    "title": {
+      "en": "Queso Helado",
+      "es": "Queso Helado",
+      "qu": "Kisu Iladu"
+    },
+    "description": {
+      "en": "Arequipa's beloved frozen dessert — named 'frozen cheese' not for its ingredients but because it's traditionally served in slices and blocks that resemble fresh cheese. Made from milk, coconut, and cinnamon, hand-churned in a copper pot set in ice and salt. Refreshing, aromatic, and unmistakably Andean.",
+      "es": "El querido postre helado de Arequipa — llamado 'queso helado' no por sus ingredientes sino porque se sirve tradicionalmente en tajadas y bloques que se parecen al queso fresco. Hecho de leche, coco y canela, batido a mano en una olla de cobre sobre hielo y sal. Refrescante, aromático e inconfundiblemente andino.",
+      "qu": "Arequipapa munasqa chiriyachisqa mikhuchanan — 'chiriyachisqa kisu' nisqa, mana kisumanta ruwasqa kasqanraykuchu, aswanqa ñawpaqmanta hina t'aqasqa blukikunapi qarasqa musuq kisu hina rikch'akuqtin. Liqimanta, kukumanta, kanilamanta ruwasqa, riti kachikuna ukhupi anta mankapi makiwan takisqa. Chiriyachiq, q'apayuq, qhishwa suyu mana pantana."
+    },
+    "region": "andes",
+    "course": "desserts",
+    "image": "/images/recipes/queso-helado.png",
+    "prepTime": 15,
+    "cookTime": 10,
+    "servings": 6,
+    "difficulty": "medium",
+    "ingredients": [
+      { "name": { "en": "Whole milk", "es": "Leche entera", "qu": "Hunt'a liqi" }, "amount": "1 liter" },
+      { "name": { "en": "Evaporated milk", "es": "Leche evaporada", "qu": "Ch'akichisqa liqi" }, "amount": "1 cup" },
+      { "name": { "en": "Condensed milk", "es": "Leche condensada", "qu": "Misk'ichisqa liqi" }, "amount": "1/2 cup" },
+      { "name": { "en": "Shredded coconut", "es": "Coco rallado", "qu": "Kuku llik'isqa" }, "amount": "1/2 cup" },
+      { "name": { "en": "Cinnamon sticks", "es": "Ramas de canela", "qu": "Kanila k'aspikuna" }, "amount": "2" },
+      { "name": { "en": "Whole cloves", "es": "Clavos de olor enteros", "qu": "Hunt'a klawu" }, "amount": "3" },
+      { "name": { "en": "Vanilla extract", "es": "Extracto de vainilla", "qu": "Wainilla yaku" }, "amount": "1 tsp" },
+      { "name": { "en": "Ground cinnamon", "es": "Canela molida", "qu": "Kutasqa kanila" }, "amount": "for topping" }
+    ],
+    "instructions": [
+      {
+        "en": "Combine the whole milk, cinnamon sticks, and cloves in a saucepan. Bring to a gentle boil over medium heat, then reduce heat and simmer for 8 minutes to infuse the spices. Remove from heat and let cool for 10 minutes. Discard the cinnamon sticks and cloves.",
+        "es": "Combinar la leche entera, ramas de canela y clavos en una cacerola. Llevar a un hervor suave a fuego medio, luego reducir el fuego y hervir a fuego lento por 8 minutos para infusionar las especias. Retirar del fuego y dejar enfriar por 10 minutos. Descartar las ramas de canela y clavos.",
+        "qu": "Hunt'a liqita, kanila k'aspikunata, klawukunata huk mankapi huñuy. Chawpi ninapi allillamanta timpurichiy, chaymanta ninata pisiyachiy, pusaq minutu wayk'uy misk'ikunapa q'apanta yaykuchinapaq. Ninamanta hurquy, chunka minutu chiriyachiy. Kanila k'aspikunata klawukunata wikch'uy."
+      },
+      {
+        "en": "Stir in the evaporated milk, condensed milk, shredded coconut, and vanilla extract. Mix until well combined. Let the mixture cool completely, then refrigerate until cold, at least 2 hours.",
+        "es": "Incorporar la leche evaporada, leche condensada, coco rallado y extracto de vainilla. Mezclar hasta que esté bien combinado. Dejar enfriar completamente, luego refrigerar hasta que esté frío, al menos 2 horas.",
+        "qu": "Ch'akichisqa liqita, misk'ichisqa liqita, llik'isqa kukuta, wainilla yakuta yapay. Allinta takiy. Tukuyta chiriyachiy, chaymanta chiriyachiqman iskay ura churay."
+      },
+      {
+        "en": "Pour the cold mixture into a shallow metal container and place in the freezer. Every 30 minutes, remove and stir vigorously with a fork or whisk, scraping the frozen edges into the center. Repeat 4-5 times over 2-3 hours until the texture is smooth and scoopable like a granita.",
+        "es": "Verter la mezcla fría en un recipiente metálico poco profundo y colocar en el congelador. Cada 30 minutos, retirar y revolver vigorosamente con un tenedor o batidor, raspando los bordes congelados hacia el centro. Repetir 4-5 veces durante 2-3 horas hasta que la textura sea suave y se pueda servir con cuchara como una granita.",
+        "qu": "Chiri taqisqata ñañu qillay p'ukuman hich'ay, ritiyachiqman churay. Kimsa chunka minutu sapa, hurquy, tinidurwan utaq wisllawan sinchita kuyuchiy, ritiyasqa kantunkunata chawpiman qhachuy. Tawa-phisqa kutita iskay-kimsa ura ruwapay, llimp'u wisllawan hurqunapaq hina kanankama."
+      },
+      {
+        "en": "Scoop into bowls or small glasses. Dust generously with ground cinnamon on top and serve immediately. Traditionally served in the morning or as an afternoon treat.",
+        "es": "Servir en boles o vasos pequeños. Espolvorear generosamente con canela molida por encima y servir inmediatamente. Tradicionalmente se sirve en la mañana o como antojo de la tarde.",
+        "qu": "P'ukukunaman utaq huch'uy vasuman qaray. Hawanman kutasqa kanilata ashkata qhalliy, chayllapacha qaray. Ñawpa yachayniman hina tutamanta utaq ch'isi mikhuchina."
+      }
+    ],
+    "tags": ["frozen", "dessert", "arequipa", "cinnamon", "coconut", "no-cook"],
+    "featured": false
+  },
+  {
+    "id": "recipe-036",
+    "slug": "nina-juane",
+    "title": {
+      "en": "Nina Juane",
+      "es": "Nina Juane",
+      "qu": "Nina Huwani"
+    },
+    "description": {
+      "en": "A lighter, egg-based cousin of the classic Juane from the Amazon. Seasoned eggs mixed with chicken are wrapped in bijao leaves and grilled over open flame — the name means 'fire Juane.' A popular starter and street food throughout the Peruvian jungle.",
+      "es": "Un primo más ligero del clásico Juane amazónico, a base de huevo. Huevos sazonados mezclados con pollo se envuelven en hojas de bijao y se asan a la llama abierta — el nombre significa 'Juane de fuego.' Una entrada popular y comida callejera en toda la selva peruana.",
+      "qu": "Sachapa riqsisqa Huwanipa kaq masinmi, runtu ruwasqa. Kachisqa runtukuna wallpa aychawan taqisqa bihaw laqhikunapi p'istusqa, kichakusqa ninapi kankasqa — 'nina Huwani' sutin. Tukuy Perú sachapi riqsisqa ñawpaq mikhu, calli mikhu ima."
+    },
+    "region": "amazon",
+    "course": "appetizers",
+    "image": "/images/recipes/nina-juane.png",
+    "prepTime": 20,
+    "cookTime": 15,
+    "servings": 6,
+    "difficulty": "medium",
+    "ingredients": [
+      { "name": { "en": "Eggs", "es": "Huevos", "qu": "Runtukuna" }, "amount": "8" },
+      { "name": { "en": "Cooked chicken breast, shredded", "es": "Pechuga de pollo cocida, desmenuzada", "qu": "Wayk'usqa wallpa qhasqu, llik'isqa" }, "amount": "1 cup" },
+      { "name": { "en": "Green onion, chopped", "es": "Cebolla china picada", "qu": "Q'umir sibulla kuchusqa" }, "amount": "3 stalks" },
+      { "name": { "en": "Fresh sacha culantro (or cilantro)", "es": "Sacha culantro fresco (o cilantro)", "qu": "Musuq sacha kulantru (utaq kulantru)" }, "amount": "1/4 cup" },
+      { "name": { "en": "Turmeric powder", "es": "Cúrcuma en polvo", "qu": "Palillu ñut'u" }, "amount": "1/2 tsp" },
+      { "name": { "en": "Cumin", "es": "Comino", "qu": "Kuminu" }, "amount": "1/4 tsp" },
+      { "name": { "en": "Bijao or banana leaves", "es": "Hojas de bijao o plátano", "qu": "Bihaw utaq plátanu laqhikuna" }, "amount": "6 large pieces" },
+      { "name": { "en": "Kitchen string", "es": "Hilo de cocina", "qu": "Wayk'una q'aytu" }, "amount": "as needed" }
+    ],
+    "instructions": [
+      {
+        "en": "Beat the eggs well in a large bowl. Add the shredded chicken, chopped green onion, sacha culantro, turmeric, cumin, salt, and pepper. Mix until everything is well combined.",
+        "es": "Batir bien los huevos en un bol grande. Agregar el pollo desmenuzado, cebolla china picada, sacha culantro, cúrcuma, comino, sal y pimienta. Mezclar hasta que todo esté bien combinado.",
+        "qu": "Runtuta hatun p'ukupi allinta taqay. Llik'isqa wallpata, kuchusqa q'umir sibullata, sacha kulantruta, palilluta, kuminuta, kachita, pimintata yapay. Allinta takiy tukuynin huñusqa kanankama."
+      },
+      {
+        "en": "Briefly pass the bijao or banana leaves over an open flame to soften them — they should become pliable but not charred. Wipe clean.",
+        "es": "Pasar brevemente las hojas de bijao o plátano sobre una llama abierta para ablandarlas — deben quedar flexibles pero no quemadas. Limpiar.",
+        "qu": "Bihaw utaq plátanu laqhikunata nina hawanta ñawillata pasachiy llamp'uyachinapaq — q'umpuyuq kanan manataq ruphasqachu. Pichhay."
+      },
+      {
+        "en": "Place a leaf flat and spoon about 1/2 cup of the egg mixture into the center. Fold the leaf into a neat packet, tucking the sides underneath. Tie securely with kitchen string. Repeat with remaining mixture.",
+        "es": "Colocar una hoja plana y poner aproximadamente 1/2 taza de la mezcla de huevo en el centro. Doblar la hoja en un paquete ordenado, metiendo los lados debajo. Atar firmemente con hilo de cocina. Repetir con la mezcla restante.",
+        "qu": "Huk laqhita pampaman churay, khuskan vasullata runtu taqisqata chawpinman churay. Laqhita sumaqta p'istuy, kantunkunata uraman sat'iy. Wayk'una q'aytuwan sinchita watay. Puchusqa taqisqawan hinallatataq ruway."
+      },
+      {
+        "en": "Grill the packets over medium heat (charcoal is traditional) for 6-7 minutes per side, turning carefully. The leaves will char slightly, which adds a smoky aroma. You can also bake at 180°C (350°F) for 20 minutes.",
+        "es": "Asar los paquetes a fuego medio (el carbón es lo tradicional) por 6-7 minutos por lado, volteando con cuidado. Las hojas se quemarán ligeramente, lo que agrega un aroma ahumado. También se pueden hornear a 180°C por 20 minutos.",
+        "qu": "P'istukunata chawpi ninapi kankay (k'illimsa ñawpa yachayniman hina) suqta-qanchis minutu sapa ladunta, allillata tikraspa. Laqhikuna huch'uyta ruphanqa, q'ushñi q'apata yapaspa. Hornupipas 180°C iskay chunka minutu kankawaq."
+      },
+      {
+        "en": "Unwrap and serve hot. The egg filling should be set and golden from the turmeric, with a subtle smoky flavor from the leaves. Serve with a simple salad of sliced onion and tomato.",
+        "es": "Desenvolver y servir caliente. El relleno de huevo debe estar cuajado y dorado por la cúrcuma, con un sutil sabor ahumado de las hojas. Servir con una ensalada simple de cebolla y tomate en rodajas.",
+        "qu": "Phaskaray, ruphaqta qaray. Runtu hunt'unan watasqa quri kulur palillumanta kanan, laqhikunapa huch'uy q'ushñi misk'inwan. Kuchusqa sibulla tumatiwan ch'iqtawan qaray."
+      }
+    ],
+    "tags": ["egg", "chicken", "grilled", "wrapped", "street-food"],
+    "featured": false
+  },
+  {
+    "id": "recipe-037",
+    "slug": "masato",
+    "title": {
+      "en": "Masato",
+      "es": "Masato",
+      "qu": "Masatu"
+    },
+    "description": {
+      "en": "The Amazon's ancient fermented yuca drink — thick, mildly sweet, and slightly tangy with a gentle effervescence. A cornerstone of indigenous hospitality and communal celebrations throughout the Peruvian rainforest, traditionally prepared by women of the community.",
+      "es": "La ancestral bebida fermentada de yuca de la Amazonía — espesa, ligeramente dulce y levemente ácida con una suave efervescencia. Piedra angular de la hospitalidad indígena y las celebraciones comunales en toda la selva peruana, tradicionalmente preparada por las mujeres de la comunidad.",
+      "qu": "Sachapa ñawpa puchkusqa yuka upyanan — raku, huch'uy misk'i, huch'uy ch'akchi, allillamanta pusuq. Sacha runapa wasi kusiynin, ayllu raymi mikhunkunapa simi rumintaq, ñawpa yachayniman hina ayllu warmikunapa ruwasqan."
+    },
+    "region": "amazon",
+    "course": "drinks",
+    "image": "/images/recipes/masato.png",
+    "prepTime": 30,
+    "cookTime": 45,
+    "servings": 8,
+    "difficulty": "easy",
+    "ingredients": [
+      { "name": { "en": "Yuca (cassava), peeled and chopped", "es": "Yuca pelada y picada", "qu": "Yuka t'iqrasqa kuchusqa" }, "amount": "1 kg" },
+      { "name": { "en": "Water", "es": "Agua", "qu": "Yaku" }, "amount": "8 cups" },
+      { "name": { "en": "Sugar or sugarcane juice", "es": "Azúcar o jugo de caña", "qu": "Azukar utaq wiru yaku" }, "amount": "1/2 cup" },
+      { "name": { "en": "Whole cloves", "es": "Clavos de olor", "qu": "Klawu" }, "amount": "2", "optional": true },
+      { "name": { "en": "Cinnamon stick", "es": "Rama de canela", "qu": "Kanila k'aspi" }, "amount": "1", "optional": true }
+    ],
+    "instructions": [
+      {
+        "en": "Boil the peeled yuca chunks in a large pot of water for 30-40 minutes until they are completely soft and falling apart. Drain, reserving 4 cups of the cooking water.",
+        "es": "Hervir los trozos de yuca pelada en una olla grande de agua por 30-40 minutos hasta que estén completamente suaves y se deshagan. Escurrir, reservando 4 tazas del agua de cocción.",
+        "qu": "T'iqrasqa yuka t'aqakunata hatun mankapi yakuwan kimsa chunka-tawa chunka minutu timpuchiy tukuyta llamp'u rak'i rakinankama. Sutuchiy, tawa vasu wayk'una yakuta waqaychaspa."
+      },
+      {
+        "en": "Mash the cooked yuca thoroughly until completely smooth with no lumps — use a potato masher or your hands. Traditionally, this is done by hand (or even chewed) to help start fermentation.",
+        "es": "Aplastar la yuca cocida completamente hasta que esté suave sin grumos — usar un aplastador de papas o las manos. Tradicionalmente se hace a mano (o incluso masticada) para ayudar a iniciar la fermentación.",
+        "qu": "Wayk'usqa yukata tukuyta ñit'iy llimp'u kananpaq mana k'utullachu — papa ñit'inawan utaq makiykiwan. Ñawpa yachayniman hina makiwan (utaq kañusqa) puchkuy qallarichiynapaq."
+      },
+      {
+        "en": "Return the mashed yuca to the pot. Add the reserved cooking water, sugar, and optional spices. Stir well until it reaches a thick, porridge-like consistency. Adjust sweetness to taste.",
+        "es": "Devolver la yuca aplastada a la olla. Agregar el agua de cocción reservada, azúcar y especias opcionales. Revolver bien hasta alcanzar una consistencia espesa como gachas. Ajustar el dulzor al gusto.",
+        "qu": "Ñit'isqa yukata mankaman kutichiy. Waqaychusqa wayk'una yakuta, azukarta, munaspa misk'ikunata yapay. Allinta takiy raku api hina kanankama. Misk'ita munayniykiman hina churay."
+      },
+      {
+        "en": "For a quick version, let it cool and serve at room temperature or chilled — it's delicious fresh. For traditional fermentation, transfer to a clay pot or glass container, cover loosely, and let sit at room temperature for 1-3 days until slightly bubbly and tangy.",
+        "es": "Para una versión rápida, dejar enfriar y servir a temperatura ambiente o frío — es delicioso fresco. Para la fermentación tradicional, transferir a una olla de barro o recipiente de vidrio, cubrir sin apretar y dejar reposar a temperatura ambiente por 1-3 días hasta que esté ligeramente burbujeante y ácido.",
+        "qu": "Utqay ruwaynapaq, chiriyachiy, wasipa q'uñinpi utaq chiri qaray — musuqllaqa ancha misk'i. Ñawpa puchkuchiynapaq, manka utaq vidriu p'ukuman tikray, allillata qatay, huk-kimsa p'unchaw wasipa q'uñinpi churay huch'uyta pusuq ch'akchi kanankama."
+      },
+      {
+        "en": "Strain through a sieve if you prefer a smoother drink, or serve as-is for the traditional thick texture. Serve in clay cups or glasses, chilled or at room temperature.",
+        "es": "Colar por un colador si prefieres una bebida más suave, o servir tal cual para la textura espesa tradicional. Servir en vasos de barro o vasos de vidrio, frío o a temperatura ambiente.",
+        "qu": "Llimp'u upyana munaspaqa suysunawan suysuy, utaq chayllamantataq qaray ñawpa raku kayninwan. Manka vasuman utaq vidriu vasuman qaray, chiri utaq wasipa q'uñinpi."
+      }
+    ],
+    "tags": ["fermented", "yuca", "traditional", "indigenous", "drink"],
+    "featured": false
+  },
+  {
+    "id": "recipe-038",
+    "slug": "humita-de-la-selva",
+    "title": {
+      "en": "Humita de la Selva",
+      "es": "Humita de la Selva",
+      "qu": "Sacha Huminta"
+    },
+    "description": {
+      "en": "A sweet, pillowy Amazonian tamale made from fresh corn masa, coconut milk, and warm spices, steamed in corn husks until tender. The jungle twist on the classic humita uses tropical ingredients for a uniquely fragrant dessert.",
+      "es": "Un tamal amazónico dulce y esponjoso hecho de masa de maíz fresco, leche de coco y especias cálidas, cocido al vapor en hojas de maíz hasta quedar tierno. La versión selvática de la humita clásica usa ingredientes tropicales para un postre de fragancia única.",
+      "qu": "Misk'i, puñu hina sacha huminta musuq sara ñut'umanta, kuku liqimanta, q'uñi misk'ikunamanta ruwasqa, sara laqhikunapi timpusqa llamp'u kanankama. Sachapa huminta ñawpa humintamanta tikrasqa, sacha rurukunawan huk layata q'apayuq mikhuchina."
+    },
+    "region": "amazon",
+    "course": "desserts",
+    "image": "/images/recipes/humita-de-la-selva.png",
+    "prepTime": 25,
+    "cookTime": 45,
+    "servings": 8,
+    "difficulty": "medium",
+    "ingredients": [
+      { "name": { "en": "Fresh corn kernels", "es": "Granos de maíz fresco", "qu": "Musuq sara murukuna" }, "amount": "6 ears worth" },
+      { "name": { "en": "Coconut milk", "es": "Leche de coco", "qu": "Kuku liqi" }, "amount": "1/2 cup" },
+      { "name": { "en": "Sugar", "es": "Azúcar", "qu": "Azukar" }, "amount": "1/3 cup" },
+      { "name": { "en": "Butter, melted", "es": "Mantequilla derretida", "qu": "Mantikilla unuyachisqa" }, "amount": "3 tbsp" },
+      { "name": { "en": "Cinnamon", "es": "Canela", "qu": "Kanila" }, "amount": "1 tsp" },
+      { "name": { "en": "Vanilla extract", "es": "Extracto de vainilla", "qu": "Wainilla yaku" }, "amount": "1 tsp" },
+      { "name": { "en": "Anise seeds", "es": "Semillas de anís", "qu": "Anis muruykuna" }, "amount": "1/2 tsp" },
+      { "name": { "en": "Raisins", "es": "Pasas", "qu": "Pasaskuna" }, "amount": "1/4 cup", "optional": true },
+      { "name": { "en": "Corn husks (from the ears)", "es": "Hojas de maíz (de las mazorcas)", "qu": "Sara laqhikuna (chuqllumanta)" }, "amount": "16" }
+    ],
+    "instructions": [
+      {
+        "en": "Carefully remove the husks from the corn, keeping them intact for wrapping. Wash and set aside. Cut the kernels from the cobs.",
+        "es": "Retirar cuidadosamente las hojas de las mazorcas, manteniéndolas intactas para envolver. Lavar y reservar. Cortar los granos de las mazorcas.",
+        "qu": "Allillata sara laqhikunata chuqllumanta hurquy, p'istunapaq mana paqirisqata waqaychay. Maylliy t'aqay. Murukunata chuqllumanta kuchuy."
+      },
+      {
+        "en": "Blend the corn kernels with the coconut milk until you get a thick, slightly chunky paste — do not over-blend, some texture is good. Transfer to a bowl.",
+        "es": "Licuar los granos de maíz con la leche de coco hasta obtener una pasta espesa y ligeramente grumosa — no licuar demasiado, algo de textura es bueno. Transferir a un bol.",
+        "qu": "Sara murukunata kuku liqiwan lic'way raku, huch'uy k'utuyuq ñut'u kanankama — ama anchatachu lic'waychu, wakin k'utu allinmi. Huk p'ukuman tikray."
+      },
+      {
+        "en": "Stir in the melted butter, sugar, cinnamon, vanilla, anise seeds, and a pinch of salt. Fold in the raisins if using. The mixture should be thick like a soft dough.",
+        "es": "Incorporar la mantequilla derretida, azúcar, canela, vainilla, semillas de anís y una pizca de sal. Agregar las pasas si se usan. La mezcla debe ser espesa como una masa suave.",
+        "qu": "Unuyachisqa mantikillata, azukarta, kanilata, wainillata, anis murukunata, huch'uy kachita yapay. Munaspaqa pasasta takiy. Taqisqaqa raku llamp'u t'anta hina kanan."
+      },
+      {
+        "en": "Overlap two corn husks to form a wide surface. Place about 3 tablespoons of the mixture in the center. Fold the husks over to enclose the filling, then tie with thin strips of husk or kitchen string. Repeat to make 8 humitas.",
+        "es": "Superponer dos hojas de maíz para formar una superficie amplia. Colocar unas 3 cucharadas de la mezcla en el centro. Doblar las hojas para encerrar el relleno, luego atar con tiras finas de hoja o hilo de cocina. Repetir para hacer 8 humitas.",
+        "qu": "Iskay sara laqhita hawanakuchiy hatun pampata ruwanaypaq. Kimsa wislla hina taqisqata chawpinman churay. Laqhikunata hunt'unanta p'istuy, chaymanta ñañu laqhi sedakunawan utaq wayk'una q'aytuwan watay. Pusaq huminta ruwanaykipaq kutipakullay."
+      },
+      {
+        "en": "Place the humitas upright in a steamer pot with about 2 inches of water at the bottom. Cover tightly and steam for 40-45 minutes until the masa is firm and pulls away from the husk. Let rest 5 minutes before serving.",
+        "es": "Colocar las humitas paradas en una olla vaporera con unos 5cm de agua en el fondo. Tapar bien y cocinar al vapor por 40-45 minutos hasta que la masa esté firme y se despegue de la hoja. Dejar reposar 5 minutos antes de servir.",
+        "qu": "Humitakunata sayayninta timpuna mankaman churay, ukhunpi iskay pulgada yaku. Allinta kirpay, tawa chunka-tawa chunka phisqayuq minutu timpuchiy ñut'u sinchi kananpaq laqhimanta t'aqakunankama. Phisqa minutu samachiy qaray ñawpaqta."
+      }
+    ],
+    "tags": ["corn", "sweet", "steamed", "wrapped", "tropical"],
     "featured": false
   }
 ]

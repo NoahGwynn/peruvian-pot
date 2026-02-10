@@ -1,0 +1,111 @@
+.region-page {
+  &__section-heading {
+    @include heading($font-size-2xl, 700);
+    text-align: center;
+    margin-bottom: $space-10;
+
+    &::after {
+      content: '';
+      display: block;
+      width: 48px;
+      height: 3px;
+      background: $color-primary;
+      margin: $space-3 auto 0;
+      border-radius: $radius-full;
+    }
+  }
+
+  &__ingredients {
+    background: $neutral-50;
+    padding-block: $space-10;
+
+    @include respond-to(md) {
+      padding-block: $space-16;
+    }
+  }
+
+  &__ingredients-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: $space-6;
+
+    @include respond-to(sm) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include respond-to(md) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @include respond-to(lg) {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+
+  &__ingredient {
+    padding: $space-5;
+    border-left: 3px solid $color-primary;
+
+    @include respond-to(lg) {
+      border-left: none;
+      border-top: 3px solid $color-primary;
+      padding: $space-5 0 0;
+    }
+  }
+
+  &__ingredient-name {
+    font-family: $font-heading;
+    font-size: $font-size-lg;
+    font-weight: 700;
+    color: $neutral-950;
+    margin-bottom: $space-2;
+  }
+
+  &__ingredient-desc {
+    @include body-text($font-size-sm);
+  }
+
+  &__culture {
+    background: white;
+    padding-block: $space-10;
+
+    @include respond-to(md) {
+      padding-block: $space-16;
+    }
+  }
+
+  &__culture-image {
+    display: block;
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto $space-8;
+    border-radius: $radius-lg;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+
+  &__culture-body {
+    max-width: 750px;
+    margin-inline: auto;
+    font-size: $font-size-lg;
+    line-height: 1.8;
+    color: $neutral-800;
+
+    p + p {
+      margin-top: $space-6;
+    }
+  }
+
+  &__recipes {
+    padding-block: $space-10;
+
+    @include respond-to(md) {
+      padding-block: $space-16;
+    }
+  }
+
+  &__footer {
+    margin-top: $space-10;
+    text-align: center;
+  }
+}

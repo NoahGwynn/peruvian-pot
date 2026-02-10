@@ -21,10 +21,20 @@ interface LanguageContextValue {
 
 const LanguageContext = createContext<LanguageContextValue | null>(null)
 
+function detectBrowserLanguage(): Language {
+  for (const locale of navigator.languages ?? [navigator.language]) {
+    const lang = locale.toLowerCase().split('-')[0]
+    if (lang === 'es') return 'es'
+    if (lang === 'qu') return 'qu'
+    if (lang === 'en') return 'en'
+  }
+  return 'en'
+}
+
 function getInitialLanguage(): Language {
   const stored = localStorage.getItem('peruvian-pot-lang')
   if (stored === 'en' || stored === 'es' || stored === 'qu') return stored
-  return 'en'
+  return detectBrowserLanguage()
 }
 
 export function LanguageProvider({ children }: { children: ReactNode }) {

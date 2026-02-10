@@ -1,12 +1,14 @@
 import { useLanguage } from '@/contexts/LanguageContext.tsx'
 import type { LocalizedString } from '@/shared/types/i18n.ts'
+import type { RecipeTip } from '@/shared/types/recipe.ts'
 import './InstructionSteps.scss'
 
 interface InstructionStepsProps {
   instructions: LocalizedString[]
+  tips?: RecipeTip[]
 }
 
-export default function InstructionSteps({ instructions }: InstructionStepsProps) {
+export default function InstructionSteps({ instructions, tips }: InstructionStepsProps) {
   const { t, localize } = useLanguage()
 
   return (
@@ -20,6 +22,16 @@ export default function InstructionSteps({ instructions }: InstructionStepsProps
           </li>
         ))}
       </ol>
+      {tips && tips.length > 0 && (
+        <div className="instruction-steps__tips">
+          {tips.map((tip, index) => (
+            <aside key={index} className="instruction-steps__tip">
+              <strong className="instruction-steps__tip-title">{localize(tip.title)}</strong>
+              <p className="instruction-steps__tip-text">{localize(tip.text)}</p>
+            </aside>
+          ))}
+        </div>
+      )}
     </section>
   )
 }

@@ -1,5 +1,6 @@
 import { Link } from 'react-router'
 import { useLanguage } from '@/contexts/LanguageContext.tsx'
+import FavoriteButton from '@/shared/components/FavoriteButton/FavoriteButton.tsx'
 import type { Recipe } from '@/shared/types/recipe.ts'
 import './RecipeCard.scss'
 
@@ -16,7 +17,9 @@ export default function RecipeCard({ recipe, featured }: RecipeCardProps) {
       to={`/recipe/${recipe.slug}`}
       className={`card card--recipe ${featured ? 'card--featured' : ''}`}
       aria-label={localize(recipe.title)}
+      viewTransition
     >
+      <FavoriteButton slug={recipe.slug} />
       {featured && (
         <span className="card__badge">
           {t(`region_${recipe.region}` as 'region_costa')}
@@ -26,6 +29,9 @@ export default function RecipeCard({ recipe, featured }: RecipeCardProps) {
         className="card__image"
         src={recipe.image}
         alt={localize(recipe.title)}
+        loading="lazy"
+        width={600}
+        height={375}
       />
       <div className="card__body">
         <h3 className="card__title">{localize(recipe.title)}</h3>

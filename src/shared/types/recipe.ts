@@ -10,6 +10,11 @@ export interface Ingredient {
   optional?: boolean;
 }
 
+export interface RecipeTip {
+  title: LocalizedString;
+  text: LocalizedString;
+}
+
 export interface Recipe {
   id: string;
   slug: string;
@@ -24,6 +29,7 @@ export interface Recipe {
   difficulty: Difficulty;
   ingredients: Ingredient[];
   instructions: LocalizedString[];
+  tips?: RecipeTip[];
   tags: string[];
   featured?: boolean;
 }

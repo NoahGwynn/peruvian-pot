@@ -14,7 +14,7 @@ body {
   @include body-text;
 }
 
-a {
+a:not([class]) {
   color: $color-primary;
   transition: color $transition-fast;
 

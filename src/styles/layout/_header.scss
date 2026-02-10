@@ -13,33 +13,146 @@
     align-items: center;
     justify-content: space-between;
     height: 64px;
+
+    @include respond-to(md) {
+      height: 72px;
+    }
   }
 
   &__logo {
-    @include heading($font-size-xl, 700);
+    @include heading($font-size-lg, 700);
     color: $color-secondary;
     text-decoration: none;
-  }
-
-  &__nav {
     display: flex;
     align-items: center;
-    gap: $space-6;
+    gap: $space-2;
+    letter-spacing: 0.01em;
+    transition: color $transition-fast;
+
+    &:hover {
+      color: $color-secondary-light;
+    }
+
+    @include respond-to(md) {
+      @include heading($font-size-2xl, 700);
+      color: $color-secondary;
+      gap: $space-3;
+      letter-spacing: 0.02em;
+    }
   }
 
+  &__logo-icon {
+    height: 28px;
+    width: 28px;
+    object-fit: contain;
+    transition: filter $transition-fast;
+
+    @include respond-to(md) {
+      height: 38px;
+      width: 38px;
+    }
+  }
+
+  &__logo:hover &__logo-icon {
+    filter: brightness(1.25);
+  }
+
+  // Mobile nav link style
   &__link {
-    color: $neutral-300;
-    font-size: $font-size-sm;
-    font-weight: 500;
+    color: white;
+    font-size: $font-size-base;
+    font-weight: 600;
     transition: color $transition-fast;
     text-decoration: none;
 
-    &:hover,
-    &--active {
-      color: white;
+    &:hover {
+      color: $color-secondary;
     }
 
     &[aria-current="page"] {
+      color: $color-secondary;
+    }
+
+    &:focus-visible {
+      @include focus-ring;
+      border-radius: $radius-sm;
+    }
+  }
+
+  // Right-side actions
+  &__actions {
+    display: flex;
+    align-items: center;
+    gap: $space-3;
+
+    @include respond-to(md) {
+      gap: $space-4;
+    }
+  }
+
+  &__actions-link {
+    display: none;
+    color: white;
+    font-size: $font-size-base;
+    font-weight: 600;
+    text-decoration: none;
+    text-decoration: underline 2px transparent;
+    text-underline-offset: 7px;
+    transition: color $transition-fast, text-decoration-color $transition-fast;
+
+    &:hover {
+      color: $color-secondary;
+    }
+
+    &[aria-current="page"] {
+      color: $color-secondary;
+      text-decoration-color: $color-secondary;
+    }
+
+    &:focus-visible {
+      @include focus-ring;
+      border-radius: $radius-sm;
+    }
+
+    @include respond-to(md) {
+      display: inline-flex;
+    }
+  }
+
+  &__actions-desktop {
+    display: none;
+
+    @include respond-to(md) {
+      display: flex;
+    }
+  }
+
+  // Favorite heart icon
+  &__favorite {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    text-decoration: none;
+    color: $neutral-300;
+    transition: color $transition-fast;
+
+    svg {
+      width: 18px;
+      height: 18px;
+      fill: $color-accent;
+      stroke: none;
+    }
+
+    &-count {
+      font-size: $font-size-xs;
+      font-weight: 600;
+    }
+
+    &:hover {
+      color: white;
+    }
+
+    &--active {
       color: $color-secondary;
     }
 
@@ -64,14 +177,8 @@
     }
   }
 
-  &__actions {
-    display: flex;
-    align-items: center;
-    gap: $space-4;
-  }
-
   &__hamburger {
-    display: none;
+    display: block;
     background: none;
     border: none;
     color: white;
@@ -84,22 +191,25 @@
       border-radius: $radius-sm;
     }
 
-    @media (max-width: $bp-md - 1px) {
-      display: block;
+    @include respond-to(md) {
+      display: none;
     }
   }
 
+  // Mobile nav
   &__mobile-nav {
     overflow: hidden;
     max-height: 0;
-    transition: max-height $transition-base;
+    padding-block: 0;
+    transition: max-height $transition-base, padding-block $transition-base;
+    display: flex;
     flex-direction: column;
     gap: $space-4;
     padding-inline: $space-4;
     background-color: $neutral-900;
 
     &--open {
-      max-height: 200px;
+      max-height: 250px;
       padding-block: $space-4;
 
       @include respond-to(md) {
@@ -109,9 +219,8 @@
     }
   }
 
-  @media (max-width: $bp-md - 1px) {
-    &__nav {
-      display: none;
-    }
+  &__mobile-lang {
+    padding-top: $space-2;
+    border-top: 1px solid $neutral-700;
   }
 }

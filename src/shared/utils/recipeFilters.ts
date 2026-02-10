@@ -8,7 +8,7 @@ export function parseRouteToFilters(
   course?: string,
 ): RecipeFilters {
   const filters: RecipeFilters = {}
-  if (region && validRegions.includes(region as Region)) {
+  if (region && region !== 'all' && validRegions.includes(region as Region)) {
     filters.region = region as Region
   }
   if (course && validCourses.includes(course as Course)) {
@@ -19,6 +19,7 @@ export function parseRouteToFilters(
 
 export function buildMenuPath(region?: Region, course?: Course): string {
   if (region && course) return `/menu/${region}/${course}`
+  if (course) return `/menu/all/${course}`
   if (region) return `/menu/${region}`
   return '/menu'
 }

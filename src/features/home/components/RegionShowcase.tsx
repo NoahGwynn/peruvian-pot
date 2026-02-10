@@ -5,9 +5,9 @@ import type { Region } from '@/shared/types/recipe.ts'
 import './RegionShowcase.scss'
 
 const regionImages: Record<Region, string> = {
-  costa: '/images/regions/costa.jpg',
-  andes: '/images/regions/andes.jpg',
-  amazon: '/images/regions/amazon.jpg',
+  costa: '/images/regions/costa.png',
+  andes: '/images/regions/andes.png',
+  amazon: '/images/regions/amazon.png',
 }
 
 const regionColors: Record<Region, string> = {
@@ -32,8 +32,9 @@ export default function RegionShowcase() {
             return (
               <Link
                 key={region}
-                to={`/menu/${region}`}
+                to={`/region/${region}`}
                 className="region-card"
+                viewTransition
                 style={{ '--region-color': regionColors[region] } as React.CSSProperties}
                 aria-label={`${regionName} — ${count} ${t('home_region_recipes')}`}
               >

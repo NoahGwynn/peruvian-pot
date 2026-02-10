@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Main pages -->
+  <url><loc>https://peruvianpot.com/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://peruvianpot.com/menu</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+
+  <!-- Blog -->
+  <url><loc>https://peruvianpot.com/blog</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://peruvianpot.com/blog/what-is-peruvian-food</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/blog/guide-to-aji-peppers</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/blog/history-of-ceviche</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/blog/peruvian-pantry-essentials</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Region pages -->
+  <url><loc>https://peruvianpot.com/region/costa</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/region/andes</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/region/amazon</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Menu filters: by region -->
+  <url><loc>https://peruvianpot.com/menu/costa</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/menu/andes</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/menu/amazon</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Recipe pages -->
+  <url><loc>https://peruvianpot.com/recipe/ceviche-clasico</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/recipe/lomo-saltado</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/recipe/suspiro-limeno</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/recipe/pisco-sour</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/recipe/papa-a-la-huancaina</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/recipe/pachamanca</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/recipe/picarones</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/recipe/chicha-morada</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/recipe/tacacho-con-cecina</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/recipe/juane</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/recipe/aguajina</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/recipe/inchicapi</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/recipe/aji-de-gallina</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/recipe/causa-limena</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/recipe/anticuchos-de-corazon</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/recipe/rocoto-relleno</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/recipe/arroz-con-leche</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/recipe/mazamorra-morada</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/recipe/tiradito</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/recipe/patarashca</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/recipe/tacu-tacu</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/recipe/sopa-de-quinua</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/recipe/turron-de-dona-pepa</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/recipe/ensalada-de-chonta</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/recipe/chapo</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://peruvianpot.com/recipe/pollo-a-la-brasa</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+</urlset>

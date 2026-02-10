@@ -7,9 +7,13 @@ export type LocalizedString = {
 };
 
 export interface UITranslations {
+  // Brand
+  site_name: string;
+
   // Navigation
   nav_home: string;
   nav_menu: string;
+  nav_favorites: string;
 
   // Regions
   region_costa: string;
@@ -24,6 +28,15 @@ export interface UITranslations {
   course_drinks: string;
   course_all: string;
 
+  // Region page
+  region_costa_desc: string;
+  region_andes_desc: string;
+  region_amazon_desc: string;
+  region_page_view_all: string;
+  region_ingredients_title: string;
+  region_culture_title: string;
+  region_recipes_title: string;
+
   // Home page
   home_hero_title: string;
   home_hero_subtitle: string;
@@ -35,6 +48,9 @@ export interface UITranslations {
 
   // Menu page
   menu_title: string;
+  menu_subtitle: string;
+  menu_filter_region: string;
+  menu_filter_course: string;
   menu_no_results: string;
   menu_search_placeholder: string;
 
@@ -48,6 +64,7 @@ export interface UITranslations {
   recipe_step: string;
   recipe_not_found: string;
   recipe_back_to_menu: string;
+  recipe_related: string;
 
   // Difficulty levels
   difficulty_easy: string;
@@ -68,6 +85,40 @@ export interface UITranslations {
   comments_submit: string;
   comments_empty: string;
   comments_loading: string;
+
+  // Favorites
+  favorites_title: string;
+  favorites_empty: string;
+  favorites_browse: string;
+
+  // Share
+  share_title: string;
+  share_copy_link: string;
+  share_copied: string;
+  share_whatsapp: string;
+  share_facebook: string;
+  share_pinterest: string;
+  share_twitter: string;
+
+  // Blog
+  nav_blog: string;
+  blog_title: string;
+  blog_subtitle: string;
+  blog_read_more: string;
+  blog_back: string;
+  blog_min_read: string;
+
+  // Newsletter
+  newsletter_title: string;
+  newsletter_subtitle: string;
+  newsletter_placeholder: string;
+  newsletter_submit: string;
+  newsletter_success: string;
+  newsletter_error: string;
+
+  // 404
+  not_found_title: string;
+  not_found_message: string;
 
   // General
   loading: string;
