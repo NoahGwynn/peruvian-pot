@@ -1,0 +1,52 @@
+.privacy {
+  padding-block: $space-16;
+
+  &__content {
+    max-width: 720px;
+  }
+
+  &__title {
+    @include heading($font-size-2xl, 700);
+    margin-bottom: $space-4;
+
+    @include respond-to(sm) {
+      font-size: $font-size-3xl;
+    }
+  }
+
+  &__intro {
+    font-size: $font-size-base;
+    color: $neutral-500;
+    line-height: 1.7;
+    margin-bottom: $space-8;
+
+    @include respond-to(sm) {
+      font-size: $font-size-lg;
+    }
+  }
+
+  &__section {
+    margin-bottom: $space-8;
+
+    h2 {
+      @include heading($font-size-lg, 600);
+      margin-bottom: $space-2;
+
+      @include respond-to(sm) {
+        font-size: $font-size-xl;
+      }
+    }
+
+    p {
+      font-size: $font-size-base;
+      color: $neutral-600;
+      line-height: 1.7;
+    }
+  }
+
+  &__updated {
+    font-size: $font-size-sm;
+    color: $neutral-400;
+    margin-top: $space-10;
+  }
+}

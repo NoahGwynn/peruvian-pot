@@ -32,31 +32,33 @@ export default function Newsletter() {
         <div className="newsletter__content">
           <h2 className="newsletter__title">{t('newsletter_title')}</h2>
           <p className="newsletter__subtitle">{t('newsletter_subtitle')}</p>
-          {status === 'success' ? (
-            <p className="newsletter__success">{t('newsletter_success')}</p>
-          ) : (
-            <form className="newsletter__form" onSubmit={handleSubmit}>
-              <input
-                type="email"
-                className="newsletter__input"
-                placeholder={t('newsletter_placeholder')}
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-                aria-label={t('newsletter_placeholder')}
-              />
-              <button
-                type="submit"
-                className="btn btn--primary newsletter__btn"
-                disabled={status === 'loading'}
-              >
-                {t('newsletter_submit')}
-              </button>
-            </form>
-          )}
-          {status === 'error' && (
-            <p className="newsletter__error">{t('newsletter_error')}</p>
-          )}
+          <div aria-live="polite">
+            {status === 'success' ? (
+              <p className="newsletter__success">{t('newsletter_success')}</p>
+            ) : (
+              <form className="newsletter__form" onSubmit={handleSubmit}>
+                <input
+                  type="email"
+                  className="newsletter__input"
+                  placeholder={t('newsletter_placeholder')}
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                  aria-label={t('newsletter_placeholder')}
+                />
+                <button
+                  type="submit"
+                  className="btn btn--primary newsletter__btn"
+                  disabled={status === 'loading'}
+                >
+                  {t('newsletter_submit')}
+                </button>
+              </form>
+            )}
+            {status === 'error' && (
+              <p className="newsletter__error">{t('newsletter_error')}</p>
+            )}
+          </div>
         </div>
       </div>
     </section>

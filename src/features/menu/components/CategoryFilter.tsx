@@ -22,7 +22,7 @@ export default function CategoryFilter({ activeRegion, activeCourse }: CategoryF
           <Link
             to="/menu"
             className={`category-filter__pill ${!activeRegion ? 'category-filter__pill--active' : ''}`}
-            aria-current={!activeRegion ? 'true' : undefined}
+            aria-current={!activeRegion ? 'location' : undefined}
           >
             {t('region_all')}
           </Link>
@@ -31,7 +31,7 @@ export default function CategoryFilter({ activeRegion, activeCourse }: CategoryF
               key={region}
               to={buildMenuPath(region, activeCourse)}
               className={`category-filter__pill ${activeRegion === region ? 'category-filter__pill--active' : ''}`}
-              aria-current={activeRegion === region ? 'true' : undefined}
+              aria-current={activeRegion === region ? 'location' : undefined}
             >
               {t(`region_${region}` as 'region_costa')}
             </Link>
@@ -44,7 +44,7 @@ export default function CategoryFilter({ activeRegion, activeCourse }: CategoryF
           <Link
             to={buildMenuPath(activeRegion)}
             className={`category-filter__pill ${!activeCourse ? 'category-filter__pill--active' : ''}`}
-            aria-current={!activeCourse ? 'true' : undefined}
+            aria-current={!activeCourse ? 'location' : undefined}
           >
             {t('course_all')}
           </Link>
@@ -53,7 +53,7 @@ export default function CategoryFilter({ activeRegion, activeCourse }: CategoryF
               key={course}
               to={buildMenuPath(activeRegion, course)}
               className={`category-filter__pill ${activeCourse === course ? 'category-filter__pill--active' : ''}`}
-              aria-current={activeCourse === course ? 'true' : undefined}
+              aria-current={activeCourse === course ? 'location' : undefined}
             >
               {t(`course_${course}` as 'course_appetizers')}
             </Link>

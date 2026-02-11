@@ -33,7 +33,7 @@ export default function StarRating({
           onMouseEnter={() => !readonly && setHovered(star)}
           onMouseLeave={() => !readonly && setHovered(0)}
           disabled={readonly}
-          aria-label={`${star} star${star > 1 ? 's' : ''}`}
+          aria-label={`Rate ${star} out of 5 stars`}
         >
           &#9733;
         </button>

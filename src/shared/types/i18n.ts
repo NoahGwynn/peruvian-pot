@@ -128,6 +128,27 @@ export interface UITranslations {
   // Footer
   footer_tagline: string;
   footer_copyright: string;
+  footer_privacy: string;
+
+  // Cookies
+  cookie_message: string;
+  cookie_learn_more: string;
+  cookie_accept: string;
+  cookie_decline: string;
+  cookie_settings: string;
+
+  // Privacy
+  privacy_title: string;
+  privacy_intro: string;
+  privacy_data_title: string;
+  privacy_data_text: string;
+  privacy_cookies_title: string;
+  privacy_cookies_text: string;
+  privacy_third_party_title: string;
+  privacy_third_party_text: string;
+  privacy_rights_title: string;
+  privacy_rights_text: string;
+  privacy_updated: string;
 
   // Language names
   lang_en: string;

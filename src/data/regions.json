@@ -1,6 +1,6 @@
 {
   "costa": {
-    "cultureImage": "/images/regions/costa-culture.png",
+    "cultureImage": "/images/regions/costa-culture.webp",
     "ingredients": [
       {
         "name": { "en": "Aji Limo", "es": "Ají Limo", "qu": "Aji Limo" },
@@ -57,7 +57,7 @@
     ]
   },
   "andes": {
-    "cultureImage": "/images/regions/andes-culture.png",
+    "cultureImage": "/images/regions/andes-culture.webp",
     "ingredients": [
       {
         "name": { "en": "Native Potatoes", "es": "Papas Nativas", "qu": "Ñawpa Papakuna" },
@@ -114,7 +114,7 @@
     ]
   },
   "amazon": {
-    "cultureImage": "/images/regions/amazon-culture.png",
+    "cultureImage": "/images/regions/amazon-culture.webp",
     "ingredients": [
       {
         "name": { "en": "Yuca", "es": "Yuca", "qu": "Yuka" },

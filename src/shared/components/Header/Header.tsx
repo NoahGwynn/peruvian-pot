@@ -1,19 +1,59 @@
-import { useState } from 'react'
-import { Link, useLocation } from 'react-router'
-import { useLanguage } from '@/contexts/LanguageContext.tsx'
-import { useFavorites } from '@/contexts/FavoritesContext.tsx'
-import LanguageSwitcher from '@/shared/components/LanguageSwitcher/LanguageSwitcher.tsx'
+import { useState, useEffect, useRef, useCallback } from "react";
+import { Link, useLocation } from "react-router";
+import { useLanguage } from "@/contexts/LanguageContext.tsx";
+import { useFavorites } from "@/contexts/FavoritesContext.tsx";
+import LanguageSwitcher from "@/shared/components/LanguageSwitcher/LanguageSwitcher.tsx";
 
 export default function Header() {
-  const { t } = useLanguage()
-  const { favoriteCount } = useFavorites()
-  const location = useLocation()
-  const [mobileOpen, setMobileOpen] = useState(false)
+  const { t } = useLanguage();
+  const { favoriteCount } = useFavorites();
+  const location = useLocation();
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const hamburgerRef = useRef<HTMLButtonElement>(null);
+  const mobileNavRef = useRef<HTMLElement>(null);
 
   const isActive = (path: string) => {
-    if (path === '/') return location.pathname === '/'
-    return location.pathname.startsWith(path)
-  }
+    if (path === "/") return location.pathname === "/";
+    return location.pathname.startsWith(path);
+  };
+
+  const closeMobileNav = useCallback(() => {
+    setMobileOpen(false);
+    hamburgerRef.current?.focus();
+  }, []);
+
+  // ESC key handler + focus trap for mobile nav
+  useEffect(() => {
+    if (!mobileOpen) return;
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        closeMobileNav();
+        return;
+      }
+
+      if (e.key === "Tab" && mobileNavRef.current) {
+        const focusable = mobileNavRef.current.querySelectorAll<HTMLElement>(
+          'a, button, input, select, textarea, [tabindex]:not([tabindex="-1"])',
+        );
+        if (focusable.length === 0) return;
+
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+
+        if (e.shiftKey && document.activeElement === first) {
+          e.preventDefault();
+          last.focus();
+        } else if (!e.shiftKey && document.activeElement === last) {
+          e.preventDefault();
+          first.focus();
+        }
+      }
+    };
+
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, [mobileOpen, closeMobileNav]);
 
   return (
     <header className="header">
@@ -23,32 +63,32 @@ export default function Header() {
       <div className="header__inner">
         <Link to="/" className="header__logo" viewTransition>
           <img src="/icon/PeruvianPotIcon.png" alt="" className="header__logo-icon" />
-          {t('site_name')}
+          {t("site_name")}
         </Link>
 
         {/* Right-side actions */}
         <div className="header__actions">
           <Link
             to="/menu"
-            className={`header__actions-link ${isActive('/menu') ? 'header__actions-link--active' : ''}`}
-            aria-current={isActive('/menu') ? 'page' : undefined}
+            className={`header__actions-link ${isActive("/menu") ? "header__actions-link--active" : ""}`}
+            aria-current={isActive("/menu") ? "page" : undefined}
             viewTransition
           >
-            {t('nav_menu')}
+            {t("nav_menu")}
           </Link>
           <Link
             to="/blog"
-            className={`header__actions-link ${isActive('/blog') ? 'header__actions-link--active' : ''}`}
-            aria-current={isActive('/blog') ? 'page' : undefined}
+            className={`header__actions-link ${isActive("/blog") ? "header__actions-link--active" : ""}`}
+            aria-current={isActive("/blog") ? "page" : undefined}
             viewTransition
           >
-            {t('nav_blog')}
+            {t("nav_blog")}
           </Link>
           {favoriteCount > 0 && (
             <Link
               to="/favorites"
-              className={`header__favorite ${isActive('/favorites') ? 'header__favorite--active' : ''}`}
-              aria-label={`${t('nav_favorites')} (${favoriteCount})`}
+              className={`header__favorite ${isActive("/favorites") ? "header__favorite--active" : ""}`}
+              aria-label={`${t("nav_favorites")} (${favoriteCount})`}
               viewTransition
             >
               <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -61,45 +101,46 @@ export default function Header() {
             <LanguageSwitcher />
           </div>
           <button
+            ref={hamburgerRef}
             className="header__hamburger"
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label="Toggle navigation menu"
             aria-expanded={mobileOpen}
           >
-            {mobileOpen ? '\u2715' : '\u2630'}
+            {mobileOpen ? "\u2715" : "\u2630"}
           </button>
         </div>
       </div>
 
       {/* Mobile nav */}
-      <nav className={`header__mobile-nav ${mobileOpen ? 'header__mobile-nav--open' : ''}`}>
+      <nav ref={mobileNavRef} className={`header__mobile-nav ${mobileOpen ? "header__mobile-nav--open" : ""}`}>
         <Link
           to="/menu"
           className="header__link"
-          aria-current={isActive('/menu') ? 'page' : undefined}
-          onClick={() => setMobileOpen(false)}
+          aria-current={isActive("/menu") ? "page" : undefined}
+          onClick={closeMobileNav}
           viewTransition
         >
-          {t('nav_menu')}
+          {t("nav_menu")}
         </Link>
         <Link
           to="/blog"
           className="header__link"
-          aria-current={isActive('/blog') ? 'page' : undefined}
-          onClick={() => setMobileOpen(false)}
+          aria-current={isActive("/blog") ? "page" : undefined}
+          onClick={closeMobileNav}
           viewTransition
         >
-          {t('nav_blog')}
+          {t("nav_blog")}
         </Link>
         {favoriteCount > 0 && (
           <Link
             to="/favorites"
             className="header__link"
-            aria-current={isActive('/favorites') ? 'page' : undefined}
-            onClick={() => setMobileOpen(false)}
+            aria-current={isActive("/favorites") ? "page" : undefined}
+            onClick={closeMobileNav}
             viewTransition
           >
-            {t('nav_favorites')} ({favoriteCount})
+            {t("nav_favorites")} ({favoriteCount})
           </Link>
         )}
         <div className="header__mobile-lang">
@@ -107,5 +148,5 @@ export default function Header() {
         </div>
       </nav>
     </header>
-  )
+  );
 }

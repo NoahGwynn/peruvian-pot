@@ -10,19 +10,20 @@ interface RecipeGridProps {
 export default function RecipeGrid({ recipes }: RecipeGridProps) {
   const { t } = useLanguage()
 
-  if (recipes.length === 0) {
-    return (
-      <div className="recipe-grid__empty">
-        <p>{t('menu_no_results')}</p>
-      </div>
-    )
-  }
-
   return (
-    <div className="grid">
-      {recipes.map((recipe) => (
-        <RecipeCard key={recipe.id} recipe={recipe} />
-      ))}
+    <div aria-live="polite">
+      <p className="sr-only">{t('menu_no_results').replace(/\..*/, '')}: {recipes.length}</p>
+      {recipes.length === 0 ? (
+        <div className="recipe-grid__empty">
+          <p>{t('menu_no_results')}</p>
+        </div>
+      ) : (
+        <div className="grid">
+          {recipes.map((recipe) => (
+            <RecipeCard key={recipe.id} recipe={recipe} />
+          ))}
+        </div>
+      )}
     </div>
   )
 }

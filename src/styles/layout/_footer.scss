@@ -27,4 +27,47 @@
   &__copyright {
     font-size: $font-size-sm;
   }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    gap: $space-4;
+  }
+
+  &__link {
+    color: $neutral-500;
+    font-size: $font-size-xs;
+    text-decoration: underline;
+    transition: color $transition-fast;
+
+    &:hover {
+      color: $neutral-300;
+    }
+
+    &:focus-visible {
+      @include focus-ring;
+      border-radius: $radius-sm;
+    }
+  }
+
+  &__cookie-settings {
+    background: none;
+    border: none;
+    color: $neutral-500;
+    font-size: $font-size-xs;
+    font-family: $font-body;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0;
+    transition: color $transition-fast;
+
+    &:hover {
+      color: $neutral-300;
+    }
+
+    &:focus-visible {
+      @include focus-ring;
+      border-radius: $radius-sm;
+    }
+  }
 }

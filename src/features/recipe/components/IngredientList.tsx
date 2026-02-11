@@ -54,8 +54,8 @@ export default function IngredientList({ ingredients, servings }: IngredientList
       <ul className="ingredient-list__items">
         {ingredients.map((ing, index) => (
           <li key={index} className="ingredient-list__item">
-            <label className="ingredient-list__label">
-              <input type="checkbox" className="ingredient-list__checkbox" />
+            <label htmlFor={`ingredient-${index}`} className="ingredient-list__label">
+              <input type="checkbox" id={`ingredient-${index}`} className="ingredient-list__checkbox" />
               <span className="ingredient-list__checkmark" />
               <span className="ingredient-list__amount">
                 {scaleAmount(ing.amount, multiplier)}

@@ -1,0 +1,89 @@
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: rgba($neutral-950, 0.95);
+  color: $neutral-100;
+  animation: cookie-slide-up $transition-base;
+
+  &__inner {
+    max-width: $container-max;
+    margin: 0 auto;
+    padding: $space-4 $container-padding;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: $space-6;
+
+    @media (max-width: $bp-sm) {
+      flex-direction: column;
+      text-align: center;
+      gap: $space-3;
+    }
+  }
+
+  &__message {
+    font-size: $font-size-sm;
+    margin: 0;
+  }
+
+  &__link {
+    color: $neutral-200;
+    text-decoration: underline;
+    transition: color $transition-fast;
+
+    &:hover {
+      color: white;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    gap: $space-4;
+    flex-shrink: 0;
+  }
+
+  &__accept {
+    background-color: $color-primary;
+    color: white;
+    border: none;
+    padding: $space-2 $space-6;
+    border-radius: $radius-sm;
+    font-size: $font-size-sm;
+    font-family: $font-body;
+    cursor: pointer;
+    transition: background-color $transition-fast;
+
+    &:hover {
+      background-color: $color-primary-dark;
+    }
+  }
+
+  &__decline {
+    background: none;
+    border: none;
+    color: $neutral-400;
+    font-size: $font-size-sm;
+    font-family: $font-body;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: $space-2;
+    transition: color $transition-fast;
+
+    &:hover {
+      color: $neutral-200;
+    }
+  }
+}
+
+@keyframes cookie-slide-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

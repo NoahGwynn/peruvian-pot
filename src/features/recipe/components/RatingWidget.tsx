@@ -39,13 +39,15 @@ export default function RatingWidget({ recipeId }: RatingWidgetProps) {
           </span>
         </div>
       )}
-      {submitted ? (
-        <p className="rating-widget__thanks">{t('rating_thanks')}</p>
-      ) : (
-        <div className="rating-widget__input">
-          <StarRating value={userRating} onChange={handleRate} />
-        </div>
-      )}
+      <div aria-live="polite">
+        {submitted ? (
+          <p className="rating-widget__thanks">{t('rating_thanks')}</p>
+        ) : (
+          <div className="rating-widget__input">
+            <StarRating value={userRating} onChange={handleRate} />
+          </div>
+        )}
+      </div>
     </div>
   )
 }

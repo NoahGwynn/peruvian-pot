@@ -6,6 +6,7 @@ import RecipePage from '@/features/recipe/RecipePage.tsx'
 import BlogPage from '@/features/blog/BlogPage.tsx'
 import BlogPostPage from '@/features/blog/BlogPostPage.tsx'
 import FavoritesPage from '@/features/favorites/FavoritesPage.tsx'
+import PrivacyPage from '@/features/privacy/PrivacyPage.tsx'
 import NotFoundPage from '@/features/not-found/NotFoundPage.tsx'
 
 export const routes: RouteObject[] = [
@@ -18,5 +19,6 @@ export const routes: RouteObject[] = [
   { path: '/blog', element: <BlogPage /> },
   { path: '/blog/:slug', element: <BlogPostPage /> },
   { path: '/favorites', element: <FavoritesPage /> },
+  { path: '/privacy', element: <PrivacyPage /> },
   { path: '*', element: <NotFoundPage /> },
 ]

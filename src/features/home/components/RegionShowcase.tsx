@@ -5,9 +5,9 @@ import type { Region } from '@/shared/types/recipe.ts'
 import './RegionShowcase.scss'
 
 const regionImages: Record<Region, string> = {
-  costa: '/images/regions/costa.png',
-  andes: '/images/regions/andes.png',
-  amazon: '/images/regions/amazon.png',
+  costa: '/images/regions/costa.webp',
+  andes: '/images/regions/andes.webp',
+  amazon: '/images/regions/amazon.webp',
 }
 
 const regionColors: Record<Region, string> = {
